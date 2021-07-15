@@ -16,6 +16,7 @@ django-rest-framework = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 black = {version = "^21.6b0", allow-prereleases = true}
+Sphinx = "^4.1.1"
 
 
 [build-system]

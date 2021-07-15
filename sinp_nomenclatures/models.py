@@ -14,7 +14,8 @@ STATUS_CHOICES = (
 
 
 class BaseModel(models.Model):  # base class should subclass 'django.db.models.Model'
-
+    """Common shared base model with metadata fields
+    """
     timestamp_create = models.DateTimeField(auto_now_add=True, editable=False)
     timestamp_update = models.DateTimeField(auto_now=True, editable=False)
     created_by = models.ForeignKey(
@@ -42,6 +43,14 @@ class BaseModel(models.Model):  # base class should subclass 'django.db.models.M
 
 
 class Source(BaseModel):
+    """Source model, giving nomenclature source
+
+    Args:
+        BaseModel ([type]): [description]
+
+    Returns:
+        [type]: [description]
+    """
     name = models.CharField(_("Nom"), max_length=50)
     version = models.CharField(_("Version"), max_length=50)
     create_date = models.DateField(

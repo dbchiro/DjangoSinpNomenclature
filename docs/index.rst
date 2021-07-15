@@ -10,6 +10,9 @@ Welcome to DjangoSinpNomenclatures's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   ./install.rst
+   ./changelog.rst
+
 
 
 Indices and tables

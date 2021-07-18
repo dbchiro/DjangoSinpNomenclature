@@ -1,9 +1,17 @@
 [tool.poetry]
 name = "dj_sinp_nomenclatures"
-version = "0.1.0"
+version = "0.1.1"
 description = "Django app to manage french SINP nomenclatures standards"
 authors = ["dbChiro project <project@dbchiro.org>"]
 license = "AGPLv3"
+keywords = ["SINP","Nomenclatures","Django","France","dbChiroWeb"]
+readme = "README.rst"
+license = "MIT"
+homepage = "https://github.com/dbchiro/DjangoSinpNomenclature"
+repository = "https://github.com/dbchiro/DjangoSinpNomenclature"
+include = [
+    "LICENSE",
+]
 packages = [
     { include = "sinp_nomenclatures" },
 ]

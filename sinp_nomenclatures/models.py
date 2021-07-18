@@ -63,6 +63,7 @@ class Source(BaseModel):
     class Meta:
         verbose_name = _("Source de nomenclatures")
         verbose_name_plural = _("Sources de nomenclatures")
+        unique_together = ['name','version']
 
     def __str__(self):
         return f"{self.name} ({self.version})"
@@ -112,4 +113,4 @@ class Item(BaseModel):
         unique_together = ("type", "code")
 
     def __str__(self):
-        return f"[{self.type.mnemonic}] {self.code} - {self.mnemonic}"
+        return f"{self.label}"

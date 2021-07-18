@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "dj_sinp_nomenclatures"
 version = "0.1.0"
-description = "Django app to manage french SINP nomenclatures"
+description = "Django app to manage french SINP nomenclatures standards"
 authors = ["dbChiro project <project@dbchiro.org>"]
 license = "AGPLv3"
 packages = [
@@ -19,6 +19,9 @@ black = {version = "^21.6b0", allow-prereleases = true}
 Sphinx = "^4.1.1"
 sphinx-rtd-theme = "^0.5.2"
 rstcheck = "^3.3.1"
+psycopg2-binary = "^2.9.1"
+python-decouple = "^3.4"
+drf-yasg = "^1.20.0"
 
 
 [build-system]

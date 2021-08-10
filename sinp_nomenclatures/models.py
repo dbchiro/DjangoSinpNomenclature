@@ -95,7 +95,7 @@ class Type(BaseModel):
     def __str__(self):
         return f"{self.code} - {self.mnemonic}"
 
-class Item(BaseModel):
+class Nomenclature(BaseModel):
     type = models.ForeignKey(
         "Type",
         verbose_name=_("Type"),

@@ -1,7 +1,7 @@
 from django.urls import path
 
 from .views import (
-    ItemViewset,
+    NomenclatureViewset,
     SourceViewset,
     TypeViewset,
 )

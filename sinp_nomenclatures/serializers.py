@@ -2,13 +2,13 @@ from rest_framework.serializers import ModelSerializer
 from .models import (
     Source,
     Type,
-    Item,
+    Nomenclature,
 )
 
 
-class ItemSerializer(ModelSerializer):
+class NomenclatureSerializer(ModelSerializer):
     class Meta:
-        model = Item
+        model = Nomenclature
         fields = ["id", "code", "mnemonic", "label", "type"]
 
 

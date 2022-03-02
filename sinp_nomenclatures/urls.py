@@ -6,16 +6,18 @@ from .views import (
     TypeViewset,
 )
 from django.urls import path, include
-from rest_framework.routers import DefaultRouter
 
+from rest_framework import routers
+
+router = routers.SimpleRouter()
 app_name = "sinp_nomenclatures"
 
-router.register(r'sources', SourceViewset)
-router.register(r'types', TypeViewset)
-router.register(r'nomenclatures', NomenclatureViewset)
+router.register(r"sources", SourceViewset)
+router.register(r"types", TypeViewset)
+router.register(r"nomenclatures", NomenclatureViewset)
 
 urlpatterns = [
-    path('', include(router.urls))
+    path("", include(router.urls))
     # path(
     #     "nomenclature/sources",
     #     SourceViewset.as_view({"get": "list"}),

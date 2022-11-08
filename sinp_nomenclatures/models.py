@@ -4,7 +4,7 @@
 
 from django.db import models
 from django.conf import settings
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext as _
 
 # Create your models here.
 STATUS_CHOICES = (
@@ -95,7 +95,7 @@ class Type(BaseModel):
     def __str__(self):
         return f"{self.code} - {self.mnemonic}"
 
-class Item(BaseModel):
+class Nomenclature(BaseModel):
     type = models.ForeignKey(
         "Type",
         verbose_name=_("Type"),

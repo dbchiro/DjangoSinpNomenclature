@@ -4,9 +4,9 @@ import logging
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
-from .models import Item, Source, Type
+from .models import Nomenclature, Source, Type
 from .serializers import (
-    ItemSerializer,
+    NomenclatureSerializer,
     SourceSerializer,
     TypeSerializer,
 )
@@ -14,10 +14,10 @@ from .serializers import (
 logger = logging.getLogger(__name__)
 
 
-class ItemViewset(ReadOnlyModelViewSet):
-    serializer_class = ItemSerializer
+class NomenclatureViewset(ReadOnlyModelViewSet):
+    serializer_class = NomenclatureSerializer
     permission_classes = [IsAuthenticated]
-    queryset = Item.objects.all()
+    queryset = Nomenclature.objects.all()
 
 
 class TypeViewset(ReadOnlyModelViewSet):

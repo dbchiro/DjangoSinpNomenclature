@@ -2,20 +2,21 @@ from rest_framework.serializers import ModelSerializer
 from .models import (
     Source,
     Type,
-    Item,
+    Nomenclature,
 )
 
 
-class ItemSerializer(ModelSerializer):
+class NomenclatureSerializer(ModelSerializer):
     class Meta:
-        model = Item
+        model = Nomenclature
         fields = ["id", "code", "mnemonic", "label", "type"]
 
 
 class TypeSerializer(ModelSerializer):
+    item_nomenclature = NomenclatureSerializer(many=True)
     class Meta:
         model = Type
-        fields = ["id", "code", "mnemonic", "label"]
+        fields = ["id", "code", "mnemonic", "label","item_nomenclature"]
 
 
 class SourceSerializer(ModelSerializer):

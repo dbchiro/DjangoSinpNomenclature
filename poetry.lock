@@ -147,17 +147,6 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
-name = "django-rest-framework"
-version = "0.1.0"
-description = "alias."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-djangorestframework = "*"
-
-[[package]]
 name = "djangorestframework"
 version = "3.14.0"
 description = "Web APIs for Django, made easy."
@@ -600,7 +589,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "flake8 
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8,<4.0"
-content-hash = "7cce1cc25fd7722ca2a3604ebd7b7075fb831bc865708530dbfaead57369203c"
+content-hash = "99cf63cb3f18390760ac666fba5711c45251b0fe3ad892a4377c4b5ca2b42a1a"
 
 [metadata.files]
 alabaster = [
@@ -627,7 +616,6 @@ coreschema = [
     {file = "coreschema-0.0.4.tar.gz", hash = "sha256:9503506007d482ab0867ba14724b93c18a33b22b6d19fb419ef2d239dd4a1607"},
 ]
 django = []
-django-rest-framework = []
 djangorestframework = []
 docutils = [
     {file = "docutils-0.16-py2.py3-none-any.whl", hash = "sha256:0c5b78adfbf7762415433f5515cd5c9e762339e23369dbe8000d84a4bf4ab3af"},

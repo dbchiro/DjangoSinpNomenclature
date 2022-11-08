@@ -1,5 +1,5 @@
 {
     "python.formatting.provider": "black",
     "restructuredtext.confPath": "${workspaceFolder}/.venv/lib/python3.8/site-packages/django/urls",
-    "esbonio.sphinx.confDir": ""
+    "esbonio.sphinx.confDir": "${workspaceFolder}/.venv/lib/python3.8/site-packages/django/urls"
 }

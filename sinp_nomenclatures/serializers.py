@@ -14,9 +14,10 @@ class NomenclatureSerializer(ModelSerializer):
 
 class TypeSerializer(ModelSerializer):
     item_nomenclature = NomenclatureSerializer(many=True)
+
     class Meta:
         model = Type
-        fields = ["id", "code", "mnemonic", "label","item_nomenclature"]
+        fields = ["id", "code", "mnemonic", "label", "item_nomenclature"]
 
 
 class SourceSerializer(ModelSerializer):

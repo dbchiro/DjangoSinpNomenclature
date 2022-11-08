@@ -49,6 +49,6 @@ urlpatterns = [
         schema_view.with_ui("redoc", cache_timeout=0),
         name="schema-redoc",
     ),
-    path('api-auth/', include('rest_framework.urls')),
+    path('api/v1/auth/', include('rest_framework.urls')),
     path('api/v1/', include('sinp_nomenclatures.urls')),
 ]

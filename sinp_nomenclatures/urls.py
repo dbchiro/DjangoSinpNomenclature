@@ -7,8 +7,8 @@ router = routers.SimpleRouter(trailing_slash=False)
 app_name = "sinp_nomenclatures"
 
 
-router.register(r"nomenclatures/sources", SourceViewset)
-router.register(r"nomenclatures/types", TypeViewset)
-router.register(r"nomenclatures/nomenclatures", NomenclatureViewset)
+router.register(r"sources", SourceViewset)
+router.register(r"types", TypeViewset)
+router.register(r"nomenclatures", NomenclatureViewset)
 
-urlpatterns = [path("", include(router.urls))]
+urlpatterns = [path("nomenclatures/", include(router.urls))]

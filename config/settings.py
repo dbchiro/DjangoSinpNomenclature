@@ -60,6 +60,8 @@ INSTALLED_APPS = [
     "rest_framework",
     "drf_yasg",
     "sinp_nomenclatures",
+    "django_extensions",
+    "fixture_magic",
 ]
 
 MIDDLEWARE = [

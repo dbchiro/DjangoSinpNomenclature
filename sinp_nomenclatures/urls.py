@@ -1,3 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Django SINP Nomenclatures URLS"""
+
+
 from django.urls import include, path
 from rest_framework import routers
 

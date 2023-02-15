@@ -1,11 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Django SINP Nomenclatures Tests"""
+
+
 import datetime
 
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from django.test import Client, TestCase
 from rest_framework.test import APIRequestFactory
 
 from sinp_nomenclatures.models import Source, Type
 from sinp_nomenclatures.views import NomenclatureViewset
+
+User = get_user_model()
 
 
 class SourceTestCase(TestCase):
@@ -42,8 +49,8 @@ class SourceTestCase(TestCase):
         # Recall that middleware are not supported. You can simulate a
         # logged-in user by setting request.user manually.
         request.user = self.user
-        print(dir(request))
-        print(request.body)
+        # print(dir(request))
+        # print(request.body)
         # # Or you can simulate an anonymous user by setting request.user to
         # # an AnonymousUser instance.
         # request.user = AnonymousUser()
@@ -91,3 +98,5 @@ request = c.post(
     "/api/v1/nomenclatures/nomenclatures",
     {"code": "test", "mnemonic": "test", "label": "test", "type": 1},
 )
+
+print(request)

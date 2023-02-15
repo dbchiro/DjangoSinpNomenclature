@@ -4,14 +4,13 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('sinp_nomenclatures', '0001_initial'),
+        ("sinp_nomenclatures", "0001_initial"),
     ]
 
     operations = [
         migrations.AlterUniqueTogether(
-            name='source',
-            unique_together={('name', 'version')},
+            name="source",
+            unique_together={("name", "version")},
         ),
     ]

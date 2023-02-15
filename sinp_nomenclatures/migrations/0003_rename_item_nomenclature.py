@@ -5,15 +5,14 @@ from django.db import migrations
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
-        ('sinp_nomenclatures', '0002_alter_source_unique_together'),
+        ("sinp_nomenclatures", "0002_alter_source_unique_together"),
     ]
 
     operations = [
         migrations.RenameModel(
-            old_name='Item',
-            new_name='Nomenclature',
+            old_name="Item",
+            new_name="Nomenclature",
         ),
     ]

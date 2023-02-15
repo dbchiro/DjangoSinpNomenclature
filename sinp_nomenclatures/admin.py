@@ -1,11 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import (
-    Nomenclature,
-    Type,
-    Source,
-)
+from .models import Nomenclature, Source, Type
 
 
 class NomenclatureAdmin(admin.ModelAdmin):
@@ -17,4 +13,3 @@ class NomenclatureAdmin(admin.ModelAdmin):
 admin.site.register(Nomenclature, NomenclatureAdmin)
 admin.site.register(Type)
 admin.site.register(Source)
-

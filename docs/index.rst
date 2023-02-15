@@ -11,6 +11,7 @@ Welcome to DjangoSinpNomenclatures's documentation!
    :caption: Contents:
 
    ./install.rst
+   ./models.rst
    ./changelog.rst
 
 

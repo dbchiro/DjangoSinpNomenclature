@@ -16,4 +16,4 @@ router.register(r"sources", SourceViewset)
 router.register(r"types", TypeViewset)
 router.register(r"nomenclatures", NomenclatureViewset)
 
-urlpatterns = [path("/", include(router.urls))]
+urlpatterns = [path("", include(router.urls))]

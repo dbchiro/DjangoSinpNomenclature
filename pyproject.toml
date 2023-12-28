@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj_sinp_nomenclatures"
-version = "0.2.3"
+version = "0.2.4"
 description = "Django app to manage french SINP nomenclatures standards"
 authors = ["dbChiro project <project@dbchiro.org>"]
 license = "AGPLv3"

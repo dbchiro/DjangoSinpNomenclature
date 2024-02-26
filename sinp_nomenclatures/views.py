@@ -5,6 +5,8 @@
 
 import logging
 
+from django_filters.rest_framework import DjangoFilterBackend
+
 # from django.contrib.auth.mixins import LoginRequiredMixin
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -14,6 +16,7 @@ from .serializers import (
     NomenclatureSerializer,
     SourceSerializer,
     TypeSerializer,
+    TypeSerializerWithNomenclature,
 )
 
 logger = logging.getLogger(__name__)
@@ -24,7 +27,9 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
 
     serializer_class = NomenclatureSerializer
     permission_classes = [IsAuthenticated]
-    queryset = Nomenclature.objects.all()
+    queryset = Nomenclature.objects.filter(active=True).all()
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["type", "code", "mnemonic"]
 
 
 class TypeViewset(ReadOnlyModelViewSet):
@@ -33,6 +38,18 @@ class TypeViewset(ReadOnlyModelViewSet):
     serializer_class = TypeSerializer
     permission_classes = [IsAuthenticated]
     queryset = Type.objects.all()
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["code", "mnemonic", "source", "status"]
+
+    def get_serializer_class(self):
+        with_nomenclatures = self.request.query_params.get(
+            "with_nomenclatures", default=False
+        )
+        return (
+            TypeSerializerWithNomenclature
+            if with_nomenclatures
+            else TypeSerializer
+        )
 
 
 class SourceViewset(ReadOnlyModelViewSet):
@@ -41,6 +58,5 @@ class SourceViewset(ReadOnlyModelViewSet):
     serializer_class = SourceSerializer
     permission_classes = [IsAuthenticated]
     queryset = Source.objects.all()
-
-
-# Create your views here.
+    filter_backends = [DjangoFilterBackend]
+    filterset_fields = ["name"]

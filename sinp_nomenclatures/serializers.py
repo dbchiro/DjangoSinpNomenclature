@@ -18,11 +18,19 @@ class NomenclatureSerializer(ModelSerializer):
 class TypeSerializer(ModelSerializer):
     """Nomenclature type serializer"""
 
-    item_nomenclature = NomenclatureSerializer(many=True)
+    class Meta:  # noqa
+        model = Type
+        fields = ["id", "code", "mnemonic", "label"]
+
+
+class TypeSerializerWithNomenclature(ModelSerializer):
+    """Nomenclature type serializer"""
+
+    nomenclatures = NomenclatureSerializer(many=True)
 
     class Meta:  # noqa
         model = Type
-        fields = ["id", "code", "mnemonic", "label", "item_nomenclature"]
+        fields = ["id", "code", "mnemonic", "label", "nomenclatures"]
 
 
 class SourceSerializer(ModelSerializer):

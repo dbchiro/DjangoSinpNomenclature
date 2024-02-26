@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj_sinp_nomenclatures"
-version = "0.2.5"
+version = "0.2.6"
 description = "Django app to manage french SINP nomenclatures standards"
 authors = ["dbChiro project <project@dbchiro.org>"]
 license = "AGPLv3"
@@ -15,6 +15,7 @@ packages = [{ include = "sinp_nomenclatures" }]
 python = ">=3.8.1,<4.0"
 Django = ">=3.2,<5.0"
 djangorestframework = ">=3.0,<4.0"
+django-filter = "^23.5"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.12.1"

@@ -113,7 +113,7 @@ class Nomenclature(BaseModel):
         "Type",
         verbose_name=_("Type"),
         on_delete=models.CASCADE,
-        related_name="item_nomenclature",
+        related_name="nomenclatures",
     )
     code = models.CharField(
         max_length=255, db_index=True, verbose_name=_("Code")

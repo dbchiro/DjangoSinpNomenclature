@@ -2,6 +2,12 @@
  CHANGELOG
 ===========
 
+v0.2.5
+======
+
+* Add french translation
+* Add parent nomenclature specification (almost required for new incoming bats gites nomenclature)
+
 v0.1.1
 ======
 

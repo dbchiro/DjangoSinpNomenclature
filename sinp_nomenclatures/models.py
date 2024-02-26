@@ -9,8 +9,8 @@ from django.utils.translation import gettext as _
 
 # Create your models here.
 STATUS_CHOICES = (
-    ("VALID", _("Valide")),
-    ("FREEZE", _("Gelée")),
+    ("VALID", _("Valid")),
+    ("FREEZE", _("Frozen")),
 )
 
 
@@ -54,20 +54,20 @@ class Source(BaseModel):
         [type]: [description]
     """
 
-    name = models.CharField(_("Nom"), max_length=50)
+    name = models.CharField(_("Name"), max_length=50)
     version = models.CharField(_("Version"), max_length=50)
     create_date = models.DateField(
-        _("Date de création officielle"), auto_now=False, auto_now_add=False
+        _("Official creation date"), auto_now=False, auto_now_add=False
     )
     update_date = models.DateField(
-        _("Date de modification officielle"),
+        _("Official modification date"),
         auto_now=False,
         auto_now_add=False,
     )
 
     class Meta:
-        verbose_name = _("Source de nomenclatures")
-        verbose_name_plural = _("Sources de nomenclatures")
+        verbose_name = _("Nomenclature source")
+        verbose_name_plural = _("Nomenclature sources")
         unique_together = ["name", "version"]
 
     def __str__(self):
@@ -78,16 +78,16 @@ class Type(BaseModel):
     code = models.CharField(
         _("Code"), unique=True, max_length=50, db_index=True
     )
-    mnemonic = models.CharField(_("Mnémonique"), unique=True, max_length=50)
-    label = models.CharField(_("Libellé"), max_length=50)
+    mnemonic = models.CharField(_("Mnemonic"), unique=True, max_length=50)
+    label = models.CharField(_("Label"), max_length=50)
     status = models.CharField(
-        _("Statut"), max_length=50, choices=STATUS_CHOICES
+        _("Status"), max_length=50, choices=STATUS_CHOICES
     )
     create_date = models.DateField(
-        _("Date de création officielle"), auto_now=False, auto_now_add=False
+        _("Official creation date"), auto_now=False, auto_now_add=False
     )
     update_date = models.DateField(
-        _("Date de modification officielle"),
+        _("Official modification date"),
         auto_now=False,
         auto_now_add=False,
     )
@@ -101,8 +101,8 @@ class Type(BaseModel):
     )
 
     class Meta:
-        verbose_name = _("Type de nomenclature")
-        verbose_name_plural = _("Types de nomenclatures")
+        verbose_name = _("Type of nomenclature")
+        verbose_name_plural = _("Type of nomenclatures")
 
     def __str__(self):
         return f"{self.code} - {self.mnemonic}"
@@ -118,10 +118,18 @@ class Nomenclature(BaseModel):
     code = models.CharField(
         max_length=255, db_index=True, verbose_name=_("Code")
     )
-    mnemonic = models.CharField(_("Mnémonique"), max_length=50)
-    label = models.CharField(max_length=255, verbose_name=_("Libellé"))
+    mnemonic = models.CharField(_("Mnemonic"), max_length=50)
+    label = models.CharField(max_length=255, verbose_name=_("Label"))
     description = models.TextField(_("Description"), blank=True, null=True)
-    active = models.BooleanField(default=True, verbose_name=_("Est utilisé"))
+    active = models.BooleanField(default=True, verbose_name=_("Is used"))
+    parent = models.ForeignKey(
+        "Nomenclature",
+        verbose_name=_("Parent nomenclature"),
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="child_nomenclature",
+    )
 
     class Meta:
         verbose_name_plural = _("nomenclatures")

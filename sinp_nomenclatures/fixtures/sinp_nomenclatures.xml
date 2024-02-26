@@ -310,8 +310,12 @@
         <field name="code" type="CharField">observer</field>
         <field name="mnemonic" type="CharField">observer</field>
         <field name="label" type="CharField">Observateur</field>
-        <field name="description" type="TextField">Permet de saisir des observations associées à son organisme</field>
+        <field name="description" type="TextField">Permet de saisir des observations associées à son
+            organisme</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="2">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -326,8 +330,12 @@
         <field name="code" type="CharField">validator</field>
         <field name="mnemonic" type="CharField">validator</field>
         <field name="label" type="CharField">Validateur</field>
-        <field name="description" type="TextField">Permet de valider les observations associées à son organisme</field>
+        <field name="description" type="TextField">Permet de valider les observations associées à
+            son organisme</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="3">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -342,8 +350,12 @@
         <field name="code" type="CharField">manager</field>
         <field name="mnemonic" type="CharField">manager</field>
         <field name="label" type="CharField">Gestionnaire</field>
-        <field name="description" type="TextField">Permet la gestion des comptes et des métadonnées liés à ses organisme</field>
+        <field name="description" type="TextField">Permet la gestion des comptes et des métadonnées
+            liés à ses organisme</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="4">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -362,6 +374,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="5">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -380,6 +395,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="6">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -398,6 +416,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="7">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -414,6 +435,9 @@
         <field name="label" type="CharField">Autre</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="8">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -430,6 +454,9 @@
         <field name="label" type="CharField">Capture-suivi (radiotracking)</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="9">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -446,6 +473,9 @@
         <field name="label" type="CharField">Capture marquage recapture</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="10">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -460,8 +490,12 @@
         <field name="code" type="CharField">9</field>
         <field name="mnemonic" type="CharField">9</field>
         <field name="label" type="CharField">Capture-conservation d'individus</field>
-        <field name="description" type="TextField">Prélèvement (capture avec collecte d'échantillon): capture-conservation</field>
+        <field name="description" type="TextField">Prélèvement (capture avec collecte
+            d'échantillon): capture-conservation</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="11">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -478,6 +512,9 @@
         <field name="label" type="CharField">Capture-relâcher d'individus</field>
         <field name="description" type="TextField">(sans capture d'échantillon) : capture-relâcher</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="12">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -494,6 +531,9 @@
         <field name="label" type="CharField">Télémétrie</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="13">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -510,6 +550,9 @@
         <field name="label" type="CharField">Télédétection</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="14">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -526,6 +569,9 @@
         <field name="label" type="CharField">Photographies aériennes</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="15">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -542,6 +588,9 @@
         <field name="label" type="CharField">label</field>
         <field name="description" type="TextField">Recherche d'indices de présence</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="16">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -558,6 +607,9 @@
         <field name="label" type="CharField">Détection d'ultrasons</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="17">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -574,6 +626,9 @@
         <field name="label" type="CharField">Pièges photo</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="18">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -588,8 +643,12 @@
         <field name="code" type="CharField">1</field>
         <field name="mnemonic" type="CharField">1</field>
         <field name="label" type="CharField">Observation directe</field>
-        <field name="description" type="TextField">Observation directe : Vue, écoute, olfactive, tactile</field>
+        <field name="description" type="TextField">Observation directe : Vue, écoute, olfactive,
+            tactile</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="19">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -606,6 +665,9 @@
         <field name="label" type="CharField">Communal ou local</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="20">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -622,6 +684,9 @@
         <field name="label" type="CharField">Départemental, ou secteur marin</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="21">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -638,6 +703,9 @@
         <field name="label" type="CharField">Régional terrestre, ou sous-région marine</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="22">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -654,6 +722,9 @@
         <field name="label" type="CharField">Inter-régional terrestre ou région marine</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="23">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -670,6 +741,9 @@
         <field name="label" type="CharField">National</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="24">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -686,6 +760,9 @@
         <field name="label" type="CharField">Européen</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="25">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -702,6 +779,9 @@
         <field name="label" type="CharField">International</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="26">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -718,6 +798,9 @@
         <field name="label" type="CharField">Non financé</field>
         <field name="description" type="TextField">Absence de financement</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="27">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -734,6 +817,9 @@
         <field name="label" type="CharField">Mixte</field>
         <field name="description" type="TextField">Mélange de financement public et privé</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="28">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -750,6 +836,9 @@
         <field name="label" type="CharField">Privée</field>
         <field name="description" type="TextField">Financement privé</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="29">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -766,6 +855,9 @@
         <field name="label" type="CharField">Publique</field>
         <field name="description" type="TextField">Financement publique</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="30">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -782,6 +874,9 @@
         <field name="label" type="CharField">Point de contact base de données de production</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="31">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -798,6 +893,9 @@
         <field name="label" type="CharField">Producteur du jeu de données</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="32">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -814,6 +912,9 @@
         <field name="label" type="CharField">Fournisseur du jeu de données</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="33">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -830,6 +931,9 @@
         <field name="label" type="CharField">Maître d'oeuvre</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="34">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -846,6 +950,9 @@
         <field name="label" type="CharField">Maître d'ouvrage</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="35">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -862,6 +969,9 @@
         <field name="label" type="CharField">Financeur</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="36">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -878,6 +988,9 @@
         <field name="label" type="CharField">Contact principal</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="37">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -894,6 +1007,9 @@
         <field name="label" type="CharField">Hors territoire</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="38">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -910,6 +1026,9 @@
         <field name="label" type="CharField">TAAF: Terre-Adélie</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="39">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -926,6 +1045,9 @@
         <field name="label" type="CharField">TAAF: Iles sub-Antartiques</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="40">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -942,6 +1064,9 @@
         <field name="label" type="CharField">TAAF: Iles Eparses</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="41">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -958,6 +1083,9 @@
         <field name="label" type="CharField">Clipperton</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="42">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -974,6 +1102,9 @@
         <field name="label" type="CharField">Polynésie française</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="43">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -990,6 +1121,9 @@
         <field name="label" type="CharField">Wallis-et-Futuna</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="44">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1006,6 +1140,9 @@
         <field name="label" type="CharField">Nouvelle-Calédonie</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="45">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1022,6 +1159,9 @@
         <field name="label" type="CharField">Réunion</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="46">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1038,6 +1178,9 @@
         <field name="label" type="CharField">Mayotte</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="47">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1054,6 +1197,9 @@
         <field name="label" type="CharField">Saint-Barthélemy</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="48">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1070,6 +1216,9 @@
         <field name="label" type="CharField">Saint-Martin</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="49">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1086,6 +1235,9 @@
         <field name="label" type="CharField">Guadeloupe</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="50">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1102,6 +1254,9 @@
         <field name="label" type="CharField">Martinique</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="51">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1118,6 +1273,9 @@
         <field name="label" type="CharField">Guyane française</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="52">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1134,6 +1292,9 @@
         <field name="label" type="CharField">Métropole</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="53">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1148,8 +1309,12 @@
         <field name="code" type="CharField">11</field>
         <field name="mnemonic" type="CharField">11</field>
         <field name="label" type="CharField">Multiples ou autres</field>
-        <field name="description" type="TextField">l’acquisition des données est réalisée avec une démarche propre faisant intervenir plusieurs démarches préalablement décrites</field>
+        <field name="description" type="TextField">l’acquisition des données est réalisée avec une
+            démarche propre faisant intervenir plusieurs démarches préalablement décrites</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="54">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1164,8 +1329,17 @@
         <field name="code" type="CharField">10</field>
         <field name="mnemonic" type="CharField">10</field>
         <field name="label" type="CharField">Expérimentation/recherche</field>
-        <field name="description" type="TextField">l’acquisition des données est réalisée avec une démarche d’amélioration de la connaissance scientifique ciblée sur une ou plusieurs questions précises (de la description des patrons de biodiversité à l’expérimentation pour expliquer les processus ou démontrer des relations causales de type « avant/après » (effet de la gestion, mécanismes etc.)). L’expérimentation et la recherche de type purement « observationnelle » ou « corrélative » doivent figurer dans les catégories « inventaires » ou « suivis/surveillance ».</field>
+        <field name="description" type="TextField">l’acquisition des données est réalisée avec une
+            démarche d’amélioration de la connaissance scientifique ciblée sur une ou plusieurs
+            questions précises (de la description des patrons de biodiversité à l’expérimentation
+            pour expliquer les processus ou démontrer des relations causales de type « avant/après »
+            (effet de la gestion, mécanismes etc.)). L’expérimentation et la recherche de type
+            purement « observationnelle » ou « corrélative » doivent figurer dans les catégories «
+            inventaires » ou « suivis/surveillance ».</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="55">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1180,8 +1354,15 @@
         <field name="code" type="CharField">9</field>
         <field name="mnemonic" type="CharField">9</field>
         <field name="label" type="CharField">Suivi/surveillance dans le temps</field>
-        <field name="description" type="TextField">l’acquisition des données d’occurrence est réalisée avec un dispositif de collecte comprenant une répétition de l’acquisition au cours du temps. La démarche permet une comparaison d’un état entre différentes périodes pour un ou plusieurs objets de biodiversité. Elle est mise en place en lien avec une thématique prédéterminée (biologie de la conservation, changements globaux, ...).</field>
+        <field name="description" type="TextField">l’acquisition des données d’occurrence est
+            réalisée avec un dispositif de collecte comprenant une répétition de l’acquisition au
+            cours du temps. La démarche permet une comparaison d’un état entre différentes périodes
+            pour un ou plusieurs objets de biodiversité. Elle est mise en place en lien avec une
+            thématique prédéterminée (biologie de la conservation, changements globaux, ...).</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="56">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1196,8 +1377,16 @@
         <field name="code" type="CharField">8</field>
         <field name="mnemonic" type="CharField">8</field>
         <field name="label" type="CharField">Inventaires et cartographie</field>
-        <field name="description" type="TextField">l’acquisition des données d’occurrence est réalisée avec la démarche d’avoir des informations sur la présence/absence ou effectif/abondance (dénombrement...) d’un ou de plusieurs objets de biodiversité. Le dispositif de collecte est établi pour avoir une représentation spatiale de la répartition d’un ou de plusieurs objets de biodiversité à des dates ou des périodes prédéfinies.</field>
+        <field name="description" type="TextField">l’acquisition des données d’occurrence est
+            réalisée avec la démarche d’avoir des informations sur la présence/absence ou
+            effectif/abondance (dénombrement...) d’un ou de plusieurs objets de biodiversité. Le
+            dispositif de collecte est établi pour avoir une représentation spatiale de la
+            répartition d’un ou de plusieurs objets de biodiversité à des dates ou des périodes
+            prédéfinies.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="57">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1214,6 +1403,9 @@
         <field name="label" type="CharField">Regroupements et autres études</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="58">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1230,6 +1422,9 @@
         <field name="label" type="CharField">Evolution espace</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="59">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1246,6 +1441,9 @@
         <field name="label" type="CharField">Evolution temporelle</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="60">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1262,6 +1460,9 @@
         <field name="label" type="CharField">Evaluation interaction</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="61">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1278,6 +1479,9 @@
         <field name="label" type="CharField">Inventaire logique espace</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="62">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1294,6 +1498,9 @@
         <field name="label" type="CharField">Inventaire habitat centré</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="63">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1310,6 +1517,9 @@
         <field name="label" type="CharField">Inventaire espèce</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="64">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1326,6 +1536,9 @@
         <field name="label" type="CharField">Inconnu</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="65">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1342,6 +1555,9 @@
         <field name="label" type="CharField">Régional</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="66">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1358,6 +1574,9 @@
         <field name="label" type="CharField">Supra régional</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="67">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1374,6 +1593,9 @@
         <field name="label" type="CharField">national</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="68">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1390,6 +1612,9 @@
         <field name="label" type="CharField">Européen</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="69">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1408,6 +1633,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="70">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1426,6 +1654,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="71">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1444,6 +1675,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="72">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1462,6 +1696,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="73">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1480,6 +1717,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="74">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1498,6 +1738,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="75">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1516,6 +1759,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="76">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1534,6 +1780,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="77">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1552,6 +1801,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="78">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1570,6 +1822,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="79">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1588,6 +1843,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="80">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1606,6 +1864,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="81">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1624,6 +1885,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="82">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1642,6 +1906,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="83">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1660,6 +1927,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="84">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1678,6 +1948,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="85">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1696,6 +1969,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="86">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1714,6 +1990,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="87">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1732,6 +2011,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="88">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1750,6 +2032,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="89">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1768,6 +2053,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="90">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1786,6 +2074,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="91">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1804,6 +2095,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="92">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1822,6 +2116,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="93">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1840,6 +2137,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="94">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1858,6 +2158,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="95">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1876,6 +2179,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="96">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1894,6 +2200,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="97">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1912,6 +2221,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="98">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1930,6 +2242,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="99">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1948,6 +2263,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="100">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1966,6 +2284,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="101">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -1984,6 +2305,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="102">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2002,6 +2326,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="103">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2018,6 +2345,9 @@
         <field name="label" type="CharField">Protocole de validation</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="104">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2034,6 +2364,9 @@
         <field name="label" type="CharField">Protocole de conformité et de cohérence</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="105">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2050,6 +2383,9 @@
         <field name="label" type="CharField">Protocole de synthèse</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="106">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2066,6 +2402,9 @@
         <field name="label" type="CharField">Protocole de collecte</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="107">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2082,6 +2421,9 @@
         <field name="label" type="CharField">Inconnu</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="108">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2098,6 +2440,9 @@
         <field name="label" type="CharField">Non renseigné</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="109">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2114,6 +2459,9 @@
         <field name="label" type="CharField">Synthèse de taxons</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="110">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2130,6 +2478,9 @@
         <field name="label" type="CharField">Synthèse de taxons</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="111">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2146,6 +2497,9 @@
         <field name="label" type="CharField">Occurrences d'habitats</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="112">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2162,6 +2516,9 @@
         <field name="label" type="CharField">Occurence de taxons</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="113">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2180,6 +2537,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="114">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2198,6 +2558,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="115">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2216,6 +2579,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="116">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2234,6 +2600,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="117">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2252,6 +2621,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="118">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2270,6 +2642,9 @@
             <None></None>
         </field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="119">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2284,8 +2659,17 @@
         <field name="code" type="CharField">3</field>
         <field name="mnemonic" type="CharField">3</field>
         <field name="label" type="CharField">Paysage</field>
-        <field name="description" type="TextField">Toutes les données relatives aux paysages, c’est-à-dire des données relatives aux formes du territoire, aux perceptions sociales et aux dynamiques du territoire. Elles intègrent également des inventaires particuliers. Elles concernent les espaces naturels, ruraux, urbains et périurbains. Elles incluent les espaces terrestres, les eaux intérieures et maritimes. Elles concernent tant les paysages pouvant être considérés comme remarquables que les paysages du quotidien et les paysages dégradés.</field>
+        <field name="description" type="TextField">Toutes les données relatives aux paysages,
+            c’est-à-dire des données relatives aux formes du territoire, aux perceptions sociales et
+            aux dynamiques du territoire. Elles intègrent également des inventaires particuliers.
+            Elles concernent les espaces naturels, ruraux, urbains et périurbains. Elles incluent
+            les espaces terrestres, les eaux intérieures et maritimes. Elles concernent tant les
+            paysages pouvant être considérés comme remarquables que les paysages du quotidien et les
+            paysages dégradés.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="120">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2300,8 +2684,14 @@
         <field name="code" type="CharField">2</field>
         <field name="mnemonic" type="CharField">2</field>
         <field name="label" type="CharField">Mer</field>
-        <field name="description" type="TextField">Toutes les données relatives à la nature / biodiversité française du domaine marin (outre-mer compris) : habitats, flore, faune, champignons..., les données relatives aux espaces naturels (protégés/gérés ou non), aux sites géologiques, aux écosystèmes et leur fonctionnement.</field>
+        <field name="description" type="TextField">Toutes les données relatives à la nature /
+            biodiversité française du domaine marin (outre-mer compris) : habitats, flore, faune,
+            champignons..., les données relatives aux espaces naturels (protégés/gérés ou non), aux
+            sites géologiques, aux écosystèmes et leur fonctionnement.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="121">
         <field name="timestamp_create" type="DateTimeField">2021-07-18T21:37:00.239469+00:00</field>
@@ -2318,6 +2708,9 @@
         <field name="label" type="CharField">Terre</field>
         <field name="description" type="TextField"></field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="122">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:27:14.489375+00:00</field>
@@ -2332,8 +2725,15 @@
         <field name="code" type="CharField">1</field>
         <field name="mnemonic" type="CharField">certain</field>
         <field name="label" type="CharField">Certain - très probable</field>
-        <field name="description" type="TextField">La donnée est exacte. Il n’y a pas de doute notable et significatif quant à l’exactitude de l’observation ou de la détermination du taxon. La validation a été réalisée notamment à partir d’une preuve de l’observation qui confirme la détermination du producteur ou après vérification auprès de l’observateur et/ou du déterminateur.</field>
+        <field name="description" type="TextField">La donnée est exacte. Il n’y a pas de doute
+            notable et significatif quant à l’exactitude de l’observation ou de la détermination du
+            taxon. La validation a été réalisée notamment à partir d’une preuve de l’observation qui
+            confirme la détermination du producteur ou après vérification auprès de l’observateur
+            et/ou du déterminateur.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="123">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:27:38.877849+00:00</field>
@@ -2348,8 +2748,15 @@
         <field name="code" type="CharField">2</field>
         <field name="mnemonic" type="CharField">probable</field>
         <field name="label" type="CharField">Probable</field>
-        <field name="description" type="TextField">La donnée présente un bon niveau de fiabilité. Elle est vraisemblable et crédible. Il n’y a, a priori, aucune raison de douter de l’exactitude de la donnée mais il n’y a pas d’éléments complémentaires suffisants disponibles ou évalués (notamment la présence d’une preuve ou la possibilité de revenir à la donnée source) permettant d’attribuer un plus haut niveau de certitude.</field>
+        <field name="description" type="TextField">La donnée présente un bon niveau de fiabilité.
+            Elle est vraisemblable et crédible. Il n’y a, a priori, aucune raison de douter de
+            l’exactitude de la donnée mais il n’y a pas d’éléments complémentaires suffisants
+            disponibles ou évalués (notamment la présence d’une preuve ou la possibilité de revenir
+            à la donnée source) permettant d’attribuer un plus haut niveau de certitude.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="124">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:27:57.153894+00:00</field>
@@ -2364,8 +2771,13 @@
         <field name="code" type="CharField">3</field>
         <field name="mnemonic" type="CharField">douteux</field>
         <field name="label" type="CharField">Douteux</field>
-        <field name="description" type="TextField">La donnée est peu vraisemblable ou surprenante mais on ne dispose pas d’éléments suffisants pour attester d’une erreur manifeste. La donnée est considérée comme douteuse.</field>
+        <field name="description" type="TextField">La donnée est peu vraisemblable ou surprenante
+            mais on ne dispose pas d’éléments suffisants pour attester d’une erreur manifeste. La
+            donnée est considérée comme douteuse.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="125">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:28:23.883715+00:00</field>
@@ -2380,8 +2792,15 @@
         <field name="code" type="CharField">4</field>
         <field name="mnemonic" type="CharField">invalid</field>
         <field name="label" type="CharField">Invalide</field>
-        <field name="description" type="TextField">La donnée a été infirmée (erreur manifeste/avérée) ou présente un trop bas niveau de fiabilité. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques de la niche écologique du taxon, la preuve révèle une erreur de détermination). Elle est considérée comme invalide.</field>
+        <field name="description" type="TextField">La donnée a été infirmée (erreur
+            manifeste/avérée) ou présente un trop bas niveau de fiabilité. Elle est considérée comme
+            trop improbable (aberrante notamment au regard de l’aire de répartition connue, des
+            paramètres biotiques et abiotiques de la niche écologique du taxon, la preuve révèle une
+            erreur de détermination). Elle est considérée comme invalide.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="126">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:28:57.786904+00:00</field>
@@ -2396,8 +2815,14 @@
         <field name="code" type="CharField">5</field>
         <field name="mnemonic" type="CharField">nonreal</field>
         <field name="label" type="CharField">Non réalisable</field>
-        <field name="description" type="TextField">La donnée a été soumise à l’ensemble du processus de validation mais l’opérateur (humain ou machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon insuffisantes, ou informations insuffisantes sur l’observation.</field>
+        <field name="description" type="TextField">La donnée a été soumise à l’ensemble du processus
+            de validation mais l’opérateur (humain ou machine) n’a pas pu statuer sur le niveau de
+            fiabilité, notamment à cause des points suivants : état des connaissances du taxon
+            insuffisantes, ou informations insuffisantes sur l’observation.</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="127">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:30:08.009683+00:00</field>
@@ -2414,6 +2839,9 @@
         <field name="label" type="CharField">A Valider</field>
         <field name="description" type="TextField">La donnée n'a fait l'object d'aucune validation</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="128">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:30:57.245483+00:00</field>
@@ -2430,6 +2858,9 @@
         <field name="label" type="CharField">A confirmer</field>
         <field name="description" type="TextField">La donnée est à confirmer par l'observateur</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="129">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:31:29.537798+00:00</field>
@@ -2446,6 +2877,9 @@
         <field name="label" type="CharField">Incohérence</field>
         <field name="description" type="TextField">La donnée est incohérente</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="130">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:31:56.992601+00:00</field>
@@ -2460,8 +2894,12 @@
         <field name="code" type="CharField">13</field>
         <field name="mnemonic" type="CharField">duplicate</field>
         <field name="label" type="CharField">Doublon</field>
-        <field name="description" type="TextField">La donnée est un doublon d'une donnée déjà existante</field>
+        <field name="description" type="TextField">La donnée est un doublon d'une donnée déjà
+            existante</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
     <object model="sinp_nomenclatures.nomenclature" pk="131">
         <field name="timestamp_create" type="DateTimeField">2022-12-05T20:32:30.062765+00:00</field>
@@ -2478,5 +2916,8 @@
         <field name="label" type="CharField">Corrigé</field>
         <field name="description" type="TextField">La donnée a été corrigée</field>
         <field name="active" type="BooleanField">True</field>
+        <field name="parent" rel="ManyToOneRel" to="sinp_nomenclatures.nomenclature">
+            <None></None>
+        </field>
     </object>
 </django-objects>

@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-26 20:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: sinp_nomenclatures/models.py:12
+msgid "Valid"
+msgstr "Valide"
+
+#: sinp_nomenclatures/models.py:13
+msgid "Frozen"
+msgstr "Gelée"
+
+#: sinp_nomenclatures/models.py:57
+msgid "Name"
+msgstr "Nom"
+
+#: sinp_nomenclatures/models.py:58
+msgid "Version"
+msgstr "Version"
+
+#: sinp_nomenclatures/models.py:60 sinp_nomenclatures/models.py:87
+msgid "Official creation date"
+msgstr "Date de création officielle"
+
+#: sinp_nomenclatures/models.py:63 sinp_nomenclatures/models.py:90
+msgid "Official modification date"
+msgstr "Date de modification officielle"
+
+#: sinp_nomenclatures/models.py:69
+msgid "Nomenclature source"
+msgstr "Source des nomenclatures"
+
+#: sinp_nomenclatures/models.py:70
+#, fuzzy
+#| msgid "Nomenclature source"
+msgid "Nomenclature sources"
+msgstr "Source des nomenclatures"
+
+#: sinp_nomenclatures/models.py:79 sinp_nomenclatures/models.py:119
+msgid "Code"
+msgstr "Code"
+
+#: sinp_nomenclatures/models.py:81 sinp_nomenclatures/models.py:121
+msgid "Mnemonic"
+msgstr "Mnémonique"
+
+#: sinp_nomenclatures/models.py:82 sinp_nomenclatures/models.py:122
+msgid "Label"
+msgstr "Libellé"
+
+#: sinp_nomenclatures/models.py:84
+msgid "Status"
+msgstr "Statut"
+
+#: sinp_nomenclatures/models.py:96
+msgid "Source"
+msgstr "Source"
+
+#: sinp_nomenclatures/models.py:104
+msgid "Type of nomenclature"
+msgstr "Type de nomenclature"
+
+#: sinp_nomenclatures/models.py:105
+msgid "Type of nomenclatures"
+msgstr "Type de nomenclatures"
+
+#: sinp_nomenclatures/models.py:114
+msgid "Type"
+msgstr "Type"
+
+#: sinp_nomenclatures/models.py:123
+msgid "Description"
+msgstr "Description"
+
+#: sinp_nomenclatures/models.py:124
+msgid "Is used"
+msgstr "Est utilisé"
+
+#: sinp_nomenclatures/models.py:127
+msgid "Parent nomenclature"
+msgstr "Nomenclature parent"
+
+#: sinp_nomenclatures/models.py:135
+msgid "nomenclatures"
+msgstr "nomenclatures"

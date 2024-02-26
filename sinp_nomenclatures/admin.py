@@ -5,7 +5,7 @@ from .models import Nomenclature, Source, Type
 
 
 class NomenclatureAdmin(admin.ModelAdmin):
-    list_display = ("id", "type", "code", "label", "active")
+    list_display = ("id", "type", "code", "label", "active", "parent")
     list_filter = ("type", "active")
 
 

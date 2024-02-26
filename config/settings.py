@@ -183,3 +183,7 @@ EMAIL_PORT = config("EMAIL_PORT", cast=int, default=465)
 EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD", default="<MyEmailPwd>")
 EMAIL_HOST_USER = config("EMAIL_HOST_USER", default="username@email.net")
 EMAIL_USE_TLS = config("EMAIL_USE_TLS", cast=bool, default=True)
+
+LOCALE_PATHS = [
+    "sinp_nomenclatures/locale",
+]

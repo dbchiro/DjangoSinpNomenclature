@@ -23,7 +23,10 @@ jobs:
       - name: Run image
         uses: abatilo/actions-poetry@v3
       - name: Install dependencies
-        run: poetry install
+        run: |
+          apt update && apt install -y libgraphviz-dev libgdal32
+          poetry config virtualenvs.create false
+          poetry install
       - name: Run Tests
         env:
           SECRET_KEY: 625a5459bc6e0d2e5227f9d7ec697c4a473f8697a84f5f7c8a

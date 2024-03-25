@@ -27,7 +27,10 @@ jobs:
       #  -----  Install dependencies  -----
       #------------------------------------
       - name: Install dependencies
-        run: poetry install
+        run: |
+          apt update && apt install -y libgraphviz-dev libgdal32
+          poetry config virtualenvs.create false
+          poetry installpoetry install
 
       - name: Create changelog diff
         id: changelog_diff

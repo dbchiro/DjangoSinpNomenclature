@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Django SINP Nomenclatures Models"""
 
 
-from django.conf import settings
 from django.db import models
 from django.utils.translation import gettext as _
+
+from sinp_nomenclatures.manager import (
+    NomenclatureManager,
+    SourceManager,
+    TypeManager,
+)
 
 # Create your models here.
 STATUS_CHOICES = (
@@ -21,24 +25,6 @@ class BaseModel(
 
     timestamp_create = models.DateTimeField(auto_now_add=True, editable=False)
     timestamp_update = models.DateTimeField(auto_now=True, editable=False)
-    created_by = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        null=True,
-        blank=True,
-        db_index=True,
-        editable=False,
-        related_name="+",
-        on_delete=models.SET_NULL,
-    )
-    updated_by = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        null=True,
-        blank=True,
-        db_index=True,
-        editable=False,
-        related_name="+",
-        on_delete=models.SET_NULL,
-    )
 
     class Meta:
         abstract = True
@@ -54,6 +40,7 @@ class Source(BaseModel):
         [type]: [description]
     """
 
+    objects = SourceManager()
     name = models.CharField(_("Name"), max_length=50)
     version = models.CharField(_("Version"), max_length=50)
     create_date = models.DateField(
@@ -73,8 +60,14 @@ class Source(BaseModel):
     def __str__(self):
         return f"{self.name} ({self.version})"
 
+    def natural_key(self):
+        return (self.name, self.version)
+
 
 class Type(BaseModel):
+    """SINP Nomenclature type"""
+
+    objects = TypeManager()
     code = models.CharField(
         _("Code"), unique=True, max_length=50, db_index=True
     )
@@ -107,8 +100,12 @@ class Type(BaseModel):
     def __str__(self):
         return f"{self.code} - {self.mnemonic}"
 
+    def natural_key(self):
+        return self.code
+
 
 class Nomenclature(BaseModel):
+    objects = NomenclatureManager()
     type = models.ForeignKey(
         "Type",
         verbose_name=_("Type"),
@@ -120,7 +117,7 @@ class Nomenclature(BaseModel):
     )
     mnemonic = models.CharField(_("Mnemonic"), max_length=50)
     label = models.CharField(max_length=255, verbose_name=_("Label"))
-    description = models.TextField(_("Description"), blank=True, null=True)
+    description = models.TextField(_("Description"), blank=True)
     active = models.BooleanField(default=True, verbose_name=_("Is used"))
     parent = models.ForeignKey(
         "Nomenclature",
@@ -137,3 +134,6 @@ class Nomenclature(BaseModel):
 
     def __str__(self):
         return f"{self.label}"
+
+    def natural_key(self):
+        return (self.type, self.code)

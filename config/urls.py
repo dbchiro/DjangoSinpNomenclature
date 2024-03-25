@@ -50,5 +50,5 @@ urlpatterns = [
         name="schema-redoc",
     ),
     path("api/v1/auth/", include("rest_framework.urls")),
-    path("api/v1/", include("sinp_nomenclatures.urls")),
+    path("api/v1/nomenclatures/", include("sinp_nomenclatures.urls")),
 ]

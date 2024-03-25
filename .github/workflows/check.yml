@@ -33,7 +33,10 @@ jobs:
       #  -----  Install dependencies  -----
       #------------------------------------
       - name: Install dependencies
-        run: poetry install
+        run: |
+          apt update && apt install -y libgraphviz-dev libgdal32
+          poetry config virtualenvs.create false
+          poetry install
       #------------------------------
       #--------  run isort  ---------
       #------------------------------

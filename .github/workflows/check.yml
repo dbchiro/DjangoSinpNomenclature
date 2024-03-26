@@ -35,7 +35,6 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update && sudo apt install -y libgraphviz-dev
-          poetry config virtualenvs.create false
           poetry install
       #------------------------------
       #--------  run isort  ---------

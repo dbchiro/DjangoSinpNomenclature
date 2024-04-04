@@ -43,6 +43,7 @@ class Source(BaseModel):
     objects = SourceManager()
     name = models.CharField(_("Name"), max_length=50)
     version = models.CharField(_("Version"), max_length=50)
+    url = models.URLField(_("URL"), max_length=250, blank=True)
     create_date = models.DateField(
         _("Official creation date"), auto_now=False, auto_now_add=False
     )
@@ -53,8 +54,8 @@ class Source(BaseModel):
     )
 
     class Meta:
-        verbose_name = _("Nomenclature source")
-        verbose_name_plural = _("Nomenclature sources")
+        verbose_name = _("source")
+        verbose_name_plural = _("sources")
         unique_together = ["name", "version"]
 
     def __str__(self):
@@ -101,7 +102,7 @@ class Type(BaseModel):
         return f"{self.code} - {self.mnemonic}"
 
     def natural_key(self):
-        return self.code
+        return (self.code,)
 
 
 class Nomenclature(BaseModel):
@@ -115,10 +116,9 @@ class Nomenclature(BaseModel):
     code = models.CharField(
         max_length=255, db_index=True, verbose_name=_("Code")
     )
-    mnemonic = models.CharField(_("Mnemonic"), max_length=50)
     label = models.CharField(max_length=255, verbose_name=_("Label"))
     description = models.TextField(_("Description"), blank=True)
-    active = models.BooleanField(default=True, verbose_name=_("Is used"))
+    active = models.BooleanField(default=True, verbose_name=_("Is active"))
     parent = models.ForeignKey(
         "Nomenclature",
         verbose_name=_("Parent nomenclature"),
@@ -136,4 +136,4 @@ class Nomenclature(BaseModel):
         return f"{self.label}"
 
     def natural_key(self):
-        return (self.type, self.code)
+        return (self.type.code, self.code)

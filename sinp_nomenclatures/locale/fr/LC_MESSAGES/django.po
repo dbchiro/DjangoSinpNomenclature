@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-26 20:32+0000\n"
+"POT-Creation-Date: 2024-04-04 07:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,84 +18,94 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: sinp_nomenclatures/models.py:12
+#: sinp_nomenclatures/admin.py:8
+msgid "Mark selected items as active"
+msgstr "Activer les objects sélectionnés"
+
+#: sinp_nomenclatures/admin.py:14
+msgid "Mark selected items as inactive"
+msgstr "Désactiver les objects sélectionnés"
+
+#: sinp_nomenclatures/models.py:16
 msgid "Valid"
 msgstr "Valide"
 
-#: sinp_nomenclatures/models.py:13
+#: sinp_nomenclatures/models.py:17
 msgid "Frozen"
 msgstr "Gelée"
 
-#: sinp_nomenclatures/models.py:57
+#: sinp_nomenclatures/models.py:44
 msgid "Name"
 msgstr "Nom"
 
-#: sinp_nomenclatures/models.py:58
+#: sinp_nomenclatures/models.py:45
 msgid "Version"
 msgstr "Version"
 
-#: sinp_nomenclatures/models.py:60 sinp_nomenclatures/models.py:87
+#: sinp_nomenclatures/models.py:46
+msgid "URL"
+msgstr ""
+
+#: sinp_nomenclatures/models.py:48 sinp_nomenclatures/models.py:81
 msgid "Official creation date"
 msgstr "Date de création officielle"
 
-#: sinp_nomenclatures/models.py:63 sinp_nomenclatures/models.py:90
+#: sinp_nomenclatures/models.py:51 sinp_nomenclatures/models.py:84
 msgid "Official modification date"
 msgstr "Date de modification officielle"
 
-#: sinp_nomenclatures/models.py:69
-msgid "Nomenclature source"
-msgstr "Source des nomenclatures"
+#: sinp_nomenclatures/models.py:57
+msgid "source"
+msgstr "Source"
 
-#: sinp_nomenclatures/models.py:70
-#, fuzzy
-#| msgid "Nomenclature source"
-msgid "Nomenclature sources"
-msgstr "Source des nomenclatures"
+#: sinp_nomenclatures/models.py:58
+msgid "sources"
+msgstr "Source"
 
-#: sinp_nomenclatures/models.py:79 sinp_nomenclatures/models.py:119
+#: sinp_nomenclatures/models.py:73 sinp_nomenclatures/models.py:117
 msgid "Code"
 msgstr "Code"
 
-#: sinp_nomenclatures/models.py:81 sinp_nomenclatures/models.py:121
+#: sinp_nomenclatures/models.py:75
 msgid "Mnemonic"
 msgstr "Mnémonique"
 
-#: sinp_nomenclatures/models.py:82 sinp_nomenclatures/models.py:122
+#: sinp_nomenclatures/models.py:76 sinp_nomenclatures/models.py:119
 msgid "Label"
 msgstr "Libellé"
 
-#: sinp_nomenclatures/models.py:84
+#: sinp_nomenclatures/models.py:78
 msgid "Status"
 msgstr "Statut"
 
-#: sinp_nomenclatures/models.py:96
+#: sinp_nomenclatures/models.py:90
 msgid "Source"
 msgstr "Source"
 
-#: sinp_nomenclatures/models.py:104
+#: sinp_nomenclatures/models.py:98
 msgid "Type of nomenclature"
 msgstr "Type de nomenclature"
 
-#: sinp_nomenclatures/models.py:105
+#: sinp_nomenclatures/models.py:99
 msgid "Type of nomenclatures"
 msgstr "Type de nomenclatures"
 
-#: sinp_nomenclatures/models.py:114
+#: sinp_nomenclatures/models.py:112
 msgid "Type"
 msgstr "Type"
 
-#: sinp_nomenclatures/models.py:123
+#: sinp_nomenclatures/models.py:120
 msgid "Description"
 msgstr "Description"
 
-#: sinp_nomenclatures/models.py:124
-msgid "Is used"
-msgstr "Est utilisé"
+#: sinp_nomenclatures/models.py:121
+msgid "Is active"
+msgstr "Est actif"
 
-#: sinp_nomenclatures/models.py:127
+#: sinp_nomenclatures/models.py:124
 msgid "Parent nomenclature"
 msgstr "Nomenclature parent"
 
-#: sinp_nomenclatures/models.py:135
+#: sinp_nomenclatures/models.py:132
 msgid "nomenclatures"
 msgstr "nomenclatures"

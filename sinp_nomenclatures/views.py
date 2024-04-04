@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Django SINP Nomenclatures API Views"""
 
 
@@ -29,7 +28,7 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
     permission_classes = [IsAuthenticated]
     queryset = Nomenclature.objects.filter(active=True).all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["type", "code", "mnemonic"]
+    filterset_fields = ["type", "code"]
 
 
 class TypeViewset(ReadOnlyModelViewSet):

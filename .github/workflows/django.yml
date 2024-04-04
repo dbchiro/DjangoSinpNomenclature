@@ -31,8 +31,8 @@ jobs:
           SECRET_KEY: 625a5459bc6e0d2e5227f9d7ec697c4a473f8697a84f5f7c8a
         run: |
           poetry run python -m manage test
-      # - name: Run test server # TODO
-      #   env:
-      #     SECRET_KEY: 625a5459bc6e0d2e5227f9d7ec697c4a473f8697a84f5f7c8a
-      #   run: |
-      #     poetry run python -m manage testserver tests/fixtures/test_fixtures.xml
+      - name: Run test server # TODO
+        env:
+          SECRET_KEY: 625a5459bc6e0d2e5227f9d7ec697c4a473f8697a84f5f7c8a
+        run: |
+          poetry run python -m manage testserver sinp_nomenclatures/fixtures/sinp_dict_data_v1.0.json

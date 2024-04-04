@@ -1,0 +1,6000 @@
+[
+{
+  "model": "sinp_nomenclatures.source",
+  "fields": {
+    "timestamp_create": "2024-04-02T20:52:46.006Z",
+    "timestamp_update": "2024-04-02T20:52:46.006Z",
+    "name": "Dictionnaire de données du SINP",
+    "version": "v1.0 (2023)",
+    "url": "https://inpn.mnhn.fr/programme/donnees-observations-especes/references/standard-echange",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22"
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "caractJdd",
+    "mnemonic": "caracteristiqueJdd",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "catDonnees",
+    "mnemonic": "categorieDonnees",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "classeEBV",
+    "mnemonic": "classeEBV",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "codeNidif",
+    "mnemonic": "codeAtlasNidification",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "codeStrate",
+    "mnemonic": "codeStrate",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "coefAbondD",
+    "mnemonic": "coefAbondanceDominance",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "comportmnt",
+    "mnemonic": "comportement",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "echTerr",
+    "mnemonic": "echelleTerritoriale",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "echVal",
+    "mnemonic": "echelleValidation",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "etatBio",
+    "mnemonic": "etatBiologique",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "exposition",
+    "mnemonic": "exposition",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "indPres",
+    "mnemonic": "indicePresence",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "methDenbr",
+    "mnemonic": "methodeDenombrement",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "methDeterm",
+    "mnemonic": "methodeDetermination",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "natObjGeo",
+    "mnemonic": "natureObjetGeographique",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "nivValid",
+    "mnemonic": "niveauValidation",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "objCA",
+    "mnemonic": "objectifCA",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "objDenombr",
+    "mnemonic": "objetDenombrement",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "periVal",
+    "mnemonic": "perimetreValidation",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "phaseBio",
+    "mnemonic": "phaseBiologique",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "roleActeur",
+    "mnemonic": "roleActeur",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "sexe",
+    "mnemonic": "sexe",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "spontaneit",
+    "mnemonic": "spontaneite",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "stadeBio",
+    "mnemonic": "stadeBiologique",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "statutObs",
+    "mnemonic": "statutObservation",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "statOriDon",
+    "mnemonic": "statutOrigineDonnees",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "statSocial",
+    "mnemonic": "statutSocial",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "statSource",
+    "mnemonic": "statutSource",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "territoire",
+    "mnemonic": "territoire",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "textureSol",
+    "mnemonic": "textureSol",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "typControl",
+    "mnemonic": "typeControle",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "typDonnees",
+    "mnemonic": "typeDonnees",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "typInterac",
+    "mnemonic": "typeInteraction",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "typLocal",
+    "mnemonic": "typeLocalisation",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.type",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:08:45.605Z",
+    "timestamp_update": "2024-04-02T22:08:45.605Z",
+    "code": "typVal",
+    "mnemonic": "typeValidation",
+    "label": "-",
+    "status": "VALID",
+    "create_date": "2023-05-22",
+    "update_date": "2023-05-22",
+    "source": [
+      "Dictionnaire de données du SINP",
+      "v1.0 (2023)"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "1",
+    "label": "observations naturalistes opportunistes",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "2",
+    "label": "observations protocolées",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "3",
+    "label": "inventaire",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "4",
+    "label": "inventaire de répartition",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "5",
+    "label": "inventaire de zonages d’intérêt",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "6",
+    "label": "inventaire pour étude d’espèces ou de communautés",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "7",
+    "label": "inventaire pour étude d’impact",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "8",
+    "label": "inventaire|évaluation pour plans de gestion",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "9",
+    "label": "numérisation",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "10",
+    "label": "numérisation de bibliographie",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "11",
+    "label": "numérisation de collections",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "12",
+    "label": "cartographie",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "13",
+    "label": "suivi",
+    "description": "peut être continu ou programmé sur une période donnée",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "14",
+    "label": "suivi de gestion ou expérimental",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "15",
+    "label": "suivi individu centré",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "16",
+    "label": "suivi réglementaire",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "17",
+    "label": "surveillance ",
+    "description": "peut être continue ou programmée sur une période donnée",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "18",
+    "label": "surveillance communauté d’espèces",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "19",
+    "label": "surveillance de pathogène et EEE",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "20",
+    "label": "étude effet gestion",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "21",
+    "label": "évaluation",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "22",
+    "label": "évaluation de la ressource|prélèvements",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "23",
+    "label": "évaluation des collisions|échouages",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "24",
+    "label": "modélisation de données",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "25",
+    "label": "regroupement de données",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:17:24.355Z",
+    "timestamp_update": "2024-04-02T22:17:24.355Z",
+    "type": [
+      "caractJdd"
+    ],
+    "code": "26",
+    "label": "autres études et programmes",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "1",
+    "label": "données de répartition",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "2",
+    "label": "données d’abondance",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "3",
+    "label": "données de morphologie",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "4",
+    "label": "données de physiologie",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "5",
+    "label": "données de phénologie",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "6",
+    "label": "données de mobilité spatiale",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "7",
+    "label": "données liées à la reproduction",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:06.586Z",
+    "timestamp_update": "2024-04-02T22:18:06.586Z",
+    "type": [
+      "classeEBV"
+    ],
+    "code": "8",
+    "label": "données liées à la génétique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "1",
+    "label": "aquatique enracinée",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "2",
+    "label": "aquatique nageante",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "3",
+    "label": "aquatique flottante",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "4",
+    "label": "arborée",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "5",
+    "label": "arbustive",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "6",
+    "label": "bryo-lychénique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "7",
+    "label": "cryptogamique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "8",
+    "label": "épigéique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "9",
+    "label": "épilithique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "10",
+    "label": "épiphytique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "11",
+    "label": "épixylique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "12",
+    "label": "herbacée",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "13",
+    "label": "muscinale",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:18:41.023Z",
+    "timestamp_update": "2024-04-02T22:18:41.023Z",
+    "type": [
+      "codeStrate"
+    ],
+    "code": "14",
+    "label": "unique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "i",
+    "label": "un seul individu présent, recouvrement très faible (<5%)",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "r",
+    "label": "individus rares ou très rares, recouvrement faible (<5%)",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "+",
+    "label": "individus peu abondants, recouvrement faible (<5%)",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "1",
+    "label": "individus assez abondants, recouvrement faible (< 5%)",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "2",
+    "label": "individus abondants, recouvrement de 5 à 25%",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "2m",
+    "label": "individus abondants, recouvrement < 5%",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "2a",
+    "label": "individus en nombre quelconque, recouvrement entre 5 et 12,5%",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "2b",
+    "label": "individus en nombre quelconque, recouvrement entre 12,5 et 25%",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "3",
+    "label": "individus en nombre quelconque, recouvrement entre 25 et 50%",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "4",
+    "label": "individus en nombre quelconque, recouvrement entre 50 et 75%",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:19:32.924Z",
+    "timestamp_update": "2024-04-02T22:19:32.924Z",
+    "type": [
+      "coefAbondD"
+    ],
+    "code": "5",
+    "label": "individus en nombre quelconque, recouvrement > 75%",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "100",
+    "label": "alimentation",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "200",
+    "label": "comportement de construction",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "300",
+    "label": "déplacement",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "400",
+    "label": "repos",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "500",
+    "label": "reproduction",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "600",
+    "label": "territorial",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "700",
+    "label": "vocalise",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:25:34.849Z",
+    "timestamp_update": "2024-04-02T22:25:34.849Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "800",
+    "label": "autre",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "101",
+    "label": "chasse",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "100"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "102",
+    "label": "recherche de nourriture",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "100"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "103",
+    "label": "nourrissage des jeunes",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "100"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "104",
+    "label": "fait des réserves",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "100"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "201",
+    "label": "creuse",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "200"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "202",
+    "label": "tisse",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "200"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "203",
+    "label": "entremêle",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "200"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "204",
+    "label": "entrepose",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "200"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "205",
+    "label": "polis",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "200"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "206",
+    "label": "autre mouvement de construction/ingénierie de son environnement",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "200"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "301",
+    "label": "vol",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "300"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "302",
+    "label": "envol",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "300"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "303",
+    "label": "fuite",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "300"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "304",
+    "label": "nage",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "300"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "305",
+    "label": "marche/trotte",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "300"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "401",
+    "label": "dortoir",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "400"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "402",
+    "label": "halte migratoire",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "400"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "403",
+    "label": "réchauffement",
+    "description": "Réchauffement des reptiles",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "400"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "501",
+    "label": "pond",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "502",
+    "label": "amplexus",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "503",
+    "label": "parade nuptiale",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "504",
+    "label": "rut",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "505",
+    "label": "couve",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "506",
+    "label": "tandem|cœur copulatoire",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "507",
+    "label": "accouplement",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "508",
+    "label": "mise bas",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "509",
+    "label": "swarming",
+    "description": "Propre au chauve-souris",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "510",
+    "label": "essaimage",
+    "description": "Propre aux abeilles",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "500"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "601",
+    "label": "marquage du territoire",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "600"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "602",
+    "label": "houspillage",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "600"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "603",
+    "label": "combat",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "600"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "604",
+    "label": "intimidation|agressivité",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "600"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "701",
+    "label": "chant",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "700"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "702",
+    "label": "cri",
+    "description": "",
+    "active": true,
+    "parent": [
+      "comportmnt",
+      "700"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "703",
+    "label": "brame",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "700"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "704",
+    "label": "signal d’alarme",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "700"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:33:20.595Z",
+    "timestamp_update": "2024-04-02T22:33:20.595Z",
+    "type": [
+      "comportmnt"
+    ],
+    "code": "801",
+    "label": "joue",
+    "description": "",
+    "active": false,
+    "parent": [
+      "comportmnt",
+      "800"
+    ]
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:37:33.296Z",
+    "timestamp_update": "2024-04-02T22:37:33.296Z",
+    "type": [
+      "echTerr"
+    ],
+    "code": "1",
+    "label": "internationale",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:37:33.296Z",
+    "timestamp_update": "2024-04-02T22:37:33.296Z",
+    "type": [
+      "echTerr"
+    ],
+    "code": "2",
+    "label": "européenne",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:37:33.296Z",
+    "timestamp_update": "2024-04-02T22:37:33.296Z",
+    "type": [
+      "echTerr"
+    ],
+    "code": "3",
+    "label": "nationale",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:37:33.296Z",
+    "timestamp_update": "2024-04-02T22:37:33.296Z",
+    "type": [
+      "echTerr"
+    ],
+    "code": "4",
+    "label": "inter-régionale terrestre, ou région marine",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:37:33.296Z",
+    "timestamp_update": "2024-04-02T22:37:33.296Z",
+    "type": [
+      "echTerr"
+    ],
+    "code": "5",
+    "label": "régionale terrestre, ou sous-région marine",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:37:33.296Z",
+    "timestamp_update": "2024-04-02T22:37:33.296Z",
+    "type": [
+      "echTerr"
+    ],
+    "code": "6",
+    "label": "départementale, ou secteur marin",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:37:33.296Z",
+    "timestamp_update": "2024-04-02T22:37:33.296Z",
+    "type": [
+      "echTerr"
+    ],
+    "code": "7",
+    "label": "communale ou locale",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:42:42.107Z",
+    "timestamp_update": "2024-04-02T22:42:42.107Z",
+    "type": [
+      "catDonnees"
+    ],
+    "code": "1",
+    "label": "taxons",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:42:42.107Z",
+    "timestamp_update": "2024-04-02T22:42:42.107Z",
+    "type": [
+      "catDonnees"
+    ],
+    "code": "2",
+    "label": "habitats",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:42:42.107Z",
+    "timestamp_update": "2024-04-02T22:42:42.107Z",
+    "type": [
+      "catDonnees"
+    ],
+    "code": "3",
+    "label": "géologiques",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:42:42.107Z",
+    "timestamp_update": "2024-04-02T22:42:42.107Z",
+    "type": [
+      "catDonnees"
+    ],
+    "code": "4",
+    "label": "autre",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:47:55.981Z",
+    "timestamp_update": "2024-04-02T22:47:55.981Z",
+    "type": [
+      "echVal"
+    ],
+    "code": "3",
+    "label": "validation nationale",
+    "description": "Validation scientifique effectuée par la plateforme nationale",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:47:55.981Z",
+    "timestamp_update": "2024-04-02T22:47:55.981Z",
+    "type": [
+      "echVal"
+    ],
+    "code": "2",
+    "label": "validation régionale",
+    "description": "validation scientifique effectuée par la plateforme régionale",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:48:38.867Z",
+    "timestamp_update": "2024-04-02T22:48:38.867Z",
+    "type": [
+      "etatBio"
+    ],
+    "code": "1",
+    "label": "blessé",
+    "description": "Par la chasse, la prédation, une chute…",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:48:38.867Z",
+    "timestamp_update": "2024-04-02T22:48:38.867Z",
+    "type": [
+      "etatBio"
+    ],
+    "code": "2",
+    "label": "vivant",
+    "description": "Spécimen observé vivant avant la mise en œuvre de la technique de collecte",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:48:38.867Z",
+    "timestamp_update": "2024-04-02T22:48:38.867Z",
+    "type": [
+      "etatBio"
+    ],
+    "code": "3",
+    "label": "mort",
+    "description": "Spécimen observé mort avant la mise en œuvre de la technique de collecte ",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:48:38.867Z",
+    "timestamp_update": "2024-04-02T22:48:38.867Z",
+    "type": [
+      "etatBio"
+    ],
+    "code": "4",
+    "label": "dégradé",
+    "description": "Pour flore et fonge (cueillette, piétinement, arrachage, fauche, etc.)",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "N",
+    "label": "Nord ",
+    "description": "348.75° - 11.25°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "NNO",
+    "label": "Nord-Nord-Ouest ",
+    "description": "326.25° - 348.75°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "NO",
+    "label": "Nord-Ouest",
+    "description": "303.75° - 326.25 °",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "ONO",
+    "label": "Ouest-Nord-Ouest",
+    "description": "281.25° - 303.75 °",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "O",
+    "label": "Ouest",
+    "description": "258.75° - 281.25°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "OSO",
+    "label": "Ouest-Sud-Ouest",
+    "description": "236.25° - 258.75°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "SO",
+    "label": "Sud-Ouest",
+    "description": "213.75° - 236.25°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "SSO",
+    "label": "Sud-Sud-Ouest",
+    "description": "191.25° - 213.75°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "S",
+    "label": "Sud",
+    "description": "168.75° - 191.25°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "SSE",
+    "label": "Sud-Sud-Est",
+    "description": "146.25° - 168.75°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "SE",
+    "label": "Sud-Est",
+    "description": "123.75°- 146.25°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "ESE",
+    "label": "Est-Sud-Est",
+    "description": "101.25° - 123.75°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "E",
+    "label": "Est",
+    "description": "78.75° - 101.25°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "ENE",
+    "label": "Est-Nord-Est",
+    "description": "56.25° - 78.75°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "NE",
+    "label": "Nord-Est",
+    "description": "33.75° - 56.25°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:49:50.891Z",
+    "timestamp_update": "2024-04-02T22:49:50.891Z",
+    "type": [
+      "exposition"
+    ],
+    "code": "NNE",
+    "label": "Nord-Nord-Est",
+    "description": "11.25° - 33.75°",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "1",
+    "label": "carcasse",
+    "description": "Peut avoir été déplacée",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "2",
+    "label": "coquille d’oeuf",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "3",
+    "label": "fèces",
+    "description": "Fientes, guano, épreintes",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "4",
+    "label": "galle",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "5",
+    "label": "abri",
+    "description": "Gîte, tanière, galerie, terrier, refuge",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "6",
+    "label": "mue de croissance",
+    "description": "Mue",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "7",
+    "label": "mue de métamorphose",
+    "description": "Exuvie, pupe, chrysalide",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "8",
+    "label": "nid",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "9",
+    "label": "odeur",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "10",
+    "label": "oosphère",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "11",
+    "label": "oothèque",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "12",
+    "label": "os",
+    "description": "Peut avoir été déplacé",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "13",
+    "label": "ovule",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "14",
+    "label": "pelote de réjection",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "15",
+    "label": "phanères",
+    "description": "Poils, plumes, phanères",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "16",
+    "label": "pollen",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "17",
+    "label": "restes dans pelote de réjection",
+    "description": "Détermination du taxon à partir de ses restes dans la pelote de réjection",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "18",
+    "label": "restes de repas",
+    "description": "Détermination du taxon ayant laissé les restes de repas",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "19",
+    "label": "spore",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:25.829Z",
+    "timestamp_update": "2024-04-02T22:50:25.829Z",
+    "type": [
+      "indPres"
+    ],
+    "code": "20",
+    "label": "traces",
+    "description": "Empreintes, griffures, marque de passage, mine…",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:54.041Z",
+    "timestamp_update": "2024-04-02T22:50:54.041Z",
+    "type": [
+      "methDenbr"
+    ],
+    "code": "Co",
+    "label": "compté",
+    "description": "Comptage précis",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:54.041Z",
+    "timestamp_update": "2024-04-02T22:50:54.041Z",
+    "type": [
+      "methDenbr"
+    ],
+    "code": "Es",
+    "label": "estimé",
+    "description": "Comptage approximatif ",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:50:54.041Z",
+    "timestamp_update": "2024-04-02T22:50:54.041Z",
+    "type": [
+      "methDenbr"
+    ],
+    "code": "Ex",
+    "label": "extrapolé",
+    "description": "Peut reposer sur un comptage précis puis un calcul. Exemple : dans un quadrat, comptage d’une section puis multiplication par le nombre de sections du quadrat",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:51:49.455Z",
+    "timestamp_update": "2024-04-02T22:51:49.455Z",
+    "type": [
+      "methDeterm"
+    ],
+    "code": "600",
+    "label": "externe1",
+    "description": "Morphologie externe sans manipulation",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:51:49.455Z",
+    "timestamp_update": "2024-04-02T22:51:49.455Z",
+    "type": [
+      "methDeterm"
+    ],
+    "code": "601",
+    "label": "externe2",
+    "description": "Morphologie externe avec manipulation ",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:51:49.455Z",
+    "timestamp_update": "2024-04-02T22:51:49.455Z",
+    "type": [
+      "methDeterm"
+    ],
+    "code": "602",
+    "label": "interne",
+    "description": "Morphologie interne",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:51:49.455Z",
+    "timestamp_update": "2024-04-02T22:51:49.455Z",
+    "type": [
+      "methDeterm"
+    ],
+    "code": "603",
+    "label": "sonore",
+    "description": "Émissions sonore",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:51:49.455Z",
+    "timestamp_update": "2024-04-02T22:51:49.455Z",
+    "type": [
+      "methDeterm"
+    ],
+    "code": "604",
+    "label": "chimie",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-02T22:51:49.455Z",
+    "timestamp_update": "2024-04-02T22:51:49.455Z",
+    "type": [
+      "methDeterm"
+    ],
+    "code": "605",
+    "label": "génétique",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:03:36.197Z",
+    "timestamp_update": "2024-04-03T21:03:36.197Z",
+    "type": [
+      "natObjGeo"
+    ],
+    "code": "In",
+    "label": "inventoriel",
+    "description": "Le taxon observé est présent quelque part dans l’objet géographique mais a une surface inférieure à celui-ci (il ne le recouvre pas intégralement)",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:03:36.197Z",
+    "timestamp_update": "2024-04-03T21:03:36.197Z",
+    "type": [
+      "natObjGeo"
+    ],
+    "code": "St",
+    "label": "stationnel",
+    "description": "Le taxon observé est présent sur l'ensemble de l'objet géographique et lui est de surface égale (il en recouvre l'intégralité)",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:17:30.091Z",
+    "timestamp_update": "2024-04-03T21:17:30.091Z",
+    "type": [
+      "nivValid"
+    ],
+    "code": "1",
+    "label": "certain",
+    "description": "Validation automatique : La donnée présente un haut niveau de vraisemblance (très majoritairement cohérente) selon le protocole automatique appliquée. Le résultat de la procédure correspond à la définition optimale de satisfaction de l’ensemble des critères du protocole automatique, par exemple, lorsque la localité correspond à la distribution déjà connue et que les autres paramètres écologiques (date de visibilité, altitude, etc.) sont dans la gamme habituelle de valeurs.\\nValidation manuelle : La donnée est exacte. Il n’y a pas de doute notable et significatif quant à l’exactitude de l’observation ou de la détermination de l'habitat. La validation a été réalisée notamment à partir d’une preuve de l’observation qui confirme la détermination du producteur ou après vérification auprès de l’observateur et/ou du déterminateur.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:17:30.091Z",
+    "timestamp_update": "2024-04-03T21:17:30.091Z",
+    "type": [
+      "nivValid"
+    ],
+    "code": "2",
+    "label": "probable",
+    "description": "Validation automatique : La donnée est cohérente et plausible selon le protocole automatique appliquée mais ne satisfait pas complètement (intégralement) l’ensemble des critères automatiques appliqués. La donnée présente une forte probabilité d’être juste. Elle ne présente aucune discordance majeure sur les critères jugés les plus importants mais elle satisfait seulement à un niveau intermédiaire un ou plusieurs des critères automatiques appliqués.\\nValidation manuelle : La donnée présente un bon niveau de fiabilité. Elle est vraisemblable et crédible. Il n’y a a priori aucune raison de douter de l’exactitude de la donnée mais il n’y a pas d’éléments complémentaires suffisants, disponibles ou évalués (notamment la présence d’une preuve ou la possibilité de revenir à la donnée source), permettant d’attribuer un plus haut niveau de certitude.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:17:30.091Z",
+    "timestamp_update": "2024-04-03T21:17:30.091Z",
+    "type": [
+      "nivValid"
+    ],
+    "code": "3",
+    "label": "douteux",
+    "description": "Validation automatique : La donnée concorde peu selon le protocole automatique appliquée. La donnée est peu cohérente ou incongrue. Elle ne satisfait pas, ou peu, un ou plusieurs des critères automatiques appliqués. Elle ne présente cependant pas de discordance majeure sur les critères jugés les plus importants qui permettraient d’attribuer le plus faible niveau de validité (invalide).\\nValidation manuelle : La donnée est peu vraisemblable ou surprenante mais on ne dispose pas d’éléments suffisants pour attester d’une erreur manifeste. La donnée est considérée comme douteuse.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:17:30.091Z",
+    "timestamp_update": "2024-04-03T21:17:30.091Z",
+    "type": [
+      "nivValid"
+    ],
+    "code": "4",
+    "label": "invalide",
+    "description": "Validation automatique : La donnée ne concorde pas selon le protocole automatique appliquée. Elle présente au moins une discordance majeure sur un des critères jugés les plus importants, ou la majorité des critères déterminants sont discordants. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques), donc invalide.\\nValidation manuelle : La donnée a été infirmée (erreur manifeste/avérée) ou présente un trop bas niveau de fiabilité. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques, la preuve révèle une erreur de détermination), donc invalide.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:17:30.091Z",
+    "timestamp_update": "2024-04-03T21:17:30.091Z",
+    "type": [
+      "nivValid"
+    ],
+    "code": "5",
+    "label": "non réalisable",
+    "description": "Validation automatique : La donnée a été soumise à l’ensemble du protocole de validation scientifique mais l’opérateur (machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon ou de l'habitat insuffisant, ou informations insuffisantes sur l’observation.\\nValidation manuelle : La donnée a été soumise à l’ensemble de la procédure de validation scientifique mais l’opérateur (humain ou machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon ou de l'habitat insuffisant, ou informations insuffisantes sur l’observation.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:19:16.746Z",
+    "timestamp_update": "2024-04-03T21:19:16.746Z",
+    "type": [
+      "objCA"
+    ],
+    "code": "8",
+    "label": "inventaires et cartographies",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:19:16.746Z",
+    "timestamp_update": "2024-04-03T21:19:16.746Z",
+    "type": [
+      "objCA"
+    ],
+    "code": "9",
+    "label": "suivi et surveillance dans le temps",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:19:16.746Z",
+    "timestamp_update": "2024-04-03T21:19:16.746Z",
+    "type": [
+      "objCA"
+    ],
+    "code": "10",
+    "label": "expérimentation et recherche",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:19:16.746Z",
+    "timestamp_update": "2024-04-03T21:19:16.746Z",
+    "type": [
+      "objCA"
+    ],
+    "code": "11",
+    "label": "multiples ou autres",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "CARP",
+    "label": "carpophore",
+    "description": "Pour la fonge",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "CLON",
+    "label": "clone",
+    "description": "Pour un organisme végétatif",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "COL",
+    "label": "colonie",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "CA",
+    "label": "contact acoustique",
+    "description": "Pour les chiroptères, cétacés, etc.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "CPL",
+    "label": "couple",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "HAM",
+    "label": "hampe florale",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "HER",
+    "label": "herbier massif",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "CLU",
+    "label": "indice de présence",
+    "description": "Voir valeurs de la nomenclature indicePrésenceValue. CLU = « clue », « indice »",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "IND",
+    "label": "individu",
+    "description": "Comprend oeuf",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "INF",
+    "label": "inflorescence",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "PON",
+    "label": "ponte",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "TIGE",
+    "label": "tige",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:25.696Z",
+    "timestamp_update": "2024-04-03T21:20:25.696Z",
+    "type": [
+      "objDenombr"
+    ],
+    "code": "TOUF",
+    "label": "touffe",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:53.836Z",
+    "timestamp_update": "2024-04-03T21:20:53.836Z",
+    "type": [
+      "periVal"
+    ],
+    "code": "2",
+    "label": "élargi",
+    "description": "Validation scientifique effectuée sur la base des attributs minimaux, à savoir la localisation, la date et le taxon, ainsi que des vérifications sur d'autres attributs, précisés dans la procédure de validation associée.",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:20:53.836Z",
+    "timestamp_update": "2024-04-03T21:20:53.836Z",
+    "type": [
+      "periVal"
+    ],
+    "code": "1",
+    "label": "minimal",
+    "description": "Validation scientifique effectuée sur la seule base des attributs minimaux, à savoir la localisation, la date et le taxon.",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "1",
+    "label": "sénescence",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "2",
+    "label": "dissémination",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "5",
+    "label": "estivation",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "3",
+    "label": "floraison",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "8",
+    "label": "fructification",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "6",
+    "label": "gestation",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "4",
+    "label": "hibernation",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "9",
+    "label": "hivernation",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "10",
+    "label": "migration",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "13",
+    "label": "végétatif",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "14",
+    "label": "dormance",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "15",
+    "label": "sporulation",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:26.611Z",
+    "timestamp_update": "2024-04-03T21:21:26.611Z",
+    "type": [
+      "phaseBio"
+    ],
+    "code": "16",
+    "label": "débourrement",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "1",
+    "label": "contact principal",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "2",
+    "label": "financeur",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "5",
+    "label": "fournisseur du jeu de données",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "4",
+    "label": "maître d’oeuvre",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "3",
+    "label": "maître d’ouvrage",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "7",
+    "label": "point de contact base de données de production",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "6",
+    "label": "producteur du jeu de données",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:21:51.760Z",
+    "timestamp_update": "2024-04-03T21:21:51.760Z",
+    "type": [
+      "roleActeur"
+    ],
+    "code": "8",
+    "label": "auteur de la modification",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:27.418Z",
+    "timestamp_update": "2024-04-03T21:22:27.418Z",
+    "type": [
+      "sexe"
+    ],
+    "code": "2",
+    "label": "femelle",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:27.418Z",
+    "timestamp_update": "2024-04-03T21:22:27.418Z",
+    "type": [
+      "sexe"
+    ],
+    "code": "4",
+    "label": "hermaphrodite",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:27.418Z",
+    "timestamp_update": "2024-04-03T21:22:27.418Z",
+    "type": [
+      "sexe"
+    ],
+    "code": "3",
+    "label": "mâle",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:27.418Z",
+    "timestamp_update": "2024-04-03T21:22:27.418Z",
+    "type": [
+      "sexe"
+    ],
+    "code": "5",
+    "label": "mixte",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:27.418Z",
+    "timestamp_update": "2024-04-03T21:22:27.418Z",
+    "type": [
+      "sexe"
+    ],
+    "code": "1",
+    "label": "non déterminable",
+    "description": "Pour le cas où l’on ne peut pas déterminer le sexe (observation trop courte ou trop lointaine par exemple, ou ne fournissant pas suffisamment d'éléments)",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:48.231Z",
+    "timestamp_update": "2024-04-03T21:22:48.231Z",
+    "type": [
+      "spontaneit"
+    ],
+    "code": "1",
+    "label": "sauvage|spontané",
+    "description": "Comprend féral (à l’intant t de l’observation, le spécimen est sauvage)",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:48.231Z",
+    "timestamp_update": "2024-04-03T21:22:48.231Z",
+    "type": [
+      "spontaneit"
+    ],
+    "code": "2",
+    "label": "cultivé|élevé",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:48.231Z",
+    "timestamp_update": "2024-04-03T21:22:48.231Z",
+    "type": [
+      "spontaneit"
+    ],
+    "code": "3",
+    "label": "planté",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:22:48.231Z",
+    "timestamp_update": "2024-04-03T21:22:48.231Z",
+    "type": [
+      "spontaneit"
+    ],
+    "code": "5",
+    "label": "échappé|subspontané",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "50",
+    "label": "adulte",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "70",
+    "label": "polype",
+    "description": "adulte",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "71",
+    "label": "méduse",
+    "description": "adulte",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "72",
+    "label": "éphyra",
+    "description": "adulte",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "90",
+    "label": "nouveau-né",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "55",
+    "label": "au nid",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "121",
+    "label": "de l’année",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "122",
+    "label": "foetus",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "110",
+    "label": "gamétophyte",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "74",
+    "label": "hydroïde",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "51",
+    "label": "juvénile",
+    "description": "stade juvénile non connu ",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "81",
+    "label": "juvénile I",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "82",
+    "label": "juvénile II",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "83",
+    "label": "juvénile III",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "84",
+    "label": "juvénile IV",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "85",
+    "label": "juvénile V",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "86",
+    "label": "juvénile VI",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "63",
+    "label": "manca",
+    "description": "juvénile",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "53",
+    "label": "larve",
+    "description": "stade larvaire non connu",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "64",
+    "label": "larve I (pronymphe)",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "66",
+    "label": "larve II",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "67",
+    "label": "larve III",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "68",
+    "label": "larve IV",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "69",
+    "label": "larve V",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "65",
+    "label": "prénymphe (prépupe)",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "76",
+    "label": "protolarve",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "77",
+    "label": "mésolarve",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "78",
+    "label": "métalarve",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "100",
+    "label": "copepodite I",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "101",
+    "label": "copepodite II",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "102",
+    "label": "copepodite III",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "103",
+    "label": "copepodite IV",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "104",
+    "label": "copepodite V",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "105",
+    "label": "copepodite VI",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "61",
+    "label": "nauplius",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "91",
+    "label": "métanaupluis",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "60",
+    "label": "zoé",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "92",
+    "label": "protozoé",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "73",
+    "label": "planula",
+    "description": "larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "112",
+    "label": "macrothallus",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "113",
+    "label": "microthallus",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "57",
+    "label": "nymphe (chrysalide/pupe)",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "52",
+    "label": "oeuf",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "54",
+    "label": "post-larve",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "62",
+    "label": "megalopa",
+    "description": "post-larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "80",
+    "label": "cypris",
+    "description": "post-larve",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "111",
+    "label": "sporophyte",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:23:59.908Z",
+    "timestamp_update": "2024-04-03T21:23:59.908Z",
+    "type": [
+      "stadeBio"
+    ],
+    "code": "56",
+    "label": "subadulte (subimago)",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:24:28.269Z",
+    "timestamp_update": "2024-04-03T21:24:28.269Z",
+    "type": [
+      "statutObs"
+    ],
+    "code": "1",
+    "label": "absent",
+    "description": "Non observation du taxon, il est recherché mais non trouvé.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:24:28.269Z",
+    "timestamp_update": "2024-04-03T21:24:28.269Z",
+    "type": [
+      "statutObs"
+    ],
+    "code": "2",
+    "label": "présent",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:24:55.119Z",
+    "timestamp_update": "2024-04-03T21:24:55.119Z",
+    "type": [
+      "statOriDon"
+    ],
+    "code": "1",
+    "label": "public",
+    "description": "Toute acquisition avec un financement public, même en partie",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:24:55.119Z",
+    "timestamp_update": "2024-04-03T21:24:55.119Z",
+    "type": [
+      "statOriDon"
+    ],
+    "code": "2",
+    "label": "privé",
+    "description": "Toute acquisition non publique. Comprend le non financement et le mécénat",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:24:55.119Z",
+    "timestamp_update": "2024-04-03T21:24:55.119Z",
+    "type": [
+      "statOriDon"
+    ],
+    "code": "3",
+    "label": "mixte",
+    "description": "Le jeu de données mélange des données d’origine publique et privée",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:14.905Z",
+    "timestamp_update": "2024-04-03T21:25:14.905Z",
+    "type": [
+      "statSocial"
+    ],
+    "code": "1",
+    "label": "dominant",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:14.905Z",
+    "timestamp_update": "2024-04-03T21:25:14.905Z",
+    "type": [
+      "statSocial"
+    ],
+    "code": "2",
+    "label": "matriarche",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:14.905Z",
+    "timestamp_update": "2024-04-03T21:25:14.905Z",
+    "type": [
+      "statSocial"
+    ],
+    "code": "3",
+    "label": "ouvrière",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:14.905Z",
+    "timestamp_update": "2024-04-03T21:25:14.905Z",
+    "type": [
+      "statSocial"
+    ],
+    "code": "4",
+    "label": "reine",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:14.905Z",
+    "timestamp_update": "2024-04-03T21:25:14.905Z",
+    "type": [
+      "statSocial"
+    ],
+    "code": "5",
+    "label": "soldat",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:14.905Z",
+    "timestamp_update": "2024-04-03T21:25:14.905Z",
+    "type": [
+      "statSocial"
+    ],
+    "code": "6",
+    "label": "subordonné",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:14.905Z",
+    "timestamp_update": "2024-04-03T21:25:14.905Z",
+    "type": [
+      "statSocial"
+    ],
+    "code": "7",
+    "label": "princesse",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:41.692Z",
+    "timestamp_update": "2024-04-03T21:25:41.692Z",
+    "type": [
+      "statSource"
+    ],
+    "code": "Co",
+    "label": "collection",
+    "description": "Données issues de collection",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:41.692Z",
+    "timestamp_update": "2024-04-03T21:25:41.692Z",
+    "type": [
+      "statSource"
+    ],
+    "code": "Li",
+    "label": "littérature",
+    "description": "Données issues de la littérature (comprend les publications scientifiques)",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:41.692Z",
+    "timestamp_update": "2024-04-03T21:25:41.692Z",
+    "type": [
+      "statSource"
+    ],
+    "code": "Mo",
+    "label": "modélisation",
+    "description": "Données issues d’une modélisation",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:41.692Z",
+    "timestamp_update": "2024-04-03T21:25:41.692Z",
+    "type": [
+      "statSource"
+    ],
+    "code": "NSP",
+    "label": "ne sait pas",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:25:41.692Z",
+    "timestamp_update": "2024-04-03T21:25:41.692Z",
+    "type": [
+      "statSource"
+    ],
+    "code": "Te",
+    "label": "terrain",
+    "description": "Données collectées sur le terrain et consultées via un carnet de terrain ou une base de données producteur. Ces données ont pu être collectées avec l’aide d’une machine (capture photo ou vidéo) ou non.",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "CLI",
+    "label": "Clipperton",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "GLP",
+    "label": "Guadeloupe",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "GUF",
+    "label": "Guyane française",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "HORSFR",
+    "label": "Hors territoire",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "MTQ",
+    "label": "Martinique",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "MYT",
+    "label": "Mayotte",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "METROP",
+    "label": "Métropole",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "NCL",
+    "label": "Nouvelle-Calédonie",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "PYF",
+    "label": "Polynésie française",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "REU",
+    "label": "Réunion",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "BLM",
+    "label": "Saint-Barthélémy",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "MAF",
+    "label": "Saint-Martin",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "SPM",
+    "label": "Saint-Pierre et Miquelon",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "TAAF",
+    "label": "Terres australes et antarctiques françaises",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "EPA",
+    "label": "Taaf Iles Éparses",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "SUBANT",
+    "label": "Taaf Iles Sub-Antarctiques",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "TADL",
+    "label": "Taaf Terre-Adélie",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:09.442Z",
+    "timestamp_update": "2024-04-03T21:26:09.442Z",
+    "type": [
+      "territoire"
+    ],
+    "code": "WLF",
+    "label": "Wallis-Et-Futuna",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:34.388Z",
+    "timestamp_update": "2024-04-03T21:26:34.388Z",
+    "type": [
+      "textureSol"
+    ],
+    "code": "1",
+    "label": "Argileux ",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:34.388Z",
+    "timestamp_update": "2024-04-03T21:26:34.388Z",
+    "type": [
+      "textureSol"
+    ],
+    "code": "2",
+    "label": "Argilo-sableux",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:34.388Z",
+    "timestamp_update": "2024-04-03T21:26:34.388Z",
+    "type": [
+      "textureSol"
+    ],
+    "code": "3",
+    "label": "Limono-argileux ",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:34.388Z",
+    "timestamp_update": "2024-04-03T21:26:34.388Z",
+    "type": [
+      "textureSol"
+    ],
+    "code": "4",
+    "label": "Limono-sableux ",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:34.388Z",
+    "timestamp_update": "2024-04-03T21:26:34.388Z",
+    "type": [
+      "textureSol"
+    ],
+    "code": "5",
+    "label": "Limoneux demi-fin",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:34.388Z",
+    "timestamp_update": "2024-04-03T21:26:34.388Z",
+    "type": [
+      "textureSol"
+    ],
+    "code": "6",
+    "label": "Sableux ",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:34.388Z",
+    "timestamp_update": "2024-04-03T21:26:34.388Z",
+    "type": [
+      "textureSol"
+    ],
+    "code": "7",
+    "label": "Limoneux fin",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:55.020Z",
+    "timestamp_update": "2024-04-03T21:26:55.020Z",
+    "type": [
+      "typControl"
+    ],
+    "code": "1",
+    "label": "Contrôle de conformité et de cohérence des métadonnées du jeu de données",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:26:55.020Z",
+    "timestamp_update": "2024-04-03T21:26:55.020Z",
+    "type": [
+      "typControl"
+    ],
+    "code": "2",
+    "label": "Contrôle de conformité et de cohérence des données du jeu de données",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:26.274Z",
+    "timestamp_update": "2024-04-03T21:27:26.274Z",
+    "type": [
+      "typDonnees"
+    ],
+    "code": "1",
+    "label": "données source",
+    "description": "Données brutes",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:26.274Z",
+    "timestamp_update": "2024-04-03T21:27:26.274Z",
+    "type": [
+      "typDonnees"
+    ],
+    "code": "2",
+    "label": "données d’observation",
+    "description": "Données normalisées",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:26.274Z",
+    "timestamp_update": "2024-04-03T21:27:26.274Z",
+    "type": [
+      "typDonnees"
+    ],
+    "code": "3",
+    "label": "données intermédiaires",
+    "description": "Données élaborées, de synthèse",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:26.274Z",
+    "timestamp_update": "2024-04-03T21:27:26.274Z",
+    "type": [
+      "typDonnees"
+    ],
+    "code": "4",
+    "label": "indicateur",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "2",
+    "label": "est un prédateur de ",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "3",
+    "label": "acquiert des nutriments par (y compris herbivorie)",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "42",
+    "label": "interagit mutuellement avec",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "83",
+    "label": "est endosymbiote de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "141",
+    "label": "est ectosymbiote de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "4",
+    "label": "est un pollinisateur de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "1",
+    "label": "est parasite de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "62",
+    "label": "est endoparasite de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "61",
+    "label": "est ectoparasite de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "161",
+    "label": "est cleptoparasite de ",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "121",
+    "label": "induit des galles chez",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "6",
+    "label": "est parasitoïde de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "41",
+    "label": "est commensal de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "5",
+    "label": "est un disperseur de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "101",
+    "label": "est phorétique de",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:27:58.266Z",
+    "timestamp_update": "2024-04-03T21:27:58.266Z",
+    "type": [
+      "typInterac"
+    ],
+    "code": "21",
+    "label": "est associé à",
+    "description": "",
+    "active": false,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "1",
+    "label": "collectivité d’outre-mer",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "2",
+    "label": "commune",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "3",
+    "label": "département",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "5",
+    "label": "géométrie",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "4",
+    "label": "grille européenne 10km x 10km",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "6",
+    "label": "grille nationale 10km x 10km",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "7",
+    "label": "grille nationale 5km x 5km",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "8",
+    "label": "grille nationale 1km x 1km",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "9",
+    "label": "zonage marin ",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "10",
+    "label": "territoire",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "11",
+    "label": "région",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "12",
+    "label": "grille nationale 50km x 50km",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "13",
+    "label": "grille nationale 20km x 20km",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "14",
+    "label": "grille nationale 2km x 2km",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:22.944Z",
+    "timestamp_update": "2024-04-03T21:28:22.944Z",
+    "type": [
+      "typLocal"
+    ],
+    "code": "15",
+    "label": "intercommunalités",
+    "description": "",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:44.460Z",
+    "timestamp_update": "2024-04-03T21:28:44.460Z",
+    "type": [
+      "typVal"
+    ],
+    "code": "A",
+    "label": "automatique",
+    "description": "Résulte d’une validation automatique",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:44.460Z",
+    "timestamp_update": "2024-04-03T21:28:44.460Z",
+    "type": [
+      "typVal"
+    ],
+    "code": "C",
+    "label": "combinée",
+    "description": "Résulte de la combinaison d’une validation automatique et d’une validation manuelle",
+    "active": true,
+    "parent": null
+  }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2024-04-03T21:28:44.460Z",
+    "timestamp_update": "2024-04-03T21:28:44.460Z",
+    "type": [
+      "typVal"
+    ],
+    "code": "M",
+    "label": "manuelle",
+    "description": "Résulte d’une validation manuelle (intervention d’un expert)",
+    "active": true,
+    "parent": null
+  }
+}
+]

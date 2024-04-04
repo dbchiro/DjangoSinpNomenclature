@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """Django SINP Nomenclatures API serializers"""
 
 from rest_framework.serializers import ModelSerializer
@@ -12,7 +11,7 @@ class NomenclatureSerializer(ModelSerializer):
 
     class Meta:
         model = Nomenclature
-        fields = ["id", "code", "mnemonic", "label", "type"]
+        fields = ["id", "code", "label", "type", "parent"]
 
 
 class TypeSerializer(ModelSerializer):

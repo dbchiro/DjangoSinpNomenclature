@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## 1.0.0 - 2024-04-04
+
+- Migrate to new SINP Standard ([Dictionnaire de données du SINP v1.0 - Mai 2023](https://inpn.mnhn.fr/docs-web/docs/download/421821))
+- Improve natural key functions
+- Import new official SINP nomenclatures
+
 ## 0.3.0 - 2024-03-26
 
 - Add natural primary keys to models

@@ -5,9 +5,10 @@ description = "Django app to manage french SINP nomenclatures standards"
 authors = ["dbChiro project <project@dbchiro.org>"]
 license = "AGPLv3"
 keywords = ["SINP", "Nomenclatures", "Django", "France", "dbChiroWeb"]
-readme = "README.rst"
+readme = "README.md"
 homepage = "https://github.com/dbchiro/DjangoSinpNomenclature"
 repository = "https://github.com/dbchiro/DjangoSinpNomenclature"
+documentation = "https://dbchiro.github.io/DjangoSinpNomenclature/"
 include = ["LICENSE"]
 packages = [{ include = "sinp_nomenclatures" }]
 

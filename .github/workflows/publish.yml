@@ -1,4 +1,4 @@
-name: Python package
+name: "🎁 Publish python package"
 on:
   push:
     tags:
@@ -12,12 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: install deps
-        run: |
-          sudo apt update && sudo apt install -y libgraphviz-dev
       - name: Build and publish to pypi
         uses: JRubics/poetry-publish@v2.0
         with:
           pypi_token: ${{ secrets.PYPI_TOKEN }}
           python_version: ${{ env.PYTHON_VERSION }}
-          poetry_install_options: --without dev
+          ignore_dev_requirements: "yes"

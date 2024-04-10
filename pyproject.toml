@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj_sinp_nomenclatures"
-version = "1.0.0"
+version = "1.0.1"
 description = "Django app to manage french SINP nomenclatures standards"
 authors = ["dbChiro project <project@dbchiro.org>"]
 license = "AGPLv3"
@@ -28,12 +28,13 @@ psycopg2-binary = "^2.9.9"
 drf-yasg = "^1.21.7"
 django-fixture-magic = "^0.1.5"
 pygraphviz = "^1.11"
-django-extensions = "^3.2.1"
 flake8-pyproject = "^1.2.3"
 pylint = "^3.0.3"
 pylint-django = "^2.5.5"
 dj-database-url = "^2.1.0"
 bpython = "^0.24"
+coverage = "^7.4.4"
+django-extensions = "^3.2.3"
 
 [tool.poetry.group.docs.dependencies]
 sphinx = "^6"

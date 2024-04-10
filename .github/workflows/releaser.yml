@@ -3,7 +3,7 @@ name: "🚀 Releaser"
 on:
   push:
     tags:
-      - "*"
+      - "*.*.*"
 
 # env:
 #   PROJECT_FOLDER: "plugin_qgis_lpo"
@@ -27,14 +27,11 @@ jobs:
       #  -----  Install dependencies  -----
       #------------------------------------
       - name: Install dependencies
-        run: |
-          sudo apt update && sudo apt install -y libgraphviz-dev
-          poetry install
+        run: poetry install
 
       - name: Create changelog diff
         id: changelog_diff
         run: |
-          echo $GITHUB_REF
           sed -n "/^## \[${GITHUB_REF/refs\/tags\//}\]/,/^## \[$(git describe --abbrev=0 --tags $(git rev-list --tags --skip=1 --max-count=1))\]/{/^## \[$(git describe --abbrev=0 --tags $(git rev-list --tags --skip=1 --max-count=1))\]/!p;}" CHANGELOG.md > release.md
         # - name: Create release
         # id: create_release

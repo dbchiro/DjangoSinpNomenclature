@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.0.1 - 2024-04-11
+
+- Improve tests
+- Improve github actions
+
 ## 1.0.0 - 2024-04-04
 
 - Migrate to new SINP Standard ([Dictionnaire de données du SINP v1.0 - Mai 2023](https://inpn.mnhn.fr/docs-web/docs/download/421821))

@@ -6,10 +6,11 @@ repos:
       rev: v4.5.0
       hooks:
           - id: check-added-large-files
-            args: ['--maxkb=500']
+            args: ['--maxkb=10000']
           - id: check-case-conflict
           - id: check-xml
           - id: check-yaml
+          - id: check-json
           - id: detect-private-key
           - id: end-of-file-fixer
           - id: fix-byte-order-marker

@@ -41,3 +41,5 @@ urlpatterns = [
 5. Run `python manage.py loaddata <path to venv>/lib/<python version>/site-packages/sinp_nomenclatures/fixtures/sinp_dict_data_v1.0.json` to load official nomenclatures.
 5. Start the development server and visit <http://127.0.0.1:8000/admin/>
    to create an nomenclatures (you'll need the Admin app enabled).
+
+![models](./models.png)

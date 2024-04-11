@@ -2,9 +2,10 @@ name: "👓 Run tests"
 
 on:
   push:
-    branches: ["main"]
+    # branches: [ $default-branch ]
+    branches: [$default-branch, "dev"]
   pull_request:
-    branches: ["main"]
+    branches: [$default-branch, "dev"]
 
 jobs:
   build:
@@ -37,7 +38,7 @@ jobs:
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
         with:
-          slug: dbchiro/DjangoSinpOrganisms
+          slug: dbchiro/DjangoSinpNomenclature
           file: ./coverage.xml
       # - name: Run test server
       #   env:

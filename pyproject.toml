@@ -16,7 +16,7 @@ packages = [{ include = "sinp_nomenclatures" }]
 python = ">=3.8.1,<4.0"
 Django = ">=3.2,<5.0"
 djangorestframework = ">=3.0,<4.0"
-django-filter = "^23.5"
+django-filter = ">=23.5,<25.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.12.1"

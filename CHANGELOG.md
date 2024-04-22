@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.1.0 - 2024-04-22
+
+- Reset migrations du to breaking migratio system on child modules (sinp_organisms)
+- Update dependencies
+
 ## 1.0.1 - 2024-04-11
 
 - Improve tests

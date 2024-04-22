@@ -19,7 +19,7 @@ djangorestframework = ">=3.0,<4.0"
 django-filter = ">=23.5,<25.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.12.1"
+black = ">=23.12.1,<25.0.0"
 isort = "^5.13.2"
 flake8 = "^6.1.0"
 flake8-isort = "^6.1.1"

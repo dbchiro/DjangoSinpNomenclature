@@ -40,12 +40,12 @@ jobs:
       #--------  run isort  ---------
       #------------------------------
       - name: Format check with isort
-        run: poetry run isort --check sinp_organisms --profile black
+        run: poetry run isort --check sinp_nomenclatures --profile black
       #------------------------------
       #--------  run black  ---------
       #------------------------------
       - name: Format check with black
-        run: poetry run black --check sinp_organisms
+        run: poetry run black --check sinp_nomenclatures
       #--------------------------------
       #--------  run linters  ---------
       #--------------------------------

@@ -4,6 +4,7 @@
 
 import logging
 
+from django.db.models import Prefetch
 from django_filters.rest_framework import DjangoFilterBackend
 
 # from django.contrib.auth.mixins import LoginRequiredMixin
@@ -26,9 +27,9 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
 
     serializer_class = NomenclatureSerializer
     permission_classes = [IsAuthenticated]
-    queryset = Nomenclature.objects.filter(active=True).all()
+    queryset = Nomenclature.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["type", "code"]
+    filterset_fields = ["type", "code", "active"]
 
 
 class TypeViewset(ReadOnlyModelViewSet):
@@ -49,6 +50,29 @@ class TypeViewset(ReadOnlyModelViewSet):
             if with_nomenclatures
             else TypeSerializer
         )
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        with_nomenclatures = self.request.query_params.get(
+            "with_nomenclatures", default=False
+        )
+        active = self.request.query_params.get("active", default=None)
+        if with_nomenclatures and active:
+            if active.lower() in ["true", "1", "t", "y", "yes"]:
+                qs = qs.prefetch_related(
+                    Prefetch(
+                        "nomenclatures",
+                        queryset=Nomenclature.objects.filter(active=True),
+                    )
+                )
+            if active.lower() in ["false", "0", "f", "n", "no"]:
+                qs = qs.prefetch_related(
+                    Prefetch(
+                        "nomenclatures",
+                        queryset=Nomenclature.objects.filter(active=False),
+                    )
+                )
+        return qs
 
 
 class SourceViewset(ReadOnlyModelViewSet):

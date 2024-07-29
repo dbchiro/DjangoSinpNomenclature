@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.2.0 - 2024-06-29
+
+- Add filter on active nomenclatures (values are `yes`,`no`,`all`)
+
 ## 1.1.0 - 2024-04-22
 
 - Reset migrations du to breaking migratio system on child modules (sinp_organisms)

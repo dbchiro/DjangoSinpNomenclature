@@ -1,6 +1,10 @@
 # CHANGELOG
 
-## 1.2.0 - 2024-06-29
+## 1.2.1 - 2024-07-31
+
+- Clarify docs on how to install SINP nomenclatures
+
+## 1.2.0 - 2024-07-29
 
 - Add filter on active nomenclatures (values are `yes`,`no`,`all`)
 

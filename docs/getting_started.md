@@ -2,7 +2,6 @@
 
 ## Available endpoints
 
-- `/nomenclatures/sources` > list all sources
 - `nomenclatures/sources` > list all sources
 - `nomenclatures/sources/<pk>` > get one nomenclature by id
 - `nomenclatures/types` > list all nomenclature types
@@ -53,7 +52,17 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     (...),
     path('', include('sinp_nomenclatures.urls')),
-    path('', include('sinp_organisms.urls')),
     (...),
 ]
+```
+
+## Install SINP data dictionnary V1.0
+
+source:&nbsp;: https://www.patrinat.fr/sites/patrinat/files/part_docs/DictionnaireDonn%C3%A9esSINP_V1.0.pdf
+
+French SINP data dictionnary (v1.0) are provided within a fixture.
+Those data can be loaded with this command:
+
+```bash
+manage.py loaddata sinp_dict_data_v1.0.json
 ```

@@ -11,7 +11,7 @@ class NomenclatureSerializer(ModelSerializer):
 
     class Meta:
         model = Nomenclature
-        fields = ["id", "code", "label", "type", "parent", "active"]
+        fields = ["id", "code", "label", "type", "parent", "status"]
 
 
 class TypeSerializer(ModelSerializer):

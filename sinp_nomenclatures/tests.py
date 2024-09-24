@@ -50,13 +50,13 @@ class SourceTestCase(TestCase):
             type=typ1,
             code="nom1",
             label="Nomenclature 1",
-            active=True,
+            status="ENABLED",
         )
         self.nom_child1 = Nomenclature.objects.create(
             type=typ1,
             code="nom2",
             label="Nomenclature 2",
-            active=True,
+            status="ENABLED",
             parent=self.nom_parent1,
         )
 

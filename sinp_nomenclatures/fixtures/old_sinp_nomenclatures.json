@@ -233,7 +233,7 @@
     "mnemonic": "observer",
     "label": "Observateur",
     "description": "Permet de saisir des observations associées à son organisme",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -247,7 +247,7 @@
     "mnemonic": "validator",
     "label": "Validateur",
     "description": "Permet de valider les observations associées à son organisme",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -261,7 +261,7 @@
     "mnemonic": "manager",
     "label": "Gestionnaire",
     "description": "Permet la gestion des comptes et des métadonnées liés à ses organisme",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -275,7 +275,7 @@
     "mnemonic": "priv",
     "label": "Privé",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -289,7 +289,7 @@
     "mnemonic": "pub",
     "label": "Public",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -303,7 +303,7 @@
     "mnemonic": "unk",
     "label": "Inconnu",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -317,7 +317,7 @@
     "mnemonic": "12",
     "label": "Autre",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -331,7 +331,7 @@
     "mnemonic": "11",
     "label": "Capture-suivi (radiotracking)",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -345,7 +345,7 @@
     "mnemonic": "10",
     "label": "Capture marquage recapture",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -359,7 +359,7 @@
     "mnemonic": "9",
     "label": "Capture-conservation d'individus",
     "description": "Prélèvement (capture avec collecte d'échantillon): capture-conservation",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -373,7 +373,7 @@
     "mnemonic": "8",
     "label": "Capture-relâcher d'individus",
     "description": "(sans capture d'échantillon) : capture-relâcher",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -387,7 +387,7 @@
     "mnemonic": "7",
     "label": "Télémétrie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -401,7 +401,7 @@
     "mnemonic": "6",
     "label": "Télédétection",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -415,7 +415,7 @@
     "mnemonic": "5",
     "label": "Photographies aériennes",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -429,7 +429,7 @@
     "mnemonic": "4",
     "label": "label",
     "description": "Recherche d'indices de présence",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -443,7 +443,7 @@
     "mnemonic": "3",
     "label": "Détection d'ultrasons",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -457,7 +457,7 @@
     "mnemonic": "2",
     "label": "Pièges photo",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -471,7 +471,7 @@
     "mnemonic": "1",
     "label": "Observation directe",
     "description": "Observation directe : Vue, écoute, olfactive, tactile",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -485,7 +485,7 @@
     "mnemonic": "7",
     "label": "Communal ou local",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -499,7 +499,7 @@
     "mnemonic": "6",
     "label": "Départemental, ou secteur marin",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -513,7 +513,7 @@
     "mnemonic": "5",
     "label": "Régional terrestre, ou sous-région marine",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -527,7 +527,7 @@
     "mnemonic": "4",
     "label": "Inter-régional terrestre ou région marine",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -541,7 +541,7 @@
     "mnemonic": "3",
     "label": "National",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -555,7 +555,7 @@
     "mnemonic": "2",
     "label": "Européen",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -569,7 +569,7 @@
     "mnemonic": "1",
     "label": "International",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -583,7 +583,7 @@
     "mnemonic": "4",
     "label": "Non financé",
     "description": "Absence de financement",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -597,7 +597,7 @@
     "mnemonic": "3",
     "label": "Mixte",
     "description": "Mélange de financement public et privé",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -611,7 +611,7 @@
     "mnemonic": "2",
     "label": "Privée",
     "description": "Financement privé",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -625,7 +625,7 @@
     "mnemonic": "1",
     "label": "Publique",
     "description": "Financement publique",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -639,7 +639,7 @@
     "mnemonic": "7",
     "label": "Point de contact base de données de production",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -653,7 +653,7 @@
     "mnemonic": "6",
     "label": "Producteur du jeu de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -667,7 +667,7 @@
     "mnemonic": "5",
     "label": "Fournisseur du jeu de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -681,7 +681,7 @@
     "mnemonic": "4",
     "label": "Maître d'oeuvre",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -695,7 +695,7 @@
     "mnemonic": "3",
     "label": "Maître d'ouvrage",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -709,7 +709,7 @@
     "mnemonic": "2",
     "label": "Financeur",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -723,7 +723,7 @@
     "mnemonic": "1",
     "label": "Contact principal",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -737,7 +737,7 @@
     "mnemonic": "HORSFR",
     "label": "Hors territoire",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -751,7 +751,7 @@
     "mnemonic": "TADL",
     "label": "TAAF: Terre-Adélie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -765,7 +765,7 @@
     "mnemonic": "SUBANT",
     "label": "TAAF: Iles sub-Antartiques",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -779,7 +779,7 @@
     "mnemonic": "EPA",
     "label": "TAAF: Iles Eparses",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -793,7 +793,7 @@
     "mnemonic": "CLI",
     "label": "Clipperton",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -807,7 +807,7 @@
     "mnemonic": "PYF",
     "label": "Polynésie française",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -821,7 +821,7 @@
     "mnemonic": "WLF",
     "label": "Wallis-et-Futuna",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -835,7 +835,7 @@
     "mnemonic": "NCL",
     "label": "Nouvelle-Calédonie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -849,7 +849,7 @@
     "mnemonic": "REU",
     "label": "Réunion",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -863,7 +863,7 @@
     "mnemonic": "MYT",
     "label": "Mayotte",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -877,7 +877,7 @@
     "mnemonic": "BLM",
     "label": "Saint-Barthélemy",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -891,7 +891,7 @@
     "mnemonic": "MAF",
     "label": "Saint-Martin",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -905,7 +905,7 @@
     "mnemonic": "GLP",
     "label": "Guadeloupe",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -919,7 +919,7 @@
     "mnemonic": "MTQ",
     "label": "Martinique",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -933,7 +933,7 @@
     "mnemonic": "GUF",
     "label": "Guyane française",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -947,7 +947,7 @@
     "mnemonic": "METROP",
     "label": "Métropole",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -961,7 +961,7 @@
     "mnemonic": "11",
     "label": "Multiples ou autres",
     "description": "l’acquisition des données est réalisée avec une démarche propre faisant intervenir plusieurs démarches préalablement décrites",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -975,7 +975,7 @@
     "mnemonic": "10",
     "label": "Expérimentation/recherche",
     "description": "l’acquisition des données est réalisée avec une démarche d’amélioration de la connaissance scientifique ciblée sur une ou plusieurs questions précises (de la description des patrons de biodiversité à l’expérimentation pour expliquer les processus ou démontrer des relations causales de type « avant/après » (effet de la gestion, mécanismes etc.)). L’expérimentation et la recherche de type purement « observationnelle » ou « corrélative » doivent figurer dans les catégories « inventaires » ou « suivis/surveillance ».",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -989,7 +989,7 @@
     "mnemonic": "9",
     "label": "Suivi/surveillance dans le temps",
     "description": "l’acquisition des données d’occurrence est réalisée avec un dispositif de collecte comprenant une répétition de l’acquisition au cours du temps. La démarche permet une comparaison d’un état entre différentes périodes pour un ou plusieurs objets de biodiversité. Elle est mise en place en lien avec une thématique prédéterminée (biologie de la conservation, changements globaux, ...).",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1003,7 +1003,7 @@
     "mnemonic": "8",
     "label": "Inventaires et cartographie",
     "description": "l’acquisition des données d’occurrence est réalisée avec la démarche d’avoir des informations sur la présence/absence ou effectif/abondance (dénombrement...) d’un ou de plusieurs objets de biodiversité. Le dispositif de collecte est établi pour avoir une représentation spatiale de la répartition d’un ou de plusieurs objets de biodiversité à des dates ou des périodes prédéfinies.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1017,7 +1017,7 @@
     "mnemonic": "7",
     "label": "Regroupements et autres études",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1031,7 +1031,7 @@
     "mnemonic": "6",
     "label": "Evolution espace",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1045,7 +1045,7 @@
     "mnemonic": "5",
     "label": "Evolution temporelle",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1059,7 +1059,7 @@
     "mnemonic": "4",
     "label": "Evaluation interaction",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1073,7 +1073,7 @@
     "mnemonic": "3",
     "label": "Inventaire logique espace",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1087,7 +1087,7 @@
     "mnemonic": "2",
     "label": "Inventaire habitat centré",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1101,7 +1101,7 @@
     "mnemonic": "1",
     "label": "Inventaire espèce",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1115,7 +1115,7 @@
     "mnemonic": "unknow",
     "label": "Inconnu",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1129,7 +1129,7 @@
     "mnemonic": "reg",
     "label": "Régional",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1143,7 +1143,7 @@
     "mnemonic": "supreg",
     "label": "Supra régional",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1157,7 +1157,7 @@
     "mnemonic": "nat",
     "label": "national",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1171,7 +1171,7 @@
     "mnemonic": "eu",
     "label": "Européen",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1185,7 +1185,7 @@
     "mnemonic": "94",
     "label": "Corse",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1199,7 +1199,7 @@
     "mnemonic": "93",
     "label": "Provence-Alpes-Côte d'Azur",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1213,7 +1213,7 @@
     "mnemonic": "91",
     "label": "Languedoc-Roussillon",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1227,7 +1227,7 @@
     "mnemonic": "84",
     "label": "Auvergne-Rhône-Alpes",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1241,7 +1241,7 @@
     "mnemonic": "83",
     "label": "Auvergne",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1255,7 +1255,7 @@
     "mnemonic": "82",
     "label": "Rhône-Alpes",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1269,7 +1269,7 @@
     "mnemonic": "76",
     "label": "Languedoc-Roussillon-Midi-Pyrénées",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1283,7 +1283,7 @@
     "mnemonic": "75",
     "label": "Aquitaine-Limousin-Poitou-Charentes",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1297,7 +1297,7 @@
     "mnemonic": "74",
     "label": "Limousin",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1311,7 +1311,7 @@
     "mnemonic": "73",
     "label": "Midi-Pyrénées",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1325,7 +1325,7 @@
     "mnemonic": "72",
     "label": "Aquitaine",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1339,7 +1339,7 @@
     "mnemonic": "54",
     "label": "Poitou-Charentes",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1353,7 +1353,7 @@
     "mnemonic": "53",
     "label": "Bretagne",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1367,7 +1367,7 @@
     "mnemonic": "52",
     "label": "Pays de la Loire",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1381,7 +1381,7 @@
     "mnemonic": "44",
     "label": "Alsace-Champagne-Ardenne-Lorraine",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1395,7 +1395,7 @@
     "mnemonic": "43",
     "label": "Franche-Comté",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1409,7 +1409,7 @@
     "mnemonic": "42",
     "label": "Alsace",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1423,7 +1423,7 @@
     "mnemonic": "41",
     "label": "Lorraine",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1437,7 +1437,7 @@
     "mnemonic": "32",
     "label": "Nord-Pas-de-Calais-Picardie",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1451,7 +1451,7 @@
     "mnemonic": "31",
     "label": "Nord-Pas-de-Calais",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1465,7 +1465,7 @@
     "mnemonic": "28",
     "label": "Normandie",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1479,7 +1479,7 @@
     "mnemonic": "27",
     "label": "Bourgogne-Franche-Comté",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1493,7 +1493,7 @@
     "mnemonic": "26",
     "label": "Bourgogne",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1507,7 +1507,7 @@
     "mnemonic": "25",
     "label": "Basse-Normandie",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1521,7 +1521,7 @@
     "mnemonic": "24",
     "label": "Centre-Val de Loire",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1535,7 +1535,7 @@
     "mnemonic": "23",
     "label": "Haute-Normandie",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1549,7 +1549,7 @@
     "mnemonic": "22",
     "label": "Picardie",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1563,7 +1563,7 @@
     "mnemonic": "21",
     "label": "Champagne-Ardenne",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1577,7 +1577,7 @@
     "mnemonic": "11",
     "label": "Île-de-France",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1591,7 +1591,7 @@
     "mnemonic": "06",
     "label": "Mayotte",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1605,7 +1605,7 @@
     "mnemonic": "04",
     "label": "La Réunion",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1619,7 +1619,7 @@
     "mnemonic": "03",
     "label": "Guyane",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1633,7 +1633,7 @@
     "mnemonic": "02",
     "label": "Martinique",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1647,7 +1647,7 @@
     "mnemonic": "01",
     "label": "Guadeloupe",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1661,7 +1661,7 @@
     "mnemonic": "4",
     "label": "Protocole de validation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1675,7 +1675,7 @@
     "mnemonic": "3",
     "label": "Protocole de conformité et de cohérence",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1689,7 +1689,7 @@
     "mnemonic": "2",
     "label": "Protocole de synthèse",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1703,7 +1703,7 @@
     "mnemonic": "1",
     "label": "Protocole de collecte",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1717,7 +1717,7 @@
     "mnemonic": "0",
     "label": "Inconnu",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1731,7 +1731,7 @@
     "mnemonic": "5",
     "label": "Non renseigné",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1745,7 +1745,7 @@
     "mnemonic": "4",
     "label": "Synthèse de taxons",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1759,7 +1759,7 @@
     "mnemonic": "3",
     "label": "Synthèse de taxons",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1773,7 +1773,7 @@
     "mnemonic": "2",
     "label": "Occurrences d'habitats",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1787,7 +1787,7 @@
     "mnemonic": "1",
     "label": "Occurence de taxons",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1801,7 +1801,7 @@
     "mnemonic": "intstruc",
     "label": "Structure interne",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1815,7 +1815,7 @@
     "mnemonic": "pubestab",
     "label": "Etablissement public",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1829,7 +1829,7 @@
     "mnemonic": "indprivcomp",
     "label": "Entreprise privée individuelle",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1843,7 +1843,7 @@
     "mnemonic": "privcomp",
     "label": "Entreprise privée",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1857,7 +1857,7 @@
     "mnemonic": "assoc",
     "label": "Association",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1871,7 +1871,7 @@
     "mnemonic": "admin",
     "label": "Administration",
     "description": null,
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1885,7 +1885,7 @@
     "mnemonic": "3",
     "label": "Paysage",
     "description": "Toutes les données relatives aux paysages, c’est-à-dire des données relatives aux formes du territoire, aux perceptions sociales et aux dynamiques du territoire. Elles intègrent également des inventaires particuliers. Elles concernent les espaces naturels, ruraux, urbains et périurbains. Elles incluent les espaces terrestres, les eaux intérieures et maritimes. Elles concernent tant les paysages pouvant être considérés comme remarquables que les paysages du quotidien et les paysages dégradés.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1899,7 +1899,7 @@
     "mnemonic": "2",
     "label": "Mer",
     "description": "Toutes les données relatives à la nature / biodiversité française du domaine marin (outre-mer compris) : habitats, flore, faune, champignons..., les données relatives aux espaces naturels (protégés/gérés ou non), aux sites géologiques, aux écosystèmes et leur fonctionnement.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1913,7 +1913,7 @@
     "mnemonic": "1",
     "label": "Terre",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1927,7 +1927,7 @@
     "mnemonic": "certain",
     "label": "Certain - très probable",
     "description": "La donnée est exacte. Il n’y a pas de doute notable et significatif quant à l’exactitude de l’observation ou de la détermination du taxon. La validation a été réalisée notamment à partir d’une preuve de l’observation qui confirme la détermination du producteur ou après vérification auprès de l’observateur et/ou du déterminateur.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1941,7 +1941,7 @@
     "mnemonic": "probable",
     "label": "Probable",
     "description": "La donnée présente un bon niveau de fiabilité. Elle est vraisemblable et crédible. Il n’y a, a priori, aucune raison de douter de l’exactitude de la donnée mais il n’y a pas d’éléments complémentaires suffisants disponibles ou évalués (notamment la présence d’une preuve ou la possibilité de revenir à la donnée source) permettant d’attribuer un plus haut niveau de certitude.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1955,7 +1955,7 @@
     "mnemonic": "douteux",
     "label": "Douteux",
     "description": "La donnée est peu vraisemblable ou surprenante mais on ne dispose pas d’éléments suffisants pour attester d’une erreur manifeste. La donnée est considérée comme douteuse.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1969,7 +1969,7 @@
     "mnemonic": "invalid",
     "label": "Invalide",
     "description": "La donnée a été infirmée (erreur manifeste/avérée) ou présente un trop bas niveau de fiabilité. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques de la niche écologique du taxon, la preuve révèle une erreur de détermination). Elle est considérée comme invalide.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1983,7 +1983,7 @@
     "mnemonic": "nonreal",
     "label": "Non réalisable",
     "description": "La donnée a été soumise à l’ensemble du processus de validation mais l’opérateur (humain ou machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon insuffisantes, ou informations insuffisantes sur l’observation.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1997,7 +1997,7 @@
     "mnemonic": "a_valider",
     "label": "A Valider",
     "description": "La donnée n'a fait l'object d'aucune validation",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2011,7 +2011,7 @@
     "mnemonic": "to_confirm",
     "label": "A confirmer",
     "description": "La donnée est à confirmer par l'observateur",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2025,7 +2025,7 @@
     "mnemonic": "incoherence",
     "label": "Incohérence",
     "description": "La donnée est incohérente",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2039,7 +2039,7 @@
     "mnemonic": "duplicate",
     "label": "Doublon",
     "description": "La donnée est un doublon d'une donnée déjà existante",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2053,7 +2053,7 @@
     "mnemonic": "corrected",
     "label": "Corrigé",
     "description": "La donnée a été corrigée",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 }

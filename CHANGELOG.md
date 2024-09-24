@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.2.2 - 2024-09-23
+
+- Change boolean active status on nomenclatures to choice field (hidden, disabled, enabled)
+
 ## 1.2.1 - 2024-07-31
 
 - Clarify docs on how to install SINP nomenclatures

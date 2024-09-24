@@ -617,7 +617,7 @@
     "code": "1",
     "label": "observations naturalistes opportunistes",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -632,7 +632,7 @@
     "code": "2",
     "label": "observations protocolées",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -647,7 +647,7 @@
     "code": "3",
     "label": "inventaire",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -662,7 +662,7 @@
     "code": "4",
     "label": "inventaire de répartition",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -677,7 +677,7 @@
     "code": "5",
     "label": "inventaire de zonages d’intérêt",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -692,7 +692,7 @@
     "code": "6",
     "label": "inventaire pour étude d’espèces ou de communautés",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -707,7 +707,7 @@
     "code": "7",
     "label": "inventaire pour étude d’impact",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -722,7 +722,7 @@
     "code": "8",
     "label": "inventaire|évaluation pour plans de gestion",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -737,7 +737,7 @@
     "code": "9",
     "label": "numérisation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -752,7 +752,7 @@
     "code": "10",
     "label": "numérisation de bibliographie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -767,7 +767,7 @@
     "code": "11",
     "label": "numérisation de collections",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -782,7 +782,7 @@
     "code": "12",
     "label": "cartographie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -797,7 +797,7 @@
     "code": "13",
     "label": "suivi",
     "description": "peut être continu ou programmé sur une période donnée",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -812,7 +812,7 @@
     "code": "14",
     "label": "suivi de gestion ou expérimental",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -827,7 +827,7 @@
     "code": "15",
     "label": "suivi individu centré",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -842,7 +842,7 @@
     "code": "16",
     "label": "suivi réglementaire",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -857,7 +857,7 @@
     "code": "17",
     "label": "surveillance ",
     "description": "peut être continue ou programmée sur une période donnée",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -872,7 +872,7 @@
     "code": "18",
     "label": "surveillance communauté d’espèces",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -887,7 +887,7 @@
     "code": "19",
     "label": "surveillance de pathogène et EEE",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -902,7 +902,7 @@
     "code": "20",
     "label": "étude effet gestion",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -917,7 +917,7 @@
     "code": "21",
     "label": "évaluation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -932,7 +932,7 @@
     "code": "22",
     "label": "évaluation de la ressource|prélèvements",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -947,7 +947,7 @@
     "code": "23",
     "label": "évaluation des collisions|échouages",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -962,7 +962,7 @@
     "code": "24",
     "label": "modélisation de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -977,7 +977,7 @@
     "code": "25",
     "label": "regroupement de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -992,7 +992,7 @@
     "code": "26",
     "label": "autres études et programmes",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1007,7 +1007,7 @@
     "code": "1",
     "label": "données de répartition",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1022,7 +1022,7 @@
     "code": "2",
     "label": "données d’abondance",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1037,7 +1037,7 @@
     "code": "3",
     "label": "données de morphologie",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1052,7 +1052,7 @@
     "code": "4",
     "label": "données de physiologie",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1067,7 +1067,7 @@
     "code": "5",
     "label": "données de phénologie",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1082,7 +1082,7 @@
     "code": "6",
     "label": "données de mobilité spatiale",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1097,7 +1097,7 @@
     "code": "7",
     "label": "données liées à la reproduction",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1112,7 +1112,7 @@
     "code": "8",
     "label": "données liées à la génétique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1127,7 +1127,7 @@
     "code": "1",
     "label": "aquatique enracinée",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1142,7 +1142,7 @@
     "code": "2",
     "label": "aquatique nageante",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1157,7 +1157,7 @@
     "code": "3",
     "label": "aquatique flottante",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1172,7 +1172,7 @@
     "code": "4",
     "label": "arborée",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1187,7 +1187,7 @@
     "code": "5",
     "label": "arbustive",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1202,7 +1202,7 @@
     "code": "6",
     "label": "bryo-lychénique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1217,7 +1217,7 @@
     "code": "7",
     "label": "cryptogamique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1232,7 +1232,7 @@
     "code": "8",
     "label": "épigéique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1247,7 +1247,7 @@
     "code": "9",
     "label": "épilithique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1262,7 +1262,7 @@
     "code": "10",
     "label": "épiphytique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1277,7 +1277,7 @@
     "code": "11",
     "label": "épixylique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1292,7 +1292,7 @@
     "code": "12",
     "label": "herbacée",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1307,7 +1307,7 @@
     "code": "13",
     "label": "muscinale",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1322,7 +1322,7 @@
     "code": "14",
     "label": "unique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1337,7 +1337,7 @@
     "code": "i",
     "label": "un seul individu présent, recouvrement très faible (<5%)",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1352,7 +1352,7 @@
     "code": "r",
     "label": "individus rares ou très rares, recouvrement faible (<5%)",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1367,7 +1367,7 @@
     "code": "+",
     "label": "individus peu abondants, recouvrement faible (<5%)",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1382,7 +1382,7 @@
     "code": "1",
     "label": "individus assez abondants, recouvrement faible (< 5%)",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1397,7 +1397,7 @@
     "code": "2",
     "label": "individus abondants, recouvrement de 5 à 25%",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1412,7 +1412,7 @@
     "code": "2m",
     "label": "individus abondants, recouvrement < 5%",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1427,7 +1427,7 @@
     "code": "2a",
     "label": "individus en nombre quelconque, recouvrement entre 5 et 12,5%",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1442,7 +1442,7 @@
     "code": "2b",
     "label": "individus en nombre quelconque, recouvrement entre 12,5 et 25%",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1457,7 +1457,7 @@
     "code": "3",
     "label": "individus en nombre quelconque, recouvrement entre 25 et 50%",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1472,7 +1472,7 @@
     "code": "4",
     "label": "individus en nombre quelconque, recouvrement entre 50 et 75%",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1487,7 +1487,7 @@
     "code": "5",
     "label": "individus en nombre quelconque, recouvrement > 75%",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1502,7 +1502,7 @@
     "code": "100",
     "label": "alimentation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1517,7 +1517,7 @@
     "code": "200",
     "label": "comportement de construction",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1532,7 +1532,7 @@
     "code": "300",
     "label": "déplacement",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1547,7 +1547,7 @@
     "code": "400",
     "label": "repos",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1562,7 +1562,7 @@
     "code": "500",
     "label": "reproduction",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1577,7 +1577,7 @@
     "code": "600",
     "label": "territorial",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1592,7 +1592,7 @@
     "code": "700",
     "label": "vocalise",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -1607,7 +1607,7 @@
     "code": "800",
     "label": "autre",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -1622,7 +1622,7 @@
     "code": "101",
     "label": "chasse",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "100"
@@ -1640,7 +1640,7 @@
     "code": "102",
     "label": "recherche de nourriture",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "100"
@@ -1658,7 +1658,7 @@
     "code": "103",
     "label": "nourrissage des jeunes",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "100"
@@ -1676,7 +1676,7 @@
     "code": "104",
     "label": "fait des réserves",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "100"
@@ -1694,7 +1694,7 @@
     "code": "201",
     "label": "creuse",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "200"
@@ -1712,7 +1712,7 @@
     "code": "202",
     "label": "tisse",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "200"
@@ -1730,7 +1730,7 @@
     "code": "203",
     "label": "entremêle",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "200"
@@ -1748,7 +1748,7 @@
     "code": "204",
     "label": "entrepose",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "200"
@@ -1766,7 +1766,7 @@
     "code": "205",
     "label": "polis",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "200"
@@ -1784,7 +1784,7 @@
     "code": "206",
     "label": "autre mouvement de construction/ingénierie de son environnement",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "200"
@@ -1802,7 +1802,7 @@
     "code": "301",
     "label": "vol",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "300"
@@ -1820,7 +1820,7 @@
     "code": "302",
     "label": "envol",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "300"
@@ -1838,7 +1838,7 @@
     "code": "303",
     "label": "fuite",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "300"
@@ -1856,7 +1856,7 @@
     "code": "304",
     "label": "nage",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "300"
@@ -1874,7 +1874,7 @@
     "code": "305",
     "label": "marche/trotte",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "300"
@@ -1892,7 +1892,7 @@
     "code": "401",
     "label": "dortoir",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "400"
@@ -1910,7 +1910,7 @@
     "code": "402",
     "label": "halte migratoire",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "400"
@@ -1928,7 +1928,7 @@
     "code": "403",
     "label": "réchauffement",
     "description": "Réchauffement des reptiles",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "400"
@@ -1946,7 +1946,7 @@
     "code": "501",
     "label": "pond",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "500"
@@ -1964,7 +1964,7 @@
     "code": "502",
     "label": "amplexus",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "500"
@@ -1982,7 +1982,7 @@
     "code": "503",
     "label": "parade nuptiale",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "500"
@@ -2000,7 +2000,7 @@
     "code": "504",
     "label": "rut",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "500"
@@ -2018,7 +2018,7 @@
     "code": "505",
     "label": "couve",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "500"
@@ -2036,7 +2036,7 @@
     "code": "506",
     "label": "tandem|cœur copulatoire",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "500"
@@ -2054,7 +2054,7 @@
     "code": "507",
     "label": "accouplement",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "500"
@@ -2072,7 +2072,7 @@
     "code": "508",
     "label": "mise bas",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "500"
@@ -2090,7 +2090,7 @@
     "code": "509",
     "label": "swarming",
     "description": "Propre au chauve-souris",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "500"
@@ -2108,7 +2108,7 @@
     "code": "510",
     "label": "essaimage",
     "description": "Propre aux abeilles",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "500"
@@ -2126,7 +2126,7 @@
     "code": "601",
     "label": "marquage du territoire",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "600"
@@ -2144,7 +2144,7 @@
     "code": "602",
     "label": "houspillage",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "600"
@@ -2162,7 +2162,7 @@
     "code": "603",
     "label": "combat",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "600"
@@ -2180,7 +2180,7 @@
     "code": "604",
     "label": "intimidation|agressivité",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "600"
@@ -2198,7 +2198,7 @@
     "code": "701",
     "label": "chant",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "700"
@@ -2216,7 +2216,7 @@
     "code": "702",
     "label": "cri",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": [
       "comportmnt",
       "700"
@@ -2234,7 +2234,7 @@
     "code": "703",
     "label": "brame",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "700"
@@ -2252,7 +2252,7 @@
     "code": "704",
     "label": "signal d’alarme",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "700"
@@ -2270,7 +2270,7 @@
     "code": "801",
     "label": "joue",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": [
       "comportmnt",
       "800"
@@ -2288,7 +2288,7 @@
     "code": "1",
     "label": "internationale",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2303,7 +2303,7 @@
     "code": "2",
     "label": "européenne",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2318,7 +2318,7 @@
     "code": "3",
     "label": "nationale",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2333,7 +2333,7 @@
     "code": "4",
     "label": "inter-régionale terrestre, ou région marine",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2348,7 +2348,7 @@
     "code": "5",
     "label": "régionale terrestre, ou sous-région marine",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2363,7 +2363,7 @@
     "code": "6",
     "label": "départementale, ou secteur marin",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2378,7 +2378,7 @@
     "code": "7",
     "label": "communale ou locale",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2393,7 +2393,7 @@
     "code": "1",
     "label": "taxons",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2408,7 +2408,7 @@
     "code": "2",
     "label": "habitats",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2423,7 +2423,7 @@
     "code": "3",
     "label": "géologiques",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2438,7 +2438,7 @@
     "code": "4",
     "label": "autre",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2453,7 +2453,7 @@
     "code": "3",
     "label": "validation nationale",
     "description": "Validation scientifique effectuée par la plateforme nationale",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2468,7 +2468,7 @@
     "code": "2",
     "label": "validation régionale",
     "description": "validation scientifique effectuée par la plateforme régionale",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2483,7 +2483,7 @@
     "code": "1",
     "label": "blessé",
     "description": "Par la chasse, la prédation, une chute…",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2498,7 +2498,7 @@
     "code": "2",
     "label": "vivant",
     "description": "Spécimen observé vivant avant la mise en œuvre de la technique de collecte",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2513,7 +2513,7 @@
     "code": "3",
     "label": "mort",
     "description": "Spécimen observé mort avant la mise en œuvre de la technique de collecte ",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2528,7 +2528,7 @@
     "code": "4",
     "label": "dégradé",
     "description": "Pour flore et fonge (cueillette, piétinement, arrachage, fauche, etc.)",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2543,7 +2543,7 @@
     "code": "N",
     "label": "Nord ",
     "description": "348.75° - 11.25°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2558,7 +2558,7 @@
     "code": "NNO",
     "label": "Nord-Nord-Ouest ",
     "description": "326.25° - 348.75°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2573,7 +2573,7 @@
     "code": "NO",
     "label": "Nord-Ouest",
     "description": "303.75° - 326.25 °",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2588,7 +2588,7 @@
     "code": "ONO",
     "label": "Ouest-Nord-Ouest",
     "description": "281.25° - 303.75 °",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2603,7 +2603,7 @@
     "code": "O",
     "label": "Ouest",
     "description": "258.75° - 281.25°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2618,7 +2618,7 @@
     "code": "OSO",
     "label": "Ouest-Sud-Ouest",
     "description": "236.25° - 258.75°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2633,7 +2633,7 @@
     "code": "SO",
     "label": "Sud-Ouest",
     "description": "213.75° - 236.25°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2648,7 +2648,7 @@
     "code": "SSO",
     "label": "Sud-Sud-Ouest",
     "description": "191.25° - 213.75°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2663,7 +2663,7 @@
     "code": "S",
     "label": "Sud",
     "description": "168.75° - 191.25°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2678,7 +2678,7 @@
     "code": "SSE",
     "label": "Sud-Sud-Est",
     "description": "146.25° - 168.75°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2693,7 +2693,7 @@
     "code": "SE",
     "label": "Sud-Est",
     "description": "123.75°- 146.25°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2708,7 +2708,7 @@
     "code": "ESE",
     "label": "Est-Sud-Est",
     "description": "101.25° - 123.75°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2723,7 +2723,7 @@
     "code": "E",
     "label": "Est",
     "description": "78.75° - 101.25°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2738,7 +2738,7 @@
     "code": "ENE",
     "label": "Est-Nord-Est",
     "description": "56.25° - 78.75°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2753,7 +2753,7 @@
     "code": "NE",
     "label": "Nord-Est",
     "description": "33.75° - 56.25°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2768,7 +2768,7 @@
     "code": "NNE",
     "label": "Nord-Nord-Est",
     "description": "11.25° - 33.75°",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2783,7 +2783,7 @@
     "code": "1",
     "label": "carcasse",
     "description": "Peut avoir été déplacée",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2798,7 +2798,7 @@
     "code": "2",
     "label": "coquille d’oeuf",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2813,7 +2813,7 @@
     "code": "3",
     "label": "fèces",
     "description": "Fientes, guano, épreintes",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2828,7 +2828,7 @@
     "code": "4",
     "label": "galle",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2843,7 +2843,7 @@
     "code": "5",
     "label": "abri",
     "description": "Gîte, tanière, galerie, terrier, refuge",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2858,7 +2858,7 @@
     "code": "6",
     "label": "mue de croissance",
     "description": "Mue",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2873,7 +2873,7 @@
     "code": "7",
     "label": "mue de métamorphose",
     "description": "Exuvie, pupe, chrysalide",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2888,7 +2888,7 @@
     "code": "8",
     "label": "nid",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2903,7 +2903,7 @@
     "code": "9",
     "label": "odeur",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2918,7 +2918,7 @@
     "code": "10",
     "label": "oosphère",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2933,7 +2933,7 @@
     "code": "11",
     "label": "oothèque",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2948,7 +2948,7 @@
     "code": "12",
     "label": "os",
     "description": "Peut avoir été déplacé",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -2963,7 +2963,7 @@
     "code": "13",
     "label": "ovule",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2978,7 +2978,7 @@
     "code": "14",
     "label": "pelote de réjection",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -2993,7 +2993,7 @@
     "code": "15",
     "label": "phanères",
     "description": "Poils, plumes, phanères",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3008,7 +3008,7 @@
     "code": "16",
     "label": "pollen",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3023,7 +3023,7 @@
     "code": "17",
     "label": "restes dans pelote de réjection",
     "description": "Détermination du taxon à partir de ses restes dans la pelote de réjection",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3038,7 +3038,7 @@
     "code": "18",
     "label": "restes de repas",
     "description": "Détermination du taxon ayant laissé les restes de repas",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3053,7 +3053,7 @@
     "code": "19",
     "label": "spore",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3068,7 +3068,7 @@
     "code": "20",
     "label": "traces",
     "description": "Empreintes, griffures, marque de passage, mine…",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3083,7 +3083,7 @@
     "code": "Co",
     "label": "compté",
     "description": "Comptage précis",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3098,7 +3098,7 @@
     "code": "Es",
     "label": "estimé",
     "description": "Comptage approximatif ",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3113,7 +3113,7 @@
     "code": "Ex",
     "label": "extrapolé",
     "description": "Peut reposer sur un comptage précis puis un calcul. Exemple : dans un quadrat, comptage d’une section puis multiplication par le nombre de sections du quadrat",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3128,7 +3128,7 @@
     "code": "600",
     "label": "externe1",
     "description": "Morphologie externe sans manipulation",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3143,7 +3143,7 @@
     "code": "601",
     "label": "externe2",
     "description": "Morphologie externe avec manipulation ",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3158,7 +3158,7 @@
     "code": "602",
     "label": "interne",
     "description": "Morphologie interne",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3173,7 +3173,7 @@
     "code": "603",
     "label": "sonore",
     "description": "Émissions sonore",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3188,7 +3188,7 @@
     "code": "604",
     "label": "chimie",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3203,7 +3203,7 @@
     "code": "605",
     "label": "génétique",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3218,7 +3218,7 @@
     "code": "In",
     "label": "inventoriel",
     "description": "Le taxon observé est présent quelque part dans l’objet géographique mais a une surface inférieure à celui-ci (il ne le recouvre pas intégralement)",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3233,7 +3233,7 @@
     "code": "St",
     "label": "stationnel",
     "description": "Le taxon observé est présent sur l'ensemble de l'objet géographique et lui est de surface égale (il en recouvre l'intégralité)",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3248,7 +3248,7 @@
     "code": "1",
     "label": "certain",
     "description": "Validation automatique : La donnée présente un haut niveau de vraisemblance (très majoritairement cohérente) selon le protocole automatique appliquée. Le résultat de la procédure correspond à la définition optimale de satisfaction de l’ensemble des critères du protocole automatique, par exemple, lorsque la localité correspond à la distribution déjà connue et que les autres paramètres écologiques (date de visibilité, altitude, etc.) sont dans la gamme habituelle de valeurs.\\nValidation manuelle : La donnée est exacte. Il n’y a pas de doute notable et significatif quant à l’exactitude de l’observation ou de la détermination de l'habitat. La validation a été réalisée notamment à partir d’une preuve de l’observation qui confirme la détermination du producteur ou après vérification auprès de l’observateur et/ou du déterminateur.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3263,7 +3263,7 @@
     "code": "2",
     "label": "probable",
     "description": "Validation automatique : La donnée est cohérente et plausible selon le protocole automatique appliquée mais ne satisfait pas complètement (intégralement) l’ensemble des critères automatiques appliqués. La donnée présente une forte probabilité d’être juste. Elle ne présente aucune discordance majeure sur les critères jugés les plus importants mais elle satisfait seulement à un niveau intermédiaire un ou plusieurs des critères automatiques appliqués.\\nValidation manuelle : La donnée présente un bon niveau de fiabilité. Elle est vraisemblable et crédible. Il n’y a a priori aucune raison de douter de l’exactitude de la donnée mais il n’y a pas d’éléments complémentaires suffisants, disponibles ou évalués (notamment la présence d’une preuve ou la possibilité de revenir à la donnée source), permettant d’attribuer un plus haut niveau de certitude.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3278,7 +3278,7 @@
     "code": "3",
     "label": "douteux",
     "description": "Validation automatique : La donnée concorde peu selon le protocole automatique appliquée. La donnée est peu cohérente ou incongrue. Elle ne satisfait pas, ou peu, un ou plusieurs des critères automatiques appliqués. Elle ne présente cependant pas de discordance majeure sur les critères jugés les plus importants qui permettraient d’attribuer le plus faible niveau de validité (invalide).\\nValidation manuelle : La donnée est peu vraisemblable ou surprenante mais on ne dispose pas d’éléments suffisants pour attester d’une erreur manifeste. La donnée est considérée comme douteuse.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3293,7 +3293,7 @@
     "code": "4",
     "label": "invalide",
     "description": "Validation automatique : La donnée ne concorde pas selon le protocole automatique appliquée. Elle présente au moins une discordance majeure sur un des critères jugés les plus importants, ou la majorité des critères déterminants sont discordants. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques), donc invalide.\\nValidation manuelle : La donnée a été infirmée (erreur manifeste/avérée) ou présente un trop bas niveau de fiabilité. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques, la preuve révèle une erreur de détermination), donc invalide.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3308,7 +3308,7 @@
     "code": "5",
     "label": "non réalisable",
     "description": "Validation automatique : La donnée a été soumise à l’ensemble du protocole de validation scientifique mais l’opérateur (machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon ou de l'habitat insuffisant, ou informations insuffisantes sur l’observation.\\nValidation manuelle : La donnée a été soumise à l’ensemble de la procédure de validation scientifique mais l’opérateur (humain ou machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon ou de l'habitat insuffisant, ou informations insuffisantes sur l’observation.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3323,7 +3323,7 @@
     "code": "8",
     "label": "inventaires et cartographies",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3338,7 +3338,7 @@
     "code": "9",
     "label": "suivi et surveillance dans le temps",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3353,7 +3353,7 @@
     "code": "10",
     "label": "expérimentation et recherche",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3368,7 +3368,7 @@
     "code": "11",
     "label": "multiples ou autres",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3383,7 +3383,7 @@
     "code": "CARP",
     "label": "carpophore",
     "description": "Pour la fonge",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3398,7 +3398,7 @@
     "code": "CLON",
     "label": "clone",
     "description": "Pour un organisme végétatif",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3413,7 +3413,7 @@
     "code": "COL",
     "label": "colonie",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3428,7 +3428,7 @@
     "code": "CA",
     "label": "contact acoustique",
     "description": "Pour les chiroptères, cétacés, etc.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3443,7 +3443,7 @@
     "code": "CPL",
     "label": "couple",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3458,7 +3458,7 @@
     "code": "HAM",
     "label": "hampe florale",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3473,7 +3473,7 @@
     "code": "HER",
     "label": "herbier massif",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3488,7 +3488,7 @@
     "code": "CLU",
     "label": "indice de présence",
     "description": "Voir valeurs de la nomenclature indicePrésenceValue. CLU = « clue », « indice »",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3503,7 +3503,7 @@
     "code": "IND",
     "label": "individu",
     "description": "Comprend oeuf",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3518,7 +3518,7 @@
     "code": "INF",
     "label": "inflorescence",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3533,7 +3533,7 @@
     "code": "PON",
     "label": "ponte",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3548,7 +3548,7 @@
     "code": "TIGE",
     "label": "tige",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3563,7 +3563,7 @@
     "code": "TOUF",
     "label": "touffe",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3578,7 +3578,7 @@
     "code": "2",
     "label": "élargi",
     "description": "Validation scientifique effectuée sur la base des attributs minimaux, à savoir la localisation, la date et le taxon, ainsi que des vérifications sur d'autres attributs, précisés dans la procédure de validation associée.",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3593,7 +3593,7 @@
     "code": "1",
     "label": "minimal",
     "description": "Validation scientifique effectuée sur la seule base des attributs minimaux, à savoir la localisation, la date et le taxon.",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3608,7 +3608,7 @@
     "code": "1",
     "label": "sénescence",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3623,7 +3623,7 @@
     "code": "2",
     "label": "dissémination",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3638,7 +3638,7 @@
     "code": "5",
     "label": "estivation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3653,7 +3653,7 @@
     "code": "3",
     "label": "floraison",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3668,7 +3668,7 @@
     "code": "8",
     "label": "fructification",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3683,7 +3683,7 @@
     "code": "6",
     "label": "gestation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3698,7 +3698,7 @@
     "code": "4",
     "label": "hibernation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3713,7 +3713,7 @@
     "code": "9",
     "label": "hivernation",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3728,7 +3728,7 @@
     "code": "10",
     "label": "migration",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3743,7 +3743,7 @@
     "code": "13",
     "label": "végétatif",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3758,7 +3758,7 @@
     "code": "14",
     "label": "dormance",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3773,7 +3773,7 @@
     "code": "15",
     "label": "sporulation",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3788,7 +3788,7 @@
     "code": "16",
     "label": "débourrement",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -3803,7 +3803,7 @@
     "code": "1",
     "label": "contact principal",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3818,7 +3818,7 @@
     "code": "2",
     "label": "financeur",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3833,7 +3833,7 @@
     "code": "5",
     "label": "fournisseur du jeu de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3848,7 +3848,7 @@
     "code": "4",
     "label": "maître d’oeuvre",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3863,7 +3863,7 @@
     "code": "3",
     "label": "maître d’ouvrage",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3878,7 +3878,7 @@
     "code": "7",
     "label": "point de contact base de données de production",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3893,7 +3893,7 @@
     "code": "6",
     "label": "producteur du jeu de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3908,7 +3908,7 @@
     "code": "8",
     "label": "auteur de la modification",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3923,7 +3923,7 @@
     "code": "2",
     "label": "femelle",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3938,7 +3938,7 @@
     "code": "4",
     "label": "hermaphrodite",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3953,7 +3953,7 @@
     "code": "3",
     "label": "mâle",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3968,7 +3968,7 @@
     "code": "5",
     "label": "mixte",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3983,7 +3983,7 @@
     "code": "1",
     "label": "non déterminable",
     "description": "Pour le cas où l’on ne peut pas déterminer le sexe (observation trop courte ou trop lointaine par exemple, ou ne fournissant pas suffisamment d'éléments)",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -3998,7 +3998,7 @@
     "code": "1",
     "label": "sauvage|spontané",
     "description": "Comprend féral (à l’intant t de l’observation, le spécimen est sauvage)",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4013,7 +4013,7 @@
     "code": "2",
     "label": "cultivé|élevé",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4028,7 +4028,7 @@
     "code": "3",
     "label": "planté",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4043,7 +4043,7 @@
     "code": "5",
     "label": "échappé|subspontané",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4058,7 +4058,7 @@
     "code": "50",
     "label": "adulte",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4073,7 +4073,7 @@
     "code": "70",
     "label": "polype",
     "description": "adulte",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4088,7 +4088,7 @@
     "code": "71",
     "label": "méduse",
     "description": "adulte",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4103,7 +4103,7 @@
     "code": "72",
     "label": "éphyra",
     "description": "adulte",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4118,7 +4118,7 @@
     "code": "90",
     "label": "nouveau-né",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4133,7 +4133,7 @@
     "code": "55",
     "label": "au nid",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4148,7 +4148,7 @@
     "code": "121",
     "label": "de l’année",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4163,7 +4163,7 @@
     "code": "122",
     "label": "foetus",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4178,7 +4178,7 @@
     "code": "110",
     "label": "gamétophyte",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4193,7 +4193,7 @@
     "code": "74",
     "label": "hydroïde",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4208,7 +4208,7 @@
     "code": "51",
     "label": "juvénile",
     "description": "stade juvénile non connu ",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4223,7 +4223,7 @@
     "code": "81",
     "label": "juvénile I",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4238,7 +4238,7 @@
     "code": "82",
     "label": "juvénile II",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4253,7 +4253,7 @@
     "code": "83",
     "label": "juvénile III",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4268,7 +4268,7 @@
     "code": "84",
     "label": "juvénile IV",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4283,7 +4283,7 @@
     "code": "85",
     "label": "juvénile V",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4298,7 +4298,7 @@
     "code": "86",
     "label": "juvénile VI",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4313,7 +4313,7 @@
     "code": "63",
     "label": "manca",
     "description": "juvénile",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4328,7 +4328,7 @@
     "code": "53",
     "label": "larve",
     "description": "stade larvaire non connu",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4343,7 +4343,7 @@
     "code": "64",
     "label": "larve I (pronymphe)",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4358,7 +4358,7 @@
     "code": "66",
     "label": "larve II",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4373,7 +4373,7 @@
     "code": "67",
     "label": "larve III",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4388,7 +4388,7 @@
     "code": "68",
     "label": "larve IV",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4403,7 +4403,7 @@
     "code": "69",
     "label": "larve V",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4418,7 +4418,7 @@
     "code": "65",
     "label": "prénymphe (prépupe)",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4433,7 +4433,7 @@
     "code": "76",
     "label": "protolarve",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4448,7 +4448,7 @@
     "code": "77",
     "label": "mésolarve",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4463,7 +4463,7 @@
     "code": "78",
     "label": "métalarve",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4478,7 +4478,7 @@
     "code": "100",
     "label": "copepodite I",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4493,7 +4493,7 @@
     "code": "101",
     "label": "copepodite II",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4508,7 +4508,7 @@
     "code": "102",
     "label": "copepodite III",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4523,7 +4523,7 @@
     "code": "103",
     "label": "copepodite IV",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4538,7 +4538,7 @@
     "code": "104",
     "label": "copepodite V",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4553,7 +4553,7 @@
     "code": "105",
     "label": "copepodite VI",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4568,7 +4568,7 @@
     "code": "61",
     "label": "nauplius",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4583,7 +4583,7 @@
     "code": "91",
     "label": "métanaupluis",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4598,7 +4598,7 @@
     "code": "60",
     "label": "zoé",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4613,7 +4613,7 @@
     "code": "92",
     "label": "protozoé",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4628,7 +4628,7 @@
     "code": "73",
     "label": "planula",
     "description": "larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4643,7 +4643,7 @@
     "code": "112",
     "label": "macrothallus",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4658,7 +4658,7 @@
     "code": "113",
     "label": "microthallus",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4673,7 +4673,7 @@
     "code": "57",
     "label": "nymphe (chrysalide/pupe)",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4688,7 +4688,7 @@
     "code": "52",
     "label": "oeuf",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4703,7 +4703,7 @@
     "code": "54",
     "label": "post-larve",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4718,7 +4718,7 @@
     "code": "62",
     "label": "megalopa",
     "description": "post-larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4733,7 +4733,7 @@
     "code": "80",
     "label": "cypris",
     "description": "post-larve",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4748,7 +4748,7 @@
     "code": "111",
     "label": "sporophyte",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4763,7 +4763,7 @@
     "code": "56",
     "label": "subadulte (subimago)",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4778,7 +4778,7 @@
     "code": "1",
     "label": "absent",
     "description": "Non observation du taxon, il est recherché mais non trouvé.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4793,7 +4793,7 @@
     "code": "2",
     "label": "présent",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4808,7 +4808,7 @@
     "code": "1",
     "label": "public",
     "description": "Toute acquisition avec un financement public, même en partie",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4823,7 +4823,7 @@
     "code": "2",
     "label": "privé",
     "description": "Toute acquisition non publique. Comprend le non financement et le mécénat",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4838,7 +4838,7 @@
     "code": "3",
     "label": "mixte",
     "description": "Le jeu de données mélange des données d’origine publique et privée",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4853,7 +4853,7 @@
     "code": "1",
     "label": "dominant",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4868,7 +4868,7 @@
     "code": "2",
     "label": "matriarche",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4883,7 +4883,7 @@
     "code": "3",
     "label": "ouvrière",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4898,7 +4898,7 @@
     "code": "4",
     "label": "reine",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4913,7 +4913,7 @@
     "code": "5",
     "label": "soldat",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4928,7 +4928,7 @@
     "code": "6",
     "label": "subordonné",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4943,7 +4943,7 @@
     "code": "7",
     "label": "princesse",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -4958,7 +4958,7 @@
     "code": "Co",
     "label": "collection",
     "description": "Données issues de collection",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4973,7 +4973,7 @@
     "code": "Li",
     "label": "littérature",
     "description": "Données issues de la littérature (comprend les publications scientifiques)",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -4988,7 +4988,7 @@
     "code": "Mo",
     "label": "modélisation",
     "description": "Données issues d’une modélisation",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5003,7 +5003,7 @@
     "code": "NSP",
     "label": "ne sait pas",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5018,7 +5018,7 @@
     "code": "Te",
     "label": "terrain",
     "description": "Données collectées sur le terrain et consultées via un carnet de terrain ou une base de données producteur. Ces données ont pu être collectées avec l’aide d’une machine (capture photo ou vidéo) ou non.",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5033,7 +5033,7 @@
     "code": "CLI",
     "label": "Clipperton",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5048,7 +5048,7 @@
     "code": "GLP",
     "label": "Guadeloupe",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5063,7 +5063,7 @@
     "code": "GUF",
     "label": "Guyane française",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5078,7 +5078,7 @@
     "code": "HORSFR",
     "label": "Hors territoire",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5093,7 +5093,7 @@
     "code": "MTQ",
     "label": "Martinique",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5108,7 +5108,7 @@
     "code": "MYT",
     "label": "Mayotte",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5123,7 +5123,7 @@
     "code": "METROP",
     "label": "Métropole",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5138,7 +5138,7 @@
     "code": "NCL",
     "label": "Nouvelle-Calédonie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5153,7 +5153,7 @@
     "code": "PYF",
     "label": "Polynésie française",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5168,7 +5168,7 @@
     "code": "REU",
     "label": "Réunion",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5183,7 +5183,7 @@
     "code": "BLM",
     "label": "Saint-Barthélémy",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5198,7 +5198,7 @@
     "code": "MAF",
     "label": "Saint-Martin",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5213,7 +5213,7 @@
     "code": "SPM",
     "label": "Saint-Pierre et Miquelon",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5228,7 +5228,7 @@
     "code": "TAAF",
     "label": "Terres australes et antarctiques françaises",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5243,7 +5243,7 @@
     "code": "EPA",
     "label": "Taaf Iles Éparses",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5258,7 +5258,7 @@
     "code": "SUBANT",
     "label": "Taaf Iles Sub-Antarctiques",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5273,7 +5273,7 @@
     "code": "TADL",
     "label": "Taaf Terre-Adélie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5288,7 +5288,7 @@
     "code": "WLF",
     "label": "Wallis-Et-Futuna",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5303,7 +5303,7 @@
     "code": "1",
     "label": "Argileux ",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5318,7 +5318,7 @@
     "code": "2",
     "label": "Argilo-sableux",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5333,7 +5333,7 @@
     "code": "3",
     "label": "Limono-argileux ",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5348,7 +5348,7 @@
     "code": "4",
     "label": "Limono-sableux ",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5363,7 +5363,7 @@
     "code": "5",
     "label": "Limoneux demi-fin",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5378,7 +5378,7 @@
     "code": "6",
     "label": "Sableux ",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5393,7 +5393,7 @@
     "code": "7",
     "label": "Limoneux fin",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5408,7 +5408,7 @@
     "code": "1",
     "label": "Contrôle de conformité et de cohérence des métadonnées du jeu de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5423,7 +5423,7 @@
     "code": "2",
     "label": "Contrôle de conformité et de cohérence des données du jeu de données",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5438,7 +5438,7 @@
     "code": "1",
     "label": "données source",
     "description": "Données brutes",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5453,7 +5453,7 @@
     "code": "2",
     "label": "données d’observation",
     "description": "Données normalisées",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5468,7 +5468,7 @@
     "code": "3",
     "label": "données intermédiaires",
     "description": "Données élaborées, de synthèse",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5483,7 +5483,7 @@
     "code": "4",
     "label": "indicateur",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5498,7 +5498,7 @@
     "code": "2",
     "label": "est un prédateur de ",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5513,7 +5513,7 @@
     "code": "3",
     "label": "acquiert des nutriments par (y compris herbivorie)",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5528,7 +5528,7 @@
     "code": "42",
     "label": "interagit mutuellement avec",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5543,7 +5543,7 @@
     "code": "83",
     "label": "est endosymbiote de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5558,7 +5558,7 @@
     "code": "141",
     "label": "est ectosymbiote de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5573,7 +5573,7 @@
     "code": "4",
     "label": "est un pollinisateur de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5588,7 +5588,7 @@
     "code": "1",
     "label": "est parasite de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5603,7 +5603,7 @@
     "code": "62",
     "label": "est endoparasite de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5618,7 +5618,7 @@
     "code": "61",
     "label": "est ectoparasite de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5633,7 +5633,7 @@
     "code": "161",
     "label": "est cleptoparasite de ",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5648,7 +5648,7 @@
     "code": "121",
     "label": "induit des galles chez",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5663,7 +5663,7 @@
     "code": "6",
     "label": "est parasitoïde de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5678,7 +5678,7 @@
     "code": "41",
     "label": "est commensal de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5693,7 +5693,7 @@
     "code": "5",
     "label": "est un disperseur de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5708,7 +5708,7 @@
     "code": "101",
     "label": "est phorétique de",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5723,7 +5723,7 @@
     "code": "21",
     "label": "est associé à",
     "description": "",
-    "active": false,
+    "status": "HIDDEN",
     "parent": null
   }
 },
@@ -5738,7 +5738,7 @@
     "code": "1",
     "label": "collectivité d’outre-mer",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5753,7 +5753,7 @@
     "code": "2",
     "label": "commune",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5768,7 +5768,7 @@
     "code": "3",
     "label": "département",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5783,7 +5783,7 @@
     "code": "5",
     "label": "géométrie",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5798,7 +5798,7 @@
     "code": "4",
     "label": "grille européenne 10km x 10km",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5813,7 +5813,7 @@
     "code": "6",
     "label": "grille nationale 10km x 10km",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5828,7 +5828,7 @@
     "code": "7",
     "label": "grille nationale 5km x 5km",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5843,7 +5843,7 @@
     "code": "8",
     "label": "grille nationale 1km x 1km",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5858,7 +5858,7 @@
     "code": "9",
     "label": "zonage marin ",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5873,7 +5873,7 @@
     "code": "10",
     "label": "territoire",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5888,7 +5888,7 @@
     "code": "11",
     "label": "région",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5903,7 +5903,7 @@
     "code": "12",
     "label": "grille nationale 50km x 50km",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5918,7 +5918,7 @@
     "code": "13",
     "label": "grille nationale 20km x 20km",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5933,7 +5933,7 @@
     "code": "14",
     "label": "grille nationale 2km x 2km",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5948,7 +5948,7 @@
     "code": "15",
     "label": "intercommunalités",
     "description": "",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5963,7 +5963,7 @@
     "code": "A",
     "label": "automatique",
     "description": "Résulte d’une validation automatique",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5978,7 +5978,7 @@
     "code": "C",
     "label": "combinée",
     "description": "Résulte de la combinaison d’une validation automatique et d’une validation manuelle",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 },
@@ -5993,7 +5993,7 @@
     "code": "M",
     "label": "manuelle",
     "description": "Résulte d’une validation manuelle (intervention d’un expert)",
-    "active": true,
+    "status": "ENABLED",
     "parent": null
   }
 }

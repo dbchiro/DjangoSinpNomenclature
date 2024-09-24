@@ -5,16 +5,22 @@ from django.utils.translation import gettext as _
 from .models import Nomenclature, Source, Type
 
 
-@admin.action(description=_("Mark selected items as active"))
-def activate(_modeladmin, _request, queryset):
-    """Set item active"""
-    queryset.update(active=True)
+@admin.action(description=_("Mark selected items as enabled"))
+def enabled(_modeladmin, _request, queryset):
+    """Set item enabled"""
+    queryset.update(status="ENABLED")
 
 
-@admin.action(description=_("Mark selected items as inactive"))
-def inactivate(_modeladmin, _request, queryset):
-    """Set item inactive"""
-    queryset.update(active=False)
+@admin.action(description=_("Mark selected items as disabled"))
+def disabled(_modeladmin, _request, queryset):
+    """Set item disabled"""
+    queryset.update(status="DISABLED")
+
+
+@admin.action(description=_("Mark selected items as hidden"))
+def hidden(_modeladmin, _request, queryset):
+    """Set item hidden"""
+    queryset.update(status="HIDDEN")
 
 
 class SourceAdmin(admin.ModelAdmin):
@@ -36,9 +42,9 @@ class TypeAdmin(admin.ModelAdmin):
 
 
 class NomenclatureAdmin(admin.ModelAdmin):
-    list_display = ("id", "type", "code", "label", "active", "parent")
-    list_filter = ("type", "active")
-    actions = [activate, inactivate]
+    list_display = ("id", "type", "code", "label", "status", "parent")
+    list_filter = ("type", "status")
+    actions = [enabled, disabled, hidden]
 
 
 # Register your models here.

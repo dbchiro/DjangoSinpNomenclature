@@ -29,7 +29,7 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
     permission_classes = [IsAuthenticated]
     queryset = Nomenclature.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["type", "code", "active"]
+    filterset_fields = ["type", "code", "status"]
 
 
 class TypeViewset(ReadOnlyModelViewSet):
@@ -56,22 +56,20 @@ class TypeViewset(ReadOnlyModelViewSet):
         with_nomenclatures = self.request.query_params.get(
             "with_nomenclatures", default=False
         )
-        active = self.request.query_params.get("active", default=None)
-        if with_nomenclatures and active:
-            if active.lower() in ["true", "1", "t", "y", "yes"]:
-                qs = qs.prefetch_related(
-                    Prefetch(
-                        "nomenclatures",
-                        queryset=Nomenclature.objects.filter(active=True),
-                    )
+        nomenclature_status = self.request.query_params.getlist(
+            "nomenclature_status", default=None
+        )
+        if with_nomenclatures and nomenclature_status:
+            qs = qs.prefetch_related(
+                Prefetch(
+                    "nomenclatures",
+                    queryset=Nomenclature.objects.filter(
+                        status__in=[
+                            status.upper() for status in nomenclature_status
+                        ]
+                    ),
                 )
-            if active.lower() in ["false", "0", "f", "n", "no"]:
-                qs = qs.prefetch_related(
-                    Prefetch(
-                        "nomenclatures",
-                        queryset=Nomenclature.objects.filter(active=False),
-                    )
-                )
+            )
         return qs
 
 

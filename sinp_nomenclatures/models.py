@@ -12,9 +12,15 @@ from sinp_nomenclatures.manager import (
 )
 
 # Create your models here.
-STATUS_CHOICES = (
+TYPE_STATUS_CHOICES = (
     ("VALID", _("Valid")),
     ("FREEZE", _("Frozen")),
+)
+
+ITEM_STATUS_CHOICES = (
+    ("ENABLED", _("Active")),
+    ("DISABLED", _("Disabled")),
+    ("HIDDEN", _("Hidden")),
 )
 
 
@@ -75,7 +81,10 @@ class Type(BaseModel):
     mnemonic = models.CharField(_("Mnemonic"), unique=True, max_length=50)
     label = models.CharField(_("Label"), max_length=50)
     status = models.CharField(
-        _("Status"), max_length=50, choices=STATUS_CHOICES
+        _("Status"),
+        max_length=50,
+        choices=TYPE_STATUS_CHOICES,
+        default=TYPE_STATUS_CHOICES[0][0],
     )
     create_date = models.DateField(
         _("Official creation date"), auto_now=False, auto_now_add=False
@@ -118,7 +127,12 @@ class Nomenclature(BaseModel):
     )
     label = models.CharField(max_length=255, verbose_name=_("Label"))
     description = models.TextField(_("Description"), blank=True)
-    active = models.BooleanField(default=True, verbose_name=_("Is active"))
+    status = models.CharField(
+        _("Usage status"),
+        max_length=50,
+        choices=ITEM_STATUS_CHOICES,
+        default=ITEM_STATUS_CHOICES[0][0],
+    )
     parent = models.ForeignKey(
         "Nomenclature",
         verbose_name=_("Parent nomenclature"),

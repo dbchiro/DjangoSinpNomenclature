@@ -133,7 +133,7 @@ class Nomenclature(BaseModel):
         choices=ITEM_STATUS_CHOICES,
         default=ITEM_STATUS_CHOICES[0][0],
     )
-    
+
     parents = models.ManyToManyField(
         "Nomenclature",
         verbose_name=_("Parents nomenclature"),

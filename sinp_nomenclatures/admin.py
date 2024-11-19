@@ -45,7 +45,7 @@ class NomenclatureAdmin(admin.ModelAdmin):
     list_display = ("id", "type", "code", "label", "status")
     list_filter = ("type", "status")
     actions = [enabled, disabled, hidden]
-    filter_horizontal = ('parents',)
+    filter_horizontal = ("parents",)
 
 
 # Register your models here.

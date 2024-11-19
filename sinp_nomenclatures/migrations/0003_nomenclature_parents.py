@@ -2,12 +2,13 @@
 
 from django.db import migrations, models
 
+
 def make_many_parents(apps, schema_editor):
     """
-        Adds the Author object in Book.author to the
-        many-to-many relationship in Book.authors
+    Adds the Author object in Book.author to the
+    many-to-many relationship in Book.authors
     """
-    Nomenclature = apps.get_model('sinp_nomenclatures', 'Nomenclature')
+    Nomenclature = apps.get_model("sinp_nomenclatures", "Nomenclature")
 
     for item in Nomenclature.objects.all():
         item.parents.add(item.parent)

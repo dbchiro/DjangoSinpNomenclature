@@ -17,3 +17,6 @@ test:
 
 build-docs:
 	cd docs && poetry run make html
+
+fixtures:
+	poetry run python -m manage dumpdata --natural-foreign --natural-primary --indent 2 sinp_nomenclatures > sinp_nomenclatures/fixtures/sinp_dict_data_v1.0.json

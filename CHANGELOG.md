@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.3.0 - 2024-11-19
+
+- Parent relation is now manytomany
+
 ## 1.2.2 - 2024-09-23
 
 - Change boolean active status on nomenclatures to choice field (hidden, disabled, enabled)

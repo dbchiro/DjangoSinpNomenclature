@@ -11,7 +11,8 @@ def make_many_parents(apps, schema_editor):
     Nomenclature = apps.get_model("sinp_nomenclatures", "Nomenclature")
 
     for item in Nomenclature.objects.all():
-        item.parents.add(item.parent)
+        if item.parent:
+            item.parents.add(item.parent)
 
 
 class Migration(migrations.Migration):

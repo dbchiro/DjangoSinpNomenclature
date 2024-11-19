@@ -13,29 +13,30 @@ include = ["LICENSE"]
 packages = [{ include = "sinp_nomenclatures" }]
 
 [tool.poetry.dependencies]
-python = ">=3.8.1,<4.0"
+python = ">=3.9,<4.0"
 Django = "^4"
 djangorestframework = ">=3.0,<4.0"
 django-filter = ">=23.5,<25.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.4.0"
+black = "^24.10.0"
 isort = "^5.13.2"
-flake8 = "^7.0.0"
+flake8 = "^7.1.1"
 flake8-isort = "^6.1.1"
-pre-commit = "^3.4.0"
+pre-commit = "^4.0.1"
 python-decouple = "^3.8"
-psycopg2-binary = "^2.9.9"
-drf-yasg = "^1.21.7"
+psycopg2-binary = "^2.9.10"
+drf-yasg = "^1.21.8"
 django-fixture-magic = "^0.1.5"
 pygraphviz = "^1.11"
 flake8-pyproject = "^1.2.3"
-pylint = "^3.1.0"
-pylint-django = "^2.5.5"
-dj-database-url = "^2.1.0"
+pylint = "^3.3.1"
+pylint-django = "^2.6.1"
+dj-database-url = "^2.3.0"
 bpython = "^0.24"
-coverage = "^7.4.4"
+coverage = "^7.6.7"
 django-extensions = "^3.2.3"
+pytest = "^8.3.3"
 
 [tool.poetry.group.docs.dependencies]
 sphinx = "^6"
@@ -44,8 +45,8 @@ rstcheck = "^6.2.0"
 myst-parser = ">=2,<4"
 
 [tool.poetry.group.test.dependencies]
-pytest = "^7.2.1"
-coverage = "^7.1.0"
+pytest = "^8.3.3"
+coverage = "^7.6.7"
 
 [tool.isort]
 include_trailing_comma = true

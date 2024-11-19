@@ -29,7 +29,7 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
     permission_classes = [IsAuthenticated]
     queryset = Nomenclature.objects.all()
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ["type", "code", "status"]
+    filterset_fields = ["type", "code", "status", "parents"]
 
 
 class TypeViewset(ReadOnlyModelViewSet):

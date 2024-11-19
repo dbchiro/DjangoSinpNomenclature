@@ -133,13 +133,11 @@ class Nomenclature(BaseModel):
         choices=ITEM_STATUS_CHOICES,
         default=ITEM_STATUS_CHOICES[0][0],
     )
-    parent = models.ForeignKey(
+
+    parents = models.ManyToManyField(
         "Nomenclature",
-        verbose_name=_("Parent nomenclature"),
-        on_delete=models.SET_NULL,
-        null=True,
-        blank=True,
-        related_name="child_nomenclature",
+        verbose_name=_("Parents nomenclature"),
+        related_name="child_nomenclatures",
     )
 
     class Meta:

@@ -57,8 +57,8 @@ class SourceTestCase(TestCase):
             code="nom2",
             label="Nomenclature 2",
             status="ENABLED",
-            parent=self.nom_parent1,
         )
+        self.nom_child1.parents.add(self.nom_parent1)
 
     def test_sources(self):
         """Source correctly created"""

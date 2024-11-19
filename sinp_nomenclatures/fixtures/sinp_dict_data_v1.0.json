@@ -618,7 +618,7 @@
     "label": "observations naturalistes opportunistes",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -633,7 +633,7 @@
     "label": "observations protocolées",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -648,7 +648,7 @@
     "label": "inventaire",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -663,7 +663,7 @@
     "label": "inventaire de répartition",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -678,7 +678,7 @@
     "label": "inventaire de zonages d’intérêt",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -693,7 +693,7 @@
     "label": "inventaire pour étude d’espèces ou de communautés",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -708,7 +708,7 @@
     "label": "inventaire pour étude d’impact",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -723,7 +723,7 @@
     "label": "inventaire|évaluation pour plans de gestion",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -738,7 +738,7 @@
     "label": "numérisation",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -753,7 +753,7 @@
     "label": "numérisation de bibliographie",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -768,7 +768,7 @@
     "label": "numérisation de collections",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -783,7 +783,7 @@
     "label": "cartographie",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -798,7 +798,7 @@
     "label": "suivi",
     "description": "peut être continu ou programmé sur une période donnée",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -813,7 +813,7 @@
     "label": "suivi de gestion ou expérimental",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -828,7 +828,7 @@
     "label": "suivi individu centré",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -843,7 +843,7 @@
     "label": "suivi réglementaire",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -858,7 +858,7 @@
     "label": "surveillance ",
     "description": "peut être continue ou programmée sur une période donnée",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -873,7 +873,7 @@
     "label": "surveillance communauté d’espèces",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -888,7 +888,7 @@
     "label": "surveillance de pathogène et EEE",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -903,7 +903,7 @@
     "label": "étude effet gestion",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -918,7 +918,7 @@
     "label": "évaluation",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -933,7 +933,7 @@
     "label": "évaluation de la ressource|prélèvements",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -948,7 +948,7 @@
     "label": "évaluation des collisions|échouages",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -963,7 +963,7 @@
     "label": "modélisation de données",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -978,7 +978,7 @@
     "label": "regroupement de données",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -993,7 +993,7 @@
     "label": "autres études et programmes",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1008,7 +1008,7 @@
     "label": "données de répartition",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1023,7 +1023,7 @@
     "label": "données d’abondance",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1038,7 +1038,7 @@
     "label": "données de morphologie",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1053,7 +1053,7 @@
     "label": "données de physiologie",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1068,7 +1068,7 @@
     "label": "données de phénologie",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1083,7 +1083,7 @@
     "label": "données de mobilité spatiale",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1098,7 +1098,7 @@
     "label": "données liées à la reproduction",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1113,7 +1113,7 @@
     "label": "données liées à la génétique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1128,7 +1128,7 @@
     "label": "aquatique enracinée",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1143,7 +1143,7 @@
     "label": "aquatique nageante",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1158,7 +1158,7 @@
     "label": "aquatique flottante",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1173,7 +1173,7 @@
     "label": "arborée",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1188,7 +1188,7 @@
     "label": "arbustive",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1203,7 +1203,7 @@
     "label": "bryo-lychénique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1218,7 +1218,7 @@
     "label": "cryptogamique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1233,7 +1233,7 @@
     "label": "épigéique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1248,7 +1248,7 @@
     "label": "épilithique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1263,7 +1263,7 @@
     "label": "épiphytique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1278,7 +1278,7 @@
     "label": "épixylique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1293,7 +1293,7 @@
     "label": "herbacée",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1308,7 +1308,7 @@
     "label": "muscinale",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1323,7 +1323,7 @@
     "label": "unique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1338,7 +1338,7 @@
     "label": "un seul individu présent, recouvrement très faible (<5%)",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1353,7 +1353,7 @@
     "label": "individus rares ou très rares, recouvrement faible (<5%)",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1368,7 +1368,7 @@
     "label": "individus peu abondants, recouvrement faible (<5%)",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1383,7 +1383,7 @@
     "label": "individus assez abondants, recouvrement faible (< 5%)",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1398,7 +1398,7 @@
     "label": "individus abondants, recouvrement de 5 à 25%",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1413,7 +1413,7 @@
     "label": "individus abondants, recouvrement < 5%",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1428,7 +1428,7 @@
     "label": "individus en nombre quelconque, recouvrement entre 5 et 12,5%",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1443,7 +1443,7 @@
     "label": "individus en nombre quelconque, recouvrement entre 12,5 et 25%",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1458,7 +1458,7 @@
     "label": "individus en nombre quelconque, recouvrement entre 25 et 50%",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1473,7 +1473,7 @@
     "label": "individus en nombre quelconque, recouvrement entre 50 et 75%",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1488,7 +1488,7 @@
     "label": "individus en nombre quelconque, recouvrement > 75%",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1503,7 +1503,7 @@
     "label": "alimentation",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1518,7 +1518,7 @@
     "label": "comportement de construction",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1533,7 +1533,7 @@
     "label": "déplacement",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1548,7 +1548,7 @@
     "label": "repos",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1563,7 +1563,7 @@
     "label": "reproduction",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1578,7 +1578,7 @@
     "label": "territorial",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1593,7 +1593,7 @@
     "label": "vocalise",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1608,7 +1608,7 @@
     "label": "autre",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -1623,9 +1623,11 @@
     "label": "chasse",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "100"
+    "parents": [
+      [
+        "comportmnt",
+        "100"
+      ]
     ]
   }
 },
@@ -1641,9 +1643,11 @@
     "label": "recherche de nourriture",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "100"
+    "parents": [
+      [
+        "comportmnt",
+        "100"
+      ]
     ]
   }
 },
@@ -1659,9 +1663,11 @@
     "label": "nourrissage des jeunes",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "100"
+    "parents": [
+      [
+        "comportmnt",
+        "100"
+      ]
     ]
   }
 },
@@ -1677,9 +1683,11 @@
     "label": "fait des réserves",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "100"
+    "parents": [
+      [
+        "comportmnt",
+        "100"
+      ]
     ]
   }
 },
@@ -1695,9 +1703,11 @@
     "label": "creuse",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "200"
+    "parents": [
+      [
+        "comportmnt",
+        "200"
+      ]
     ]
   }
 },
@@ -1713,9 +1723,11 @@
     "label": "tisse",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "200"
+    "parents": [
+      [
+        "comportmnt",
+        "200"
+      ]
     ]
   }
 },
@@ -1731,9 +1743,11 @@
     "label": "entremêle",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "200"
+    "parents": [
+      [
+        "comportmnt",
+        "200"
+      ]
     ]
   }
 },
@@ -1749,9 +1763,11 @@
     "label": "entrepose",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "200"
+    "parents": [
+      [
+        "comportmnt",
+        "200"
+      ]
     ]
   }
 },
@@ -1767,9 +1783,11 @@
     "label": "polis",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "200"
+    "parents": [
+      [
+        "comportmnt",
+        "200"
+      ]
     ]
   }
 },
@@ -1785,9 +1803,11 @@
     "label": "autre mouvement de construction/ingénierie de son environnement",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "200"
+    "parents": [
+      [
+        "comportmnt",
+        "200"
+      ]
     ]
   }
 },
@@ -1803,9 +1823,11 @@
     "label": "vol",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "300"
+    "parents": [
+      [
+        "comportmnt",
+        "300"
+      ]
     ]
   }
 },
@@ -1821,9 +1843,11 @@
     "label": "envol",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "300"
+    "parents": [
+      [
+        "comportmnt",
+        "300"
+      ]
     ]
   }
 },
@@ -1839,9 +1863,11 @@
     "label": "fuite",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "300"
+    "parents": [
+      [
+        "comportmnt",
+        "300"
+      ]
     ]
   }
 },
@@ -1857,9 +1883,11 @@
     "label": "nage",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "300"
+    "parents": [
+      [
+        "comportmnt",
+        "300"
+      ]
     ]
   }
 },
@@ -1875,9 +1903,11 @@
     "label": "marche/trotte",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "300"
+    "parents": [
+      [
+        "comportmnt",
+        "300"
+      ]
     ]
   }
 },
@@ -1893,9 +1923,11 @@
     "label": "dortoir",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "400"
+    "parents": [
+      [
+        "comportmnt",
+        "400"
+      ]
     ]
   }
 },
@@ -1911,9 +1943,11 @@
     "label": "halte migratoire",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "400"
+    "parents": [
+      [
+        "comportmnt",
+        "400"
+      ]
     ]
   }
 },
@@ -1929,9 +1963,11 @@
     "label": "réchauffement",
     "description": "Réchauffement des reptiles",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "400"
+    "parents": [
+      [
+        "comportmnt",
+        "400"
+      ]
     ]
   }
 },
@@ -1947,9 +1983,11 @@
     "label": "pond",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -1965,9 +2003,11 @@
     "label": "amplexus",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -1983,9 +2023,11 @@
     "label": "parade nuptiale",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2001,9 +2043,11 @@
     "label": "rut",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2019,9 +2063,11 @@
     "label": "couve",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2037,9 +2083,11 @@
     "label": "tandem|cœur copulatoire",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2055,9 +2103,11 @@
     "label": "accouplement",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2073,9 +2123,11 @@
     "label": "mise bas",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2091,9 +2143,11 @@
     "label": "swarming",
     "description": "Propre au chauve-souris",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2109,9 +2163,11 @@
     "label": "essaimage",
     "description": "Propre aux abeilles",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "500"
+    "parents": [
+      [
+        "comportmnt",
+        "500"
+      ]
     ]
   }
 },
@@ -2127,9 +2183,11 @@
     "label": "marquage du territoire",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "600"
+    "parents": [
+      [
+        "comportmnt",
+        "600"
+      ]
     ]
   }
 },
@@ -2145,9 +2203,11 @@
     "label": "houspillage",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "600"
+    "parents": [
+      [
+        "comportmnt",
+        "600"
+      ]
     ]
   }
 },
@@ -2163,9 +2223,11 @@
     "label": "combat",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "600"
+    "parents": [
+      [
+        "comportmnt",
+        "600"
+      ]
     ]
   }
 },
@@ -2181,9 +2243,11 @@
     "label": "intimidation|agressivité",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "600"
+    "parents": [
+      [
+        "comportmnt",
+        "600"
+      ]
     ]
   }
 },
@@ -2199,9 +2263,11 @@
     "label": "chant",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "700"
+    "parents": [
+      [
+        "comportmnt",
+        "700"
+      ]
     ]
   }
 },
@@ -2217,9 +2283,11 @@
     "label": "cri",
     "description": "",
     "status": "ENABLED",
-    "parent": [
-      "comportmnt",
-      "700"
+    "parents": [
+      [
+        "comportmnt",
+        "700"
+      ]
     ]
   }
 },
@@ -2235,9 +2303,11 @@
     "label": "brame",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "700"
+    "parents": [
+      [
+        "comportmnt",
+        "700"
+      ]
     ]
   }
 },
@@ -2253,9 +2323,11 @@
     "label": "signal d’alarme",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "700"
+    "parents": [
+      [
+        "comportmnt",
+        "700"
+      ]
     ]
   }
 },
@@ -2271,9 +2343,11 @@
     "label": "joue",
     "description": "",
     "status": "HIDDEN",
-    "parent": [
-      "comportmnt",
-      "800"
+    "parents": [
+      [
+        "comportmnt",
+        "800"
+      ]
     ]
   }
 },
@@ -2289,7 +2363,7 @@
     "label": "internationale",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2304,7 +2378,7 @@
     "label": "européenne",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2319,7 +2393,7 @@
     "label": "nationale",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2334,7 +2408,7 @@
     "label": "inter-régionale terrestre, ou région marine",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2349,7 +2423,7 @@
     "label": "régionale terrestre, ou sous-région marine",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2364,7 +2438,7 @@
     "label": "départementale, ou secteur marin",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2379,7 +2453,7 @@
     "label": "communale ou locale",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2394,7 +2468,7 @@
     "label": "taxons",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2409,7 +2483,7 @@
     "label": "habitats",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2424,7 +2498,7 @@
     "label": "géologiques",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2439,7 +2513,7 @@
     "label": "autre",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2454,7 +2528,7 @@
     "label": "validation nationale",
     "description": "Validation scientifique effectuée par la plateforme nationale",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2469,7 +2543,7 @@
     "label": "validation régionale",
     "description": "validation scientifique effectuée par la plateforme régionale",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2484,7 +2558,7 @@
     "label": "blessé",
     "description": "Par la chasse, la prédation, une chute…",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2499,7 +2573,7 @@
     "label": "vivant",
     "description": "Spécimen observé vivant avant la mise en œuvre de la technique de collecte",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2514,7 +2588,7 @@
     "label": "mort",
     "description": "Spécimen observé mort avant la mise en œuvre de la technique de collecte ",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2529,7 +2603,7 @@
     "label": "dégradé",
     "description": "Pour flore et fonge (cueillette, piétinement, arrachage, fauche, etc.)",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2544,7 +2618,7 @@
     "label": "Nord ",
     "description": "348.75° - 11.25°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2559,7 +2633,7 @@
     "label": "Nord-Nord-Ouest ",
     "description": "326.25° - 348.75°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2574,7 +2648,7 @@
     "label": "Nord-Ouest",
     "description": "303.75° - 326.25 °",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2589,7 +2663,7 @@
     "label": "Ouest-Nord-Ouest",
     "description": "281.25° - 303.75 °",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2604,7 +2678,7 @@
     "label": "Ouest",
     "description": "258.75° - 281.25°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2619,7 +2693,7 @@
     "label": "Ouest-Sud-Ouest",
     "description": "236.25° - 258.75°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2634,7 +2708,7 @@
     "label": "Sud-Ouest",
     "description": "213.75° - 236.25°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2649,7 +2723,7 @@
     "label": "Sud-Sud-Ouest",
     "description": "191.25° - 213.75°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2664,7 +2738,7 @@
     "label": "Sud",
     "description": "168.75° - 191.25°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2679,7 +2753,7 @@
     "label": "Sud-Sud-Est",
     "description": "146.25° - 168.75°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2694,7 +2768,7 @@
     "label": "Sud-Est",
     "description": "123.75°- 146.25°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2709,7 +2783,7 @@
     "label": "Est-Sud-Est",
     "description": "101.25° - 123.75°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2724,7 +2798,7 @@
     "label": "Est",
     "description": "78.75° - 101.25°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2739,7 +2813,7 @@
     "label": "Est-Nord-Est",
     "description": "56.25° - 78.75°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2754,7 +2828,7 @@
     "label": "Nord-Est",
     "description": "33.75° - 56.25°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2769,7 +2843,7 @@
     "label": "Nord-Nord-Est",
     "description": "11.25° - 33.75°",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2784,7 +2858,7 @@
     "label": "carcasse",
     "description": "Peut avoir été déplacée",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2799,7 +2873,7 @@
     "label": "coquille d’oeuf",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2814,7 +2888,7 @@
     "label": "fèces",
     "description": "Fientes, guano, épreintes",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2829,7 +2903,7 @@
     "label": "galle",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2844,7 +2918,7 @@
     "label": "abri",
     "description": "Gîte, tanière, galerie, terrier, refuge",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2859,7 +2933,7 @@
     "label": "mue de croissance",
     "description": "Mue",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2874,7 +2948,7 @@
     "label": "mue de métamorphose",
     "description": "Exuvie, pupe, chrysalide",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2889,7 +2963,7 @@
     "label": "nid",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2904,7 +2978,7 @@
     "label": "odeur",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2919,7 +2993,7 @@
     "label": "oosphère",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2934,7 +3008,7 @@
     "label": "oothèque",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2949,7 +3023,7 @@
     "label": "os",
     "description": "Peut avoir été déplacé",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2964,7 +3038,7 @@
     "label": "ovule",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2979,7 +3053,7 @@
     "label": "pelote de réjection",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -2994,7 +3068,7 @@
     "label": "phanères",
     "description": "Poils, plumes, phanères",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3009,7 +3083,7 @@
     "label": "pollen",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3024,7 +3098,7 @@
     "label": "restes dans pelote de réjection",
     "description": "Détermination du taxon à partir de ses restes dans la pelote de réjection",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3039,7 +3113,7 @@
     "label": "restes de repas",
     "description": "Détermination du taxon ayant laissé les restes de repas",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3054,7 +3128,7 @@
     "label": "spore",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3069,7 +3143,7 @@
     "label": "traces",
     "description": "Empreintes, griffures, marque de passage, mine…",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3084,7 +3158,7 @@
     "label": "compté",
     "description": "Comptage précis",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3099,7 +3173,7 @@
     "label": "estimé",
     "description": "Comptage approximatif ",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3114,7 +3188,7 @@
     "label": "extrapolé",
     "description": "Peut reposer sur un comptage précis puis un calcul. Exemple : dans un quadrat, comptage d’une section puis multiplication par le nombre de sections du quadrat",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3129,7 +3203,7 @@
     "label": "externe1",
     "description": "Morphologie externe sans manipulation",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3144,7 +3218,7 @@
     "label": "externe2",
     "description": "Morphologie externe avec manipulation ",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3159,7 +3233,7 @@
     "label": "interne",
     "description": "Morphologie interne",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3174,7 +3248,7 @@
     "label": "sonore",
     "description": "Émissions sonore",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3189,7 +3263,7 @@
     "label": "chimie",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3204,7 +3278,7 @@
     "label": "génétique",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3219,7 +3293,7 @@
     "label": "inventoriel",
     "description": "Le taxon observé est présent quelque part dans l’objet géographique mais a une surface inférieure à celui-ci (il ne le recouvre pas intégralement)",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3234,7 +3308,7 @@
     "label": "stationnel",
     "description": "Le taxon observé est présent sur l'ensemble de l'objet géographique et lui est de surface égale (il en recouvre l'intégralité)",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3249,7 +3323,7 @@
     "label": "certain",
     "description": "Validation automatique : La donnée présente un haut niveau de vraisemblance (très majoritairement cohérente) selon le protocole automatique appliquée. Le résultat de la procédure correspond à la définition optimale de satisfaction de l’ensemble des critères du protocole automatique, par exemple, lorsque la localité correspond à la distribution déjà connue et que les autres paramètres écologiques (date de visibilité, altitude, etc.) sont dans la gamme habituelle de valeurs.\\nValidation manuelle : La donnée est exacte. Il n’y a pas de doute notable et significatif quant à l’exactitude de l’observation ou de la détermination de l'habitat. La validation a été réalisée notamment à partir d’une preuve de l’observation qui confirme la détermination du producteur ou après vérification auprès de l’observateur et/ou du déterminateur.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3264,7 +3338,7 @@
     "label": "probable",
     "description": "Validation automatique : La donnée est cohérente et plausible selon le protocole automatique appliquée mais ne satisfait pas complètement (intégralement) l’ensemble des critères automatiques appliqués. La donnée présente une forte probabilité d’être juste. Elle ne présente aucune discordance majeure sur les critères jugés les plus importants mais elle satisfait seulement à un niveau intermédiaire un ou plusieurs des critères automatiques appliqués.\\nValidation manuelle : La donnée présente un bon niveau de fiabilité. Elle est vraisemblable et crédible. Il n’y a a priori aucune raison de douter de l’exactitude de la donnée mais il n’y a pas d’éléments complémentaires suffisants, disponibles ou évalués (notamment la présence d’une preuve ou la possibilité de revenir à la donnée source), permettant d’attribuer un plus haut niveau de certitude.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3279,7 +3353,7 @@
     "label": "douteux",
     "description": "Validation automatique : La donnée concorde peu selon le protocole automatique appliquée. La donnée est peu cohérente ou incongrue. Elle ne satisfait pas, ou peu, un ou plusieurs des critères automatiques appliqués. Elle ne présente cependant pas de discordance majeure sur les critères jugés les plus importants qui permettraient d’attribuer le plus faible niveau de validité (invalide).\\nValidation manuelle : La donnée est peu vraisemblable ou surprenante mais on ne dispose pas d’éléments suffisants pour attester d’une erreur manifeste. La donnée est considérée comme douteuse.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3294,7 +3368,7 @@
     "label": "invalide",
     "description": "Validation automatique : La donnée ne concorde pas selon le protocole automatique appliquée. Elle présente au moins une discordance majeure sur un des critères jugés les plus importants, ou la majorité des critères déterminants sont discordants. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques), donc invalide.\\nValidation manuelle : La donnée a été infirmée (erreur manifeste/avérée) ou présente un trop bas niveau de fiabilité. Elle est considérée comme trop improbable (aberrante notamment au regard de l’aire de répartition connue, des paramètres biotiques et abiotiques, la preuve révèle une erreur de détermination), donc invalide.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3309,7 +3383,7 @@
     "label": "non réalisable",
     "description": "Validation automatique : La donnée a été soumise à l’ensemble du protocole de validation scientifique mais l’opérateur (machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon ou de l'habitat insuffisant, ou informations insuffisantes sur l’observation.\\nValidation manuelle : La donnée a été soumise à l’ensemble de la procédure de validation scientifique mais l’opérateur (humain ou machine) n’a pas pu statuer sur le niveau de fiabilité, notamment à cause des points suivants : état des connaissances du taxon ou de l'habitat insuffisant, ou informations insuffisantes sur l’observation.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3324,7 +3398,7 @@
     "label": "inventaires et cartographies",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3339,7 +3413,7 @@
     "label": "suivi et surveillance dans le temps",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3354,7 +3428,7 @@
     "label": "expérimentation et recherche",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3369,7 +3443,7 @@
     "label": "multiples ou autres",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3384,7 +3458,7 @@
     "label": "carpophore",
     "description": "Pour la fonge",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3399,7 +3473,7 @@
     "label": "clone",
     "description": "Pour un organisme végétatif",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3414,7 +3488,7 @@
     "label": "colonie",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3429,7 +3503,7 @@
     "label": "contact acoustique",
     "description": "Pour les chiroptères, cétacés, etc.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3444,7 +3518,7 @@
     "label": "couple",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3459,7 +3533,7 @@
     "label": "hampe florale",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3474,7 +3548,7 @@
     "label": "herbier massif",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3489,7 +3563,7 @@
     "label": "indice de présence",
     "description": "Voir valeurs de la nomenclature indicePrésenceValue. CLU = « clue », « indice »",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3504,7 +3578,7 @@
     "label": "individu",
     "description": "Comprend oeuf",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3519,7 +3593,7 @@
     "label": "inflorescence",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3534,7 +3608,7 @@
     "label": "ponte",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3549,7 +3623,7 @@
     "label": "tige",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3564,7 +3638,7 @@
     "label": "touffe",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3579,7 +3653,7 @@
     "label": "élargi",
     "description": "Validation scientifique effectuée sur la base des attributs minimaux, à savoir la localisation, la date et le taxon, ainsi que des vérifications sur d'autres attributs, précisés dans la procédure de validation associée.",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3594,7 +3668,7 @@
     "label": "minimal",
     "description": "Validation scientifique effectuée sur la seule base des attributs minimaux, à savoir la localisation, la date et le taxon.",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3609,7 +3683,7 @@
     "label": "sénescence",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3624,7 +3698,7 @@
     "label": "dissémination",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3639,7 +3713,7 @@
     "label": "estivation",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3654,7 +3728,7 @@
     "label": "floraison",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3669,7 +3743,7 @@
     "label": "fructification",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3684,7 +3758,7 @@
     "label": "gestation",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3699,7 +3773,7 @@
     "label": "hibernation",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3714,7 +3788,7 @@
     "label": "hivernation",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3729,7 +3803,7 @@
     "label": "migration",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3744,7 +3818,7 @@
     "label": "végétatif",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3759,7 +3833,7 @@
     "label": "dormance",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3774,7 +3848,7 @@
     "label": "sporulation",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3789,7 +3863,7 @@
     "label": "débourrement",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3804,7 +3878,7 @@
     "label": "contact principal",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3819,7 +3893,7 @@
     "label": "financeur",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3834,7 +3908,7 @@
     "label": "fournisseur du jeu de données",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3849,7 +3923,7 @@
     "label": "maître d’oeuvre",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3864,7 +3938,7 @@
     "label": "maître d’ouvrage",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3879,7 +3953,7 @@
     "label": "point de contact base de données de production",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3894,7 +3968,7 @@
     "label": "producteur du jeu de données",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3909,7 +3983,7 @@
     "label": "auteur de la modification",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3924,7 +3998,7 @@
     "label": "femelle",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3939,7 +4013,7 @@
     "label": "hermaphrodite",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3954,7 +4028,7 @@
     "label": "mâle",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3969,7 +4043,7 @@
     "label": "mixte",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3984,7 +4058,7 @@
     "label": "non déterminable",
     "description": "Pour le cas où l’on ne peut pas déterminer le sexe (observation trop courte ou trop lointaine par exemple, ou ne fournissant pas suffisamment d'éléments)",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -3999,7 +4073,7 @@
     "label": "sauvage|spontané",
     "description": "Comprend féral (à l’intant t de l’observation, le spécimen est sauvage)",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4014,7 +4088,7 @@
     "label": "cultivé|élevé",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4029,7 +4103,7 @@
     "label": "planté",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4044,7 +4118,7 @@
     "label": "échappé|subspontané",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4059,7 +4133,7 @@
     "label": "adulte",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4074,7 +4148,7 @@
     "label": "polype",
     "description": "adulte",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4089,7 +4163,7 @@
     "label": "méduse",
     "description": "adulte",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4104,7 +4178,7 @@
     "label": "éphyra",
     "description": "adulte",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4119,7 +4193,7 @@
     "label": "nouveau-né",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4134,7 +4208,7 @@
     "label": "au nid",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4149,7 +4223,7 @@
     "label": "de l’année",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4164,7 +4238,7 @@
     "label": "foetus",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4179,7 +4253,7 @@
     "label": "gamétophyte",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4194,7 +4268,7 @@
     "label": "hydroïde",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4209,7 +4283,7 @@
     "label": "juvénile",
     "description": "stade juvénile non connu ",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4224,7 +4298,7 @@
     "label": "juvénile I",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4239,7 +4313,7 @@
     "label": "juvénile II",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4254,7 +4328,7 @@
     "label": "juvénile III",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4269,7 +4343,7 @@
     "label": "juvénile IV",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4284,7 +4358,7 @@
     "label": "juvénile V",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4299,7 +4373,7 @@
     "label": "juvénile VI",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4314,7 +4388,7 @@
     "label": "manca",
     "description": "juvénile",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4329,7 +4403,7 @@
     "label": "larve",
     "description": "stade larvaire non connu",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4344,7 +4418,7 @@
     "label": "larve I (pronymphe)",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4359,7 +4433,7 @@
     "label": "larve II",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4374,7 +4448,7 @@
     "label": "larve III",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4389,7 +4463,7 @@
     "label": "larve IV",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4404,7 +4478,7 @@
     "label": "larve V",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4419,7 +4493,7 @@
     "label": "prénymphe (prépupe)",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4434,7 +4508,7 @@
     "label": "protolarve",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4449,7 +4523,7 @@
     "label": "mésolarve",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4464,7 +4538,7 @@
     "label": "métalarve",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4479,7 +4553,7 @@
     "label": "copepodite I",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4494,7 +4568,7 @@
     "label": "copepodite II",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4509,7 +4583,7 @@
     "label": "copepodite III",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4524,7 +4598,7 @@
     "label": "copepodite IV",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4539,7 +4613,7 @@
     "label": "copepodite V",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4554,7 +4628,7 @@
     "label": "copepodite VI",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4569,7 +4643,7 @@
     "label": "nauplius",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4584,7 +4658,7 @@
     "label": "métanaupluis",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4599,7 +4673,7 @@
     "label": "zoé",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4614,7 +4688,7 @@
     "label": "protozoé",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4629,7 +4703,7 @@
     "label": "planula",
     "description": "larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4644,7 +4718,7 @@
     "label": "macrothallus",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4659,7 +4733,7 @@
     "label": "microthallus",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4674,7 +4748,7 @@
     "label": "nymphe (chrysalide/pupe)",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4689,7 +4763,7 @@
     "label": "oeuf",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4704,7 +4778,7 @@
     "label": "post-larve",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4719,7 +4793,7 @@
     "label": "megalopa",
     "description": "post-larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4734,7 +4808,7 @@
     "label": "cypris",
     "description": "post-larve",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4749,7 +4823,7 @@
     "label": "sporophyte",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4764,7 +4838,7 @@
     "label": "subadulte (subimago)",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4779,7 +4853,7 @@
     "label": "absent",
     "description": "Non observation du taxon, il est recherché mais non trouvé.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4794,7 +4868,7 @@
     "label": "présent",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4809,7 +4883,7 @@
     "label": "public",
     "description": "Toute acquisition avec un financement public, même en partie",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4824,7 +4898,7 @@
     "label": "privé",
     "description": "Toute acquisition non publique. Comprend le non financement et le mécénat",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4839,7 +4913,7 @@
     "label": "mixte",
     "description": "Le jeu de données mélange des données d’origine publique et privée",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4854,7 +4928,7 @@
     "label": "dominant",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4869,7 +4943,7 @@
     "label": "matriarche",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4884,7 +4958,7 @@
     "label": "ouvrière",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4899,7 +4973,7 @@
     "label": "reine",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4914,7 +4988,7 @@
     "label": "soldat",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4929,7 +5003,7 @@
     "label": "subordonné",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4944,7 +5018,7 @@
     "label": "princesse",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4959,7 +5033,7 @@
     "label": "collection",
     "description": "Données issues de collection",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4974,7 +5048,7 @@
     "label": "littérature",
     "description": "Données issues de la littérature (comprend les publications scientifiques)",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -4989,7 +5063,7 @@
     "label": "modélisation",
     "description": "Données issues d’une modélisation",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5004,7 +5078,7 @@
     "label": "ne sait pas",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5019,7 +5093,7 @@
     "label": "terrain",
     "description": "Données collectées sur le terrain et consultées via un carnet de terrain ou une base de données producteur. Ces données ont pu être collectées avec l’aide d’une machine (capture photo ou vidéo) ou non.",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5034,7 +5108,7 @@
     "label": "Clipperton",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5049,7 +5123,7 @@
     "label": "Guadeloupe",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5064,7 +5138,7 @@
     "label": "Guyane française",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5079,7 +5153,7 @@
     "label": "Hors territoire",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5094,7 +5168,7 @@
     "label": "Martinique",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5109,7 +5183,7 @@
     "label": "Mayotte",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5124,7 +5198,7 @@
     "label": "Métropole",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5139,7 +5213,7 @@
     "label": "Nouvelle-Calédonie",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5154,7 +5228,7 @@
     "label": "Polynésie française",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5169,7 +5243,7 @@
     "label": "Réunion",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5184,7 +5258,7 @@
     "label": "Saint-Barthélémy",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5199,7 +5273,7 @@
     "label": "Saint-Martin",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5214,7 +5288,7 @@
     "label": "Saint-Pierre et Miquelon",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5229,7 +5303,7 @@
     "label": "Terres australes et antarctiques françaises",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5244,7 +5318,7 @@
     "label": "Taaf Iles Éparses",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5259,7 +5333,7 @@
     "label": "Taaf Iles Sub-Antarctiques",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5274,7 +5348,7 @@
     "label": "Taaf Terre-Adélie",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5289,7 +5363,7 @@
     "label": "Wallis-Et-Futuna",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5304,7 +5378,7 @@
     "label": "Argileux ",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5319,7 +5393,7 @@
     "label": "Argilo-sableux",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5334,7 +5408,7 @@
     "label": "Limono-argileux ",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5349,7 +5423,7 @@
     "label": "Limono-sableux ",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5364,7 +5438,7 @@
     "label": "Limoneux demi-fin",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5379,7 +5453,7 @@
     "label": "Sableux ",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5394,7 +5468,7 @@
     "label": "Limoneux fin",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5409,7 +5483,7 @@
     "label": "Contrôle de conformité et de cohérence des métadonnées du jeu de données",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5424,7 +5498,7 @@
     "label": "Contrôle de conformité et de cohérence des données du jeu de données",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5439,7 +5513,7 @@
     "label": "données source",
     "description": "Données brutes",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5454,7 +5528,7 @@
     "label": "données d’observation",
     "description": "Données normalisées",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5469,7 +5543,7 @@
     "label": "données intermédiaires",
     "description": "Données élaborées, de synthèse",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5484,7 +5558,7 @@
     "label": "indicateur",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5499,7 +5573,7 @@
     "label": "est un prédateur de ",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5514,7 +5588,7 @@
     "label": "acquiert des nutriments par (y compris herbivorie)",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5529,7 +5603,7 @@
     "label": "interagit mutuellement avec",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5544,7 +5618,7 @@
     "label": "est endosymbiote de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5559,7 +5633,7 @@
     "label": "est ectosymbiote de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5574,7 +5648,7 @@
     "label": "est un pollinisateur de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5589,7 +5663,7 @@
     "label": "est parasite de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5604,7 +5678,7 @@
     "label": "est endoparasite de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5619,7 +5693,7 @@
     "label": "est ectoparasite de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5634,7 +5708,7 @@
     "label": "est cleptoparasite de ",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5649,7 +5723,7 @@
     "label": "induit des galles chez",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5664,7 +5738,7 @@
     "label": "est parasitoïde de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5679,7 +5753,7 @@
     "label": "est commensal de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5694,7 +5768,7 @@
     "label": "est un disperseur de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5709,7 +5783,7 @@
     "label": "est phorétique de",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5724,7 +5798,7 @@
     "label": "est associé à",
     "description": "",
     "status": "HIDDEN",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5739,7 +5813,7 @@
     "label": "collectivité d’outre-mer",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5754,7 +5828,7 @@
     "label": "commune",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5769,7 +5843,7 @@
     "label": "département",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5784,7 +5858,7 @@
     "label": "géométrie",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5799,7 +5873,7 @@
     "label": "grille européenne 10km x 10km",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5814,7 +5888,7 @@
     "label": "grille nationale 10km x 10km",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5829,7 +5903,7 @@
     "label": "grille nationale 5km x 5km",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5844,7 +5918,7 @@
     "label": "grille nationale 1km x 1km",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5859,7 +5933,7 @@
     "label": "zonage marin ",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5874,7 +5948,7 @@
     "label": "territoire",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5889,7 +5963,7 @@
     "label": "région",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5904,7 +5978,7 @@
     "label": "grille nationale 50km x 50km",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5919,7 +5993,7 @@
     "label": "grille nationale 20km x 20km",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5934,7 +6008,7 @@
     "label": "grille nationale 2km x 2km",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5949,7 +6023,7 @@
     "label": "intercommunalités",
     "description": "",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5964,7 +6038,7 @@
     "label": "automatique",
     "description": "Résulte d’une validation automatique",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5979,7 +6053,7 @@
     "label": "combinée",
     "description": "Résulte de la combinaison d’une validation automatique et d’une validation manuelle",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 },
 {
@@ -5994,7 +6068,7 @@
     "label": "manuelle",
     "description": "Résulte d’une validation manuelle (intervention d’un expert)",
     "status": "ENABLED",
-    "parent": null
+    "parents": []
   }
 }
 ]

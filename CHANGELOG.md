@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.3.1 - 2024-11-27
+
+- Fix parent to parents migration on null values
+
 ## 1.3.0 - 2024-11-19
 
 - Parent relation is now manytomany

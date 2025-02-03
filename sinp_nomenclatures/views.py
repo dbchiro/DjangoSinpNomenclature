@@ -14,6 +14,7 @@ from rest_framework.viewsets import ReadOnlyModelViewSet
 from .models import Nomenclature, Source, Type
 from .serializers import (
     NomenclatureSerializer,
+    NomenclatureWithParentsSerializer,
     SourceSerializer,
     TypeSerializer,
     TypeSerializerWithNomenclature,
@@ -30,6 +31,17 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
     queryset = Nomenclature.objects.all()
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ["type", "code", "status", "parents"]
+
+    def get_serializer_class(self):
+        """Choose simple serializer or serializer serializer with parents"""
+        with_parents = self.request.query_params.get(
+            "with_parents", default=False
+        )
+        return (
+            NomenclatureWithParentsSerializer
+            if with_parents
+            else NomenclatureSerializer
+        )
 
 
 class TypeViewset(ReadOnlyModelViewSet):

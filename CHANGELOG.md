@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 1.3.2 - 2025-02-03
+
+- Remove parents from default NomenclatureSerializer, NomenclatureWithParents serializer could be choose by using `?with_parents=true` querystring.
+- Update dependencies
+
 ## 1.3.1 - 2024-11-27
 
 - Fix parent to parents migration on null values

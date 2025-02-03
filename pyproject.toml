@@ -13,30 +13,30 @@ include = ["LICENSE"]
 packages = [{ include = "sinp_nomenclatures" }]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<4.0"
+python = ">=3.10,<4.0"
 Django = "^4"
 djangorestframework = ">=3.0,<4.0"
 django-filter = ">=23.5,<25.0"
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.10.0"
-isort = "^5.13.2"
+black = "^25.1.0"
+isort = "^6.0.0"
 flake8 = "^7.1.1"
-flake8-isort = "^6.1.1"
-pre-commit = "^4.0.1"
+flake8-isort = "^6.1.2"
+pre-commit = "^4.1.0"
 python-decouple = "^3.8"
 psycopg2-binary = "^2.9.10"
 drf-yasg = "^1.21.8"
 django-fixture-magic = "^0.1.5"
-pygraphviz = "^1.11"
+pygraphviz = "^1.14"
 flake8-pyproject = "^1.2.3"
-pylint = "^3.3.1"
+pylint = "^3.3.4"
 pylint-django = "^2.6.1"
 dj-database-url = "^2.3.0"
-bpython = "^0.24"
-coverage = "^7.6.7"
+bpython = "^0.25"
+coverage = "^7.6.10"
 django-extensions = "^3.2.3"
-pytest = "^8.3.3"
+pytest = "^8.3.4"
 
 [tool.poetry.group.docs.dependencies]
 sphinx = "^6"

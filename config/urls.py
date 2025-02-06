@@ -14,6 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
+from debug_toolbar.toolbar import debug_toolbar_urls
 from django.contrib import admin
 from django.urls import include, path, re_path
 from drf_yasg import openapi
@@ -52,4 +53,4 @@ urlpatterns = [
     ),
     path("api/v1/auth/", include("rest_framework.urls")),
     path("api/v1/nomenclatures/", include("sinp_nomenclatures.urls")),
-]
+] + debug_toolbar_urls()

@@ -89,8 +89,15 @@ class SourceTestCase(TestCase):
         """Type correctly created"""
         typ1 = Type.objects.get_by_natural_key("type-test")
         nom1 = Nomenclature.objects.get_by_natural_key(typ1.code, "nom1")
+        nom2 = Nomenclature.objects.get_by_natural_key(typ1.code, "nom2")
         self.assertEqual(str(nom1), nom1.label)
         self.assertEqual(nom1.natural_key(), ((nom1.type.code, nom1.code)))
+        self.assertListEqual(
+            [nom for nom in nom2.parents.all()],
+            [
+                nom1,
+            ],
+        )
 
     def test_details(self):
         print()

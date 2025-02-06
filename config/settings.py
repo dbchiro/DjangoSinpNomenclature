@@ -75,6 +75,7 @@ INSTALLED_APPS = [
     "django_filters",
     "rest_framework",  # required for serving swagger ui's css/js files
     "drf_yasg",
+    "debug_toolbar",
     "sinp_nomenclatures",
 ]
 
@@ -86,6 +87,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "debug_toolbar.middleware.DebugToolbarMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
@@ -172,7 +174,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = "/static/"
+STATIC_URL = "static/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
@@ -188,4 +190,8 @@ EMAIL_USE_TLS = config("EMAIL_USE_TLS", cast=bool, default=True)
 
 LOCALE_PATHS = [
     "sinp_nomenclatures/locale",
+]
+
+INTERNAL_IPS = [
+    "127.0.0.1",
 ]

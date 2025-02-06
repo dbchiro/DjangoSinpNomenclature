@@ -28,7 +28,7 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
 
     serializer_class = NomenclatureSerializer
     permission_classes = [IsAuthenticated]
-    queryset = Nomenclature.objects.all()
+    queryset = Nomenclature.objects.all().prefetch_related("parents")
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ["type", "code", "status", "parents"]
 
@@ -49,7 +49,11 @@ class TypeViewset(ReadOnlyModelViewSet):
 
     serializer_class = TypeSerializer
     permission_classes = [IsAuthenticated]
-    queryset = Type.objects.all()
+    queryset = (
+        Type.objects.all()
+        .prefetch_related("nomenclatures")
+        .prefetch_related("nomenclatures__parents")
+    )
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ["code", "mnemonic", "source", "status"]
 

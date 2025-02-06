@@ -1,19 +1,29 @@
 # CHANGELOG
 
-## 1.3.2 - 2025-02-03
+## [1.3.3] - 2025-02-06
+
+### Added
+- Add [django-debug-toolbar](https://github.com/django-commons/django-debug-toolbar) for development.
+
+### Changed
+- Fix perfs issue
+- Restore simple parents nomenclature (`id` list) in NomenclatureSerializer
+- Update dependencies
+
+## [1.3.2] - 2025-02-03
 
 - Remove parents from default NomenclatureSerializer, NomenclatureWithParents serializer could be choose by using `?with_parents=true` querystring.
 - Update dependencies
 
-## 1.3.1 - 2024-11-27
+## [1.3.1] - 2024-11-27
 
 - Fix parent to parents migration on null values
 
-## 1.3.0 - 2024-11-19
+## [1.3.0] - 2024-11-19
 
 - Parent relation is now manytomany
 
-## 1.2.2 - 2024-09-23
+## [1.2.2] - 2024-09-23
 
 - Change boolean active status on nomenclatures to choice field (hidden, disabled, enabled)
 

@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## [1.4.0] - 2025-03-14
+
+### Added
+- Adding public API setting
+
+### Changed
+- Update dependencies
+
 ## [1.3.3] - 2025-02-06
 
 ### Added

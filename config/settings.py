@@ -192,6 +192,10 @@ LOCALE_PATHS = [
     "sinp_nomenclatures/locale",
 ]
 
+NOMENCLATURE_API_IS_PUBLIC = config(
+    "NOMENCLATURE_API_IS_PUBLIC", cast=bool, default=False
+)
+print("NOMENCLATURE_API_IS_PUBLIC ", NOMENCLATURE_API_IS_PUBLIC)
 INTERNAL_IPS = [
     "127.0.0.1",
 ]

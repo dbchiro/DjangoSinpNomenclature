@@ -6,12 +6,10 @@ import logging
 
 from django.db.models import Prefetch
 from django_filters.rest_framework import DjangoFilterBackend
-
-# from django.contrib.auth.mixins import LoginRequiredMixin
-from rest_framework.permissions import IsAuthenticated
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .models import Nomenclature, Source, Type
+from .permissions import IsOptionnalyAuthenticated
 from .serializers import (
     NomenclatureSerializer,
     NomenclatureWithParentsSerializer,
@@ -27,7 +25,7 @@ class NomenclatureViewset(ReadOnlyModelViewSet):
     """Nomenclature item viewset (ReadOnly)"""
 
     serializer_class = NomenclatureSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsOptionnalyAuthenticated]
     queryset = Nomenclature.objects.all().prefetch_related("parents")
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ["type", "code", "status", "parents"]
@@ -48,7 +46,7 @@ class TypeViewset(ReadOnlyModelViewSet):
     """Nomenclature type viewset (ReadOnly)"""
 
     serializer_class = TypeSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsOptionnalyAuthenticated]
     queryset = (
         Type.objects.all()
         .prefetch_related("nomenclatures")
@@ -93,7 +91,7 @@ class SourceViewset(ReadOnlyModelViewSet):
     """Source viewset (ReadOnly)"""
 
     serializer_class = SourceSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsOptionnalyAuthenticated]
     queryset = Source.objects.all()
     filter_backends = [DjangoFilterBackend]
     filterset_fields = ["name"]

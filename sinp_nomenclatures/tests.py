@@ -4,6 +4,7 @@
 
 import datetime
 
+from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 
@@ -100,19 +101,16 @@ class SourceTestCase(TestCase):
         )
 
     def test_details(self):
-        print()
-        # Create an instance of a GET request.
+        # Test default config without authentication (rejected with HTTP STATUS 403)
+        self.assertEqual(settings.NOMENCLATURE_API_IS_PUBLIC, False)
         r = self.factory.get("/")
-        # Recall that middleware are not supported. You can simulate a
-        # logged-in user by setting request.user manually.
+        response = NomenclatureViewset.as_view({"get": "list"})(r)
+        self.assertEqual(response.status_code, 403)
         r.user = self.user
-        # print(dir(request))
-        # print(request.body)
-        # # Or you can simulate an anonymous user by setting request.user to
-        # # an AnonymousUser instance.
-        # request.user = AnonymousUser()
 
-        # Use this syntax for class-based views.
+        # Test default config with autentication ()
+        r = self.factory.get("/")
+        r.user = self.user
         response = NomenclatureViewset.as_view({"get": "list"})(r)
         self.assertEqual(response.status_code, 200)
         response = TypeViewset.as_view({"get": "list"})(r)
@@ -121,6 +119,13 @@ class SourceTestCase(TestCase):
         r.user = self.user
         response = TypeViewset.as_view({"get": "list"})(r)
         self.assertEqual(response.status_code, 200)
+
+        # Test PUBLIC API config, without authentication
+        with self.settings(NOMENCLATURE_API_IS_PUBLIC=True):
+            self.assertEqual(settings.NOMENCLATURE_API_IS_PUBLIC, True)
+            r = self.factory.get("/")
+            response = NomenclatureViewset.as_view({"get": "list"})(r)
+            self.assertEqual(response.status_code, 200)
 
     # def test_actions1(self):
     #     """

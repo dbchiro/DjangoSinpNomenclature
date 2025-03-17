@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.4.1] - 2025-03-14
+
+### Fixes
+
+- `NOMENCLATURE_API_IS_PUBLIC` setting is not correctly considered
+
+
 ## [1.4.0] - 2025-03-14
 
 ### Added
@@ -7,6 +14,7 @@
 
 ### Changed
 - Update dependencies
+
 
 ## [1.3.3] - 2025-02-06
 

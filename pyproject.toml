@@ -14,7 +14,7 @@ packages = [{ include = "sinp_nomenclatures" }]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
-Django = "^4"
+Django = ">=4,<6"
 djangorestframework = ">=3.0,<4.0"
 django-filter = ">=23.5,<25.0"
 

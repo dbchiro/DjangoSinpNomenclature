@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.3.2 - 2025-06-07
+
+- Parents manytomany field should not be mandatory
+
 ## 1.3.1 - 2024-11-27
 
 - Fix parent to parents migration on null values

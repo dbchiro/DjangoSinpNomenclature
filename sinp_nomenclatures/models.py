@@ -138,6 +138,7 @@ class Nomenclature(BaseModel):
         "Nomenclature",
         verbose_name=_("Parents nomenclature"),
         related_name="child_nomenclatures",
+        blank=True,
     )
 
     class Meta:

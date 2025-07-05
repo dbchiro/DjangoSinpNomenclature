@@ -11,6 +11,16 @@ class NomenclatureSerializer(ModelSerializer):
 
     class Meta:
         model = Nomenclature
+        fields = ["id", "code", "label", "type", "status", "parents"]
+
+
+class NomenclatureWithParentsSerializer(ModelSerializer):
+    """Nomenclature item serializer"""
+
+    parents = NomenclatureSerializer(many=True)
+
+    class Meta:
+        model = Nomenclature
         fields = ["id", "code", "label", "type", "parents", "status"]
 
 

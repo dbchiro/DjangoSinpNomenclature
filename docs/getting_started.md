@@ -66,3 +66,7 @@ Those data can be loaded with this command:
 ```bash
 manage.py loaddata sinp_dict_data_v1.0.json
 ```
+
+## Set API public
+
+By default, access to the API requires authentication. The API can be made public, without authentication, by using the variable `NOMENCLATURE_API_IS_PUBLIC` to `True` in your Django settings.

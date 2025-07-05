@@ -2,7 +2,10 @@
 
 ## [1.4.2] - 2025-06-07
 
+### Fixes
+
 - Parents manytomany field should not be mandatory
+- New “0 > Pending validation” item added to validation levels
 
 ## [1.4.1] - 2025-03-14
 

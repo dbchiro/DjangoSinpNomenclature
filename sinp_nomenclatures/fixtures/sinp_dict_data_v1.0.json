@@ -6070,5 +6070,20 @@
     "status": "ENABLED",
     "parents": []
   }
+},
+{
+  "model": "sinp_nomenclatures.nomenclature",
+  "fields": {
+    "timestamp_create": "2025-07-05T05:48:29.608Z",
+    "timestamp_update": "2025-07-05T05:48:29.608Z",
+    "type": [
+      "nivValid"
+    ],
+    "code": "0",
+    "label": "En attente de validation",
+    "description": "Donnée n'ayant pas fait l'objet d'une validation",
+    "status": "ENABLED",
+    "parents": []
+  }
 }
 ]

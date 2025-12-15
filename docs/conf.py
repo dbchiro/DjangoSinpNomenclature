@@ -13,12 +13,12 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-
+from datetime import datetime
 
 # -- Project information -----------------------------------------------------
-
+current_year = datetime.now().year
 project = "DjangoSinpNomenclatures"
-copyright = "2024, dbChiro project <project@dbchiro.org>"
+copyright = f"{current_year}, dbChiro project <project@dbchiro.org>"
 author = "dbChiro project <project@dbchiro.org>"
 
 # The full version, including alpha/beta/rc tags
@@ -65,7 +65,6 @@ html_static_path = ["_static"]
 
 html_theme = "sphinx_rtd_theme"
 html_theme_options = {
-    "display_version": True,
     "logo_only": False,
     "prev_next_buttons_location": "both",
     "style_external_links": True,

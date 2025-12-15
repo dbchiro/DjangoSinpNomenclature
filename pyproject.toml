@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "dj_sinp_nomenclatures"
-version = "1.4.2"
+version = "1.4.3"
 description = "Django app to manage french SINP nomenclatures standards"
 authors = ["dbChiro project <project@dbchiro.org>"]
 license = "AGPLv3"
@@ -13,41 +13,40 @@ include = ["LICENSE"]
 packages = [{ include = "sinp_nomenclatures" }]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<4.0"
-Django = "^4"
+python = ">=3.12,<4.0"
+Django = ">=4"
 djangorestframework = ">=3.0,<4.0"
-django-filter = ">=23.5,<25.0"
+django-filter = ">=23.5"
 
 [tool.poetry.group.dev.dependencies]
-black = "^25.1.0"
-isort = "^6.0.1"
-flake8 = "^7.1.2"
+black = "^25.12.0"
+isort = "~6"
+flake8 = "^7.3.0"
 flake8-isort = "^6.1.2"
-pre-commit = "^4.1.0"
+pre-commit = "^4.5.0"
 python-decouple = "^3.8"
-psycopg2-binary = "^2.9.10"
-drf-yasg = "^1.21.10"
+psycopg2-binary = "^2.9.11"
+drf-yasg = "^1.21.11"
 django-fixture-magic = "^0.1.5"
 pygraphviz = "^1.14"
-flake8-pyproject = "^1.2.3"
-pylint = "^3.3.5"
+flake8-pyproject = "^1.2.4"
+pylint = "~3"
 pylint-django = "^2.6.1"
-dj-database-url = "^2.3.0"
-bpython = "^0.25"
-coverage = "^7.6.12"
-django-extensions = "^3.2.3"
-pytest = "^8.3.5"
-django-debug-toolbar = "^5.0.1"
+dj-database-url = "^3.0.1"
+bpython = "^0.26"
+django-extensions = "^4.1"
+django-debug-toolbar = "^6.1.0"
 
 [tool.poetry.group.docs.dependencies]
-sphinx = "^6"
-sphinx-rtd-theme = "^2.0.0"
-rstcheck = "^6.2.0"
-myst-parser = ">=2,<4"
+sphinx = "~8"
+sphinx-rtd-theme = "^3.0.2"
+rstcheck = "^6.2.5"
+myst-parser = "^4.0.1"
+
 
 [tool.poetry.group.test.dependencies]
-pytest = "^8.3.3"
-coverage = "^7.6.7"
+pytest = "^9.0.2"
+coverage = "^7.13.0"
 
 [tool.isort]
 include_trailing_comma = true

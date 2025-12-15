@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.4.3] - 2025-12-15
+
+### Changes
+
+- Update dependencies, compatibility with Django 6.
+
 ## [1.4.2] - 2025-06-07
 
 ### Fixes

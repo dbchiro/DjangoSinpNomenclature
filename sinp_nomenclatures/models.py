@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Django SINP Nomenclatures Models"""
 
-
 from django.db import models
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 
 from sinp_nomenclatures.manager import (
     NomenclatureManager,

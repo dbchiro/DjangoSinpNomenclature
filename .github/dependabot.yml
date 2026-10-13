@@ -1,10 +1,37 @@
 version: 2
 updates:
-  - package-ecosystem: pip
+  - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: monthly
-      time: "04:00"
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Europe/Paris"
+    open-pull-requests-limit: 6
+    groups:
+      dev:
+        patterns:
+          - "ruff"
+          - "pre-commit"
+          - "python-decouple"
+          - "psycopg2-binary"
+          - "drf-yasg"
+          - "django-fixture-magic"
+          - "dj-database-url"
+          - "bpython"
+          - "django-extensions"
+          - "django-debug-toolbar"
+          - "pygraphviz"
+      test:
+        patterns:
+          - "pytest"
+          - "coverage"
+      docs:
+        patterns:
+          - "sphinx"
+          - "sphinx-rtd-theme"
+          - "rstcheck"
+          - "myst-parser"
 
   - package-ecosystem: "github-actions"
     directory: "/"

@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Django SINP Nomenclatures app config"""
 
-
 from django.apps import AppConfig
 
 

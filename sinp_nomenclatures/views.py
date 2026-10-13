@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Django SINP Nomenclatures API Views"""
 
-
 import logging
 
 from django.db.models import Prefetch

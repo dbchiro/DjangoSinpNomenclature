@@ -16,7 +16,6 @@ def make_many_parents(apps, schema_editor):
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         (
             "sinp_nomenclatures",

@@ -1,16 +1,14 @@
-isort:
-	poetry run isort sinp_nomenclatures config
+format:
+	poetry run ruff check --fix sinp_nomenclatures config
+	poetry run ruff format sinp_nomenclatures config
 
-black:
-	poetry run black sinp_nomenclatures config
+lint:
+	poetry run ruff check sinp_nomenclatures config
 
-flake8:
-	poetry run flake8 sinp_nomenclatures config
+format-check:
+	poetry run ruff format --check sinp_nomenclatures config
 
-check: isort black flake8
-
-pylint:
-	poetry run pylint --load-plugins pylint_django --django-settings-module=config.settings sinp_nomenclatures config
+check: lint format-check
 
 test:
 	poetry run python -m manage test

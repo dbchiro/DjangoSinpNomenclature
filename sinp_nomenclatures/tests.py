@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Django SINP Nomenclatures Tests"""
 
-
 import datetime
 
 from django.conf import settings

@@ -45,7 +45,6 @@ class Source(BaseModel):
         [type]: [description]
     """
 
-    objects = SourceManager()
     name = models.CharField(_("Name"), max_length=50)
     version = models.CharField(_("Version"), max_length=50)
     url = models.URLField(_("URL"), max_length=250, blank=True)
@@ -57,6 +56,7 @@ class Source(BaseModel):
         auto_now=False,
         auto_now_add=False,
     )
+    objects = SourceManager()
 
     class Meta:
         verbose_name = _("source")
@@ -73,7 +73,6 @@ class Source(BaseModel):
 class Type(BaseModel):
     """SINP Nomenclature type"""
 
-    objects = TypeManager()
     code = models.CharField(
         _("Code"), unique=True, max_length=50, db_index=True
     )
@@ -101,6 +100,7 @@ class Type(BaseModel):
         blank=True,
         null=True,
     )
+    objects = TypeManager()
 
     class Meta:
         verbose_name = _("Type of nomenclature")
@@ -114,7 +114,6 @@ class Type(BaseModel):
 
 
 class Nomenclature(BaseModel):
-    objects = NomenclatureManager()
     type = models.ForeignKey(
         "Type",
         verbose_name=_("Type"),
@@ -139,6 +138,7 @@ class Nomenclature(BaseModel):
         related_name="child_nomenclatures",
         blank=True,
     )
+    objects = NomenclatureManager()
 
     class Meta:
         verbose_name_plural = _("nomenclatures")

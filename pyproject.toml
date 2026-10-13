@@ -14,23 +14,17 @@ packages = [{ include = "sinp_nomenclatures" }]
 
 [tool.poetry.dependencies]
 python = ">=3.12,<4.0"
-Django = ">=4"
+Django = ">=5.2"
 djangorestframework = ">=3.0,<4.0"
 django-filter = ">=23.5"
 
 [tool.poetry.group.dev.dependencies]
-black = "^26.5.1"
-isort = "~6"
-flake8 = "^7.3.0"
-flake8-isort = "^6.1.2"
+ruff = "0.16.10"
 pre-commit = "^4.5.0"
 python-decouple = "^3.8"
 psycopg2-binary = "^2.9.11"
 drf-yasg = "^1.21.11"
 django-fixture-magic = "^0.1.5"
-flake8-pyproject = "^1.2.4"
-pylint = "~3"
-pylint-django = "^2.6.1"
 dj-database-url = "^3.0.1"
 bpython = "^0.26"
 django-extensions = "^4.1"
@@ -48,41 +42,15 @@ myst-parser = "^4.0.1"
 pytest = "^9.0.2"
 coverage = "^7.13.0"
 
-[tool.isort]
-include_trailing_comma = true
-line_length = 79
-multi_line_output = 3
-profile = "black"
-
-[tool.black]
-exclude = '''
-(
-  /(
-      \.eggs         # exclude a few common directories in the
-    | \.git          # root of the project
-    | \.hg
-    | \.mypy_cache
-    | \.tox
-    | \.venv
-    | _build
-    | buck-out
-    | build
-    | dist
-  )/
-  | foo.py           # also separately exclude a file named foo.py in
-                     # the root of the project
-)
-'''
-include = '\.pyi?$'
+[tool.ruff]
 line-length = 79
-target-version = ['py312']
+target-version = "py312"
 
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "DJ", "PL"]
 
-[tool.flake8]
-ignore = ['E231', 'E241', 'E501']
-per-file-ignores = ['__init__.py:F401']
-max-line-length = 79
-count = true
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

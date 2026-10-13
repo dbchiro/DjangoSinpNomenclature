@@ -1,5 +1,4 @@
 exclude: '.venv|__pycache__|tests/dev/|tests/fixtures/|core/static/'
-include: 'core/static/app/'
 
 repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -17,30 +16,12 @@ repos:
           - id: trailing-whitespace
             args: [--markdown-linebreak-ext=md]
 
-    - repo: https://github.com/asottile/pyupgrade
-      rev: v3.21.2
+    - repo: https://github.com/astral-sh/ruff-pre-commit
+      rev: v0.16.10
       hooks:
-          - id: pyupgrade
-            args: [--py312-plus]
-
-    - repo: https://github.com/ambv/black
-      rev: 26.5.1
-      hooks:
-          - id: black
-
-    - repo: https://github.com/pycqa/flake8
-      rev: 7.3.0
-      hooks:
-          - id: flake8
-            additional_dependencies: ['flake8-django<2']
-            # args:
-            #   ["--config=.flake8",]
-
-    - repo: https://github.com/pycqa/isort
-      rev: 9.0.0b1
-      hooks:
-          - id: isort
-            args: ['--profile', 'black', '--filter-files']
+          - id: ruff-check
+            args: [--fix]
+          - id: ruff-format
 
 ci:
     autoupdate_schedule: quarterly

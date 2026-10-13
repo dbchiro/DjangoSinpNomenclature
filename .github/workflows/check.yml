@@ -36,28 +36,11 @@ jobs:
         run: |
           sudo apt update && sudo apt install -y libgraphviz-dev
           poetry install --with=dev
-      #------------------------------
-      #--------  run isort  ---------
-      #------------------------------
-      - name: Format check with isort
-        run: poetry run isort --check sinp_nomenclatures --profile black
-      #------------------------------
-      #--------  run black  ---------
-      #------------------------------
-      - name: Format check with black
-        run: poetry run black --check sinp_nomenclatures
-      #--------------------------------
-      #--------  run linters  ---------
-      #--------------------------------
-      # - name: Run linters
-      #   run: poetry run pylint sinp_organisms
+      - name: Lint with Ruff
+        run: poetry run ruff check sinp_nomenclatures config
 
-      - name: Lint with flake8
-        run: |
-          # stop the build if there are Python syntax errors or undefined names
-          poetry run flake8 sinp_nomenclatures --count --select=E9,F63,F7,F82 --show-source --statistics
-          # exit-zero treats all errors as warnings.
-          poetry run flake8 sinp_nomenclatures --count --exit-zero --statistics
+      - name: Format check with Ruff
+        run: poetry run ruff format --check sinp_nomenclatures config
       #-----------------------------
       #--------  run build  ---------
       #-----------------------------

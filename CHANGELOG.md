@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## [1.4.5] - 2026-11-22
+
+### Changes
+
+- Update dependencies
+
+### Fixes
+
+- Fix unexpected migrations.
+
 ## [1.4.4] - 2025-12-15
 
 ### Changes

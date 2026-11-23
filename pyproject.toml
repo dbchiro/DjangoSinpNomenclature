@@ -35,7 +35,7 @@ pygraphviz = "^2.0"
 sphinx = "~8"
 sphinx-rtd-theme = "^3.0.2"
 rstcheck = "^6.2.5"
-myst-parser = "^4.0.1"
+myst-parser = ">=4.0.1,<6.0.0"
 
 
 [tool.poetry.group.test.dependencies]
